@@ -21,7 +21,7 @@ Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de
 De igual forma podemos hacer click derecho y seleccionar inspeccionar:  
 
 <p align="center"> 
-<img src="./img/inspeccionar.png" width="950px;" height="600;">
+<img src="./img/inspeccionar.png" width="800px;" height="600;">
 </p>  
 
   En macOS tenemos que hacer:     
