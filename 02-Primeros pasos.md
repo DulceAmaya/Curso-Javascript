@@ -14,7 +14,7 @@ Hoy en día existen infinidades de posibles editores de textos con los que podem
 9. Netbeans
 
 <p align="center"> 
-<img src="./img/editores.png" width="300px;" height="300;">
+<img src="./img/editores.png" width="500px;" height="400;">
 </p>   
 
 ## La consola web  
