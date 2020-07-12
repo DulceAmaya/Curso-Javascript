@@ -8,3 +8,10 @@ Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de
 <p align="center"> 
 <img src="./img/navegadores.png" width="400px;" height="300;">
 </p>  
+
+### ¿Cómo accedemos a la consola en nuestro navegador?
+  En sistemas operativos **Windows** y **Linux** estando dentro de nuestro navegador haremos la siguiente combinación de teclas:  
+  
+    1. **ctrl + shift + I** 
+  
+  En macOS tenemos que hacer:  
