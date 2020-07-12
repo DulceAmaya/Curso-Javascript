@@ -17,3 +17,7 @@ JavaScript es un lenguaje orientado a objetos, interpretado que se usa en el dei
 
 Realmente éste lenguaje hoy es parte escencial de muchos programas, los programas en la actualidad ya no se limitan a usar un único lenguaje, incluso ahora existen frameworks especiales para lograr entablar una comunicación entre múltiples lenguajes.   
 Javascript ha evolucionado como cualquier otro lenguaje para cubrir las necesidades de sus nuevos usuarios.
+
+<p align="center"> 
+<img src="./img/empresas.png" width="200px;" height="200px;">
+</p>  
