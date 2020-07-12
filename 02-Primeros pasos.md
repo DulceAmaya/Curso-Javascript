@@ -16,5 +16,6 @@ Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de
 <p align="center"> 
 <img src="./img/abrir-consola.png" width="1000px;" height="600;">
 </p>   
-    
-  En macOS tenemos que hacer:   
+      
+  En macOS tenemos que hacer:     
+    2. Comando + Opcion + J
