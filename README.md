@@ -1,5 +1,5 @@
 # Cruso-Javascript
-Curso introductorio al lenguaje de programación Javascript
+Curso de introducción al lenguaje de programación Javascript
 
 ## Contenido
 1. Introducción
