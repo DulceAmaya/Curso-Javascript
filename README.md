@@ -4,9 +4,7 @@ Curso de introducción al lenguaje de programación Javascript
 ## Contenido  
 1. Introducción  
     - ¿Para quién va dirigido el curso?
-    - Objetivos  
     - ¿Qué es JavaScript?
-    - Poco más sobre JavaScript
  
 2. Primeros pasos  
     - Editores de texto  
