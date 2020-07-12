@@ -19,7 +19,7 @@ Realmente éste lenguaje hoy es parte escencial de muchos programas, los program
 Javascript ha evolucionado como cualquier otro lenguaje para cubrir las necesidades de sus nuevos usuarios.
 
 <p align="center"> 
-<img src="./img/empresas.png" width="900px;" height="200px;">
+<img src="./img/empresas.png" width="900px;" height="300px;">
 </p>  
 
 Hoy en día múltiples empresas y programas usan éste lenguaje que cuenta con múltiples extensiones para tareas determinadas, siendo uno de los más completos de nuestros tiempos.  
