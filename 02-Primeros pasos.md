@@ -18,6 +18,9 @@ Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de
 <img src="./img/abrir-consola.png" width="1000px;" height="600;">
 </p>   
 
+De igual forma podemos hacer click derecho y seleccionar inspeccionar:  
+
+
   En macOS tenemos que hacer:     
     
     2. Comando + Opcion + J
