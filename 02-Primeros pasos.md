@@ -1,7 +1,7 @@
 # Primeros pasos en JS  
 
 ## Editores de texto 
-Hoy en día existen infinidades de posibles editores de textos con los que podemos trabajar, JavaScript al ser un lenguaje de **scripting** (se ejecuta sin necesidad de compilarse) debemos solo guardar las instrucciones en un archivo con extensión **xxxx.js** y llamarlo desde nuestra página, así como también podemos trabajar directamente con la consola pero solo con fines teóricos, en la práctica necesitamos más allá de solo la consola del navegador para hacer funcionar de forma correcta nuestros programas.    
+Hoy en día existen infinidades de posibles editores de textos con los que podemos trabajar, JavaScript al ser un lenguaje de **scripting** (se ejecuta sin necesidad de compilarse) debemos solo guardar las instrucciones en un archivo con extensión **xxxx.js** y llamarlo desde nuestra página, así como también podemos trabajar directamente con la consola pero solo con fines teóricos, en la práctica necesitamos más allá de solo la consola del navegador para hacer funcionar de forma correcta nuestros programas. Algunos de ellos son:      
 
 1. Brackets  
 2. Sublime Text 2/3  
@@ -12,6 +12,7 @@ Hoy en día existen infinidades de posibles editores de textos con los que podem
 7. Atom  
 8. Vim  
 9. Netbeans
+
 
 <p align="center"> 
 <img src="./img/editores.png" width="700px;" height="200;">
