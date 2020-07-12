@@ -8,21 +8,21 @@ Curso de introducción al lenguaje de programación Javascript
     - ¿Dónde se puede usar?  
     
  
-2. Primeros pasos  
-    - Editores de texto  
-    - Consola web
+2. Primeros pasos    
+    - Editores de texto    
+    - Consola web  
     
-3. Conceptos básicos html css
+3. Conceptos básicos html css  
 
-4. Conceptos básicos de JS
+4. Conceptos básicos de JS  
 
-5 Operadores  
+5. Operadores    
 
-6 Tipos de datos    
+6. Tipos de datos      
 
-7 Tipos de funciones  
-
-8 Condicionales y estructuras de control  
+7. Tipos de funciones  
+ 
+8. Condicionales y estructuras de control  
 
 9. Frameworks comunes  
 
