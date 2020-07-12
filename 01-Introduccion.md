@@ -19,5 +19,5 @@ Realmente éste lenguaje hoy es parte escencial de muchos programas, los program
 Javascript ha evolucionado como cualquier otro lenguaje para cubrir las necesidades de sus nuevos usuarios.
 
 <p align="center"> 
-<img src="./img/empresas.png" width="600px;" height="200px;">
+<img src="./img/empresas.png" width="900px;" height="200px;">
 </p>  
