@@ -1,5 +1,9 @@
 # Primeros pasos en JS  
 
+## Editores de texto 
+Hoy en día existen infinidades de posibles editores de textos con los que podemos trabajar, JavaScript al ser un lenguaje de **scripting** (se ejecuta sin necesidad de compilarse) debemos solo guardar las instrucciones en un archivo con extensión **xxxx.js** y llamarlo desde nuestra página, así como también podemos trabajar directamente con la consola pero solo con fines teóricos, en la práctica necesitamos más allá de solo la consola del navegador para hacer funcionar de forma correcta nuestros programas.    
+
+
 ## La consola web  
 
 Hoy en día, los navegadores cuentan con un conjunto de herramientas para desarrolladores a través de las cuales pueden editar de forma permanente o temporal cosas sobre el sitio web, además inspeccionar el tráfico de la red entre el servidor y el usuario, acceder a los archivos con el código fuente, obtener los tokens cifrados de las peticiones.  
