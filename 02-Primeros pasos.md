@@ -28,5 +28,6 @@ De igual forma podemos hacer click derecho y seleccionar inspeccionar:
     
     2. Comando + Opcion + J
 
+
 **Algunas veces los desarrolladores por cuestiones de seguridad bloquean éstas opciones para evitar que las personas accedan o vean información sensible de la página, 
-por ello puede que no siempre funcione, para solucionar eso hay otras formas pero no están en el alcance del presente curso. **
+por ello puede que no siempre funcione, para solucionar eso hay otras formas pero no están en el alcance del presente curso.**  
