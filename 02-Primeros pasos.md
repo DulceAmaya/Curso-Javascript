@@ -14,7 +14,7 @@ Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de
   
     1. ctrl + shift + I 
 <p align="center"> 
-<img src="./img/abrir-consola.png" width="800px;" height="600;">
+<img src="./img/abrir-consola.png" width="1000px;" height="600;">
 </p>   
     
   En macOS tenemos que hacer:   
