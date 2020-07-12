@@ -13,5 +13,9 @@ Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de
   En sistemas operativos **Windows** y **Linux** estando dentro de nuestro navegador haremos la siguiente combinación de teclas:  
   
     1. ctrl + shift + I 
-  
-  En macOS tenemos que hacer:  
+    
+    <p align="center"> 
+      <img src="./img/abrir-consola.png" width="400px;" height="300;">
+    </p>   
+    
+  En macOS tenemos que hacer:   
