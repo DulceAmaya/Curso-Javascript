@@ -21,3 +21,5 @@ Javascript ha evolucionado como cualquier otro lenguaje para cubrir las necesida
 <p align="center"> 
 <img src="./img/empresas.png" width="900px;" height="200px;">
 </p>  
+
+Hoy en día múltiples empresas y programas usan éste lenguaje que cuenta con múltiples extensiones para tareas determinadas, siendo uno de los más completos de nuestros tiempos.  
