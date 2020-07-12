@@ -8,5 +8,5 @@ En este curso se cubrirán todos los conceptos básicos del lenguaje, además de
 ### ¿Qué es JavaScript?
 
 <p align="center"> 
-<img src="./img/js-logo.png" width="600px;" height="600px;">
+<img src="./img/js-logo.png" width="400px;" height="400px;">
 </p>  
