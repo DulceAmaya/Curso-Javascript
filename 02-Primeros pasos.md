@@ -5,3 +5,6 @@
 Hoy en día, los navegadores cuentan con un conjunto de herramientas para desarrolladores a través de las cuales pueden editar de forma permanente o temporal cosas sobre el sitio web, además inspeccionar el tráfico de la red entre el servidor y el usuario, acceder a los archivos con el código fuente, obtener los tokens cifrados de las peticiones.  
 Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de la página (código, estilos, peticiones, etc.).  
 
+<p align="center"> 
+<img src="./img/navegadores.png" width="600px;" height="600;">
+</p>  
