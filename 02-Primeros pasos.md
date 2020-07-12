@@ -10,7 +10,12 @@ Hoy en día existen infinidades de posibles editores de textos con los que podem
 5. Bloc de notas  
 6. Notepad++  
 7. Atom  
+8. Vim  
+9. Netbeans
 
+<p align="center"> 
+<img src="./img/editores.png" width="950px;" height="600;">
+</p>   
 
 ## La consola web  
 
