@@ -6,5 +6,5 @@ Hoy en día, los navegadores cuentan con un conjunto de herramientas para desarr
 Nos es útil como desarrolladores para hacer inspecciones rápidas del estado de la página (código, estilos, peticiones, etc.).  
 
 <p align="center"> 
-<img src="./img/navegadores.png" width="600px;" height="600;">
+<img src="./img/navegadores.png" width="400px;" height="400;">
 </p>  
