@@ -5,7 +5,7 @@ Curso de introducción al lenguaje de programación Javascript
 1. Introducción  
     - ¿Para quién va dirigido el curso?
     - ¿Qué es JavaScript?  
-    - ¿Dónde se puede usar?  
+    - ¿Quién lo usa?  
     
  
 2. Primeros pasos    
