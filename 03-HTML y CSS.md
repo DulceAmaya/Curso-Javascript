@@ -7,7 +7,7 @@ HTML es un lenguaje de marcado que sirve para crear el esqueleto de cualquier p�
     <img src="./img/HTML-logo.png">
 </p>
 
-HTML **no** es un lenguaje de programación, por lo que no es posible crear funcionalidades dinámicas, para esto utilizamos JavaScript como veremos más adelante. HTML se encarga de organizar el contenido que se desplegará en el sitio web.
+HTML es un lenguaje de etiquetas que nos permite definir la estructura de nuestra página, en la cual podemos implementarle funcionalidades dinámicas a través del lenguaje CSS y JS como se verá más adelante en el curso.  
 
 HTML se compone de elementos que a su vez se componen de etiquetas, contenido y atributos.
 
