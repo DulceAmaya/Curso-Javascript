@@ -76,3 +76,34 @@ Se definen con la etiqueta `<p>`
 <p align="center">
     <img src="./img/parrafo2.png">
 </p>
+
+#### Imágenes
+Se definen con la etiqueta `<img>`
+Para este elemento debemos definir además atributos.
+* `src`: debemos indicar donde se encuentra la imagen que deseamos mostrar.
+* `alt`: define un texto alternativo que se mostrará si la imagén no puede ser mostrada.
+* `widht` y `height`: determinar las dimensiones (ancho y alto) de la imagen.
+Es importante mencionar que el único atributo obligatorio para poder desplegar una imagen es `src`.
+
+<p align="center">
+    <img src="./img/imagenes.png">
+</p>
+
+<p align="center">
+    <img src="./img/imagenes2.png">
+</p>
+
+#### Divisiones
+Se definen con la etiqueta `div` y son de los elementos más utilizados pues te permiten dividir el contenido de tu página web en secciones, mejor conocidas como contenedores.
+
+<p align="center">
+    <img src="./img/divs.png">
+</p>
+
+<p align="center">
+    <img src="./img/divs2.png">
+</p>
+
+Existen muchas más etiquetas que podemos utilizar, algunas de ellas, la veremos más adelante.
+
+Aquí, puedes consultar todas las etiquetas: [HTML etiquetas](https://www.w3schools.com/TAGS/default.ASP)
