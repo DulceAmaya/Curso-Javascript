@@ -13,9 +13,6 @@ HTML es un lenguaje de etiquetas que nos permite definir la estructura de nuestr
 
 Para comenzar, tenemos la estructura base de nuestro documento.
 
-<p align="center">
-    <img src="./img/HTML-documento.png">
-</p>
 
 * `DOCTYPE` define la versión de HTML, en este caso, HTML5.
 * `<html>` determina el comienzo y final del documento html.
