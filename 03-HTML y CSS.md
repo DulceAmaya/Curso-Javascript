@@ -23,6 +23,12 @@ Para comenzar, tenemos la estructura base de nuestro documento.
 * `<title>` especifica el título de la página, el que podemos ver en la pestaña de nuestro navegador.
 * `<body>` define el cuerpo del documento, es aquí donde pondremos todo el contenido visible para el usuario.
 
+Nuestra primer página web se vería así:
+
+<p align="center">
+    <img src="./img/mi_pagina_web.png">
+</p>
+
 #### Elementos
 HTML se compone de elementos que son los que nos permiten estructurar y dar significado al documento HTML.
 
