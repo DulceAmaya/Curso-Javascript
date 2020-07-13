@@ -29,8 +29,8 @@ Nuestra primer página web se vería así:
     <img src="./img/mi_pagina_web.png">
 </p>
 
-#### Elementos
-HTML se compone de elementos que son los que nos permiten estructurar y dar significado al documento HTML.
+### Elementos
+HTML se compone de elementos que son los que nos permiten estructurar y dar significado al documento.
 
 Con estos elementos podemos crear:
 * Encabezados
@@ -53,3 +53,26 @@ Con las etiquetas definimos el inicio y fin de un elemento.
 El contenido es la información que se mostrará; en el ejemplo tenemos el texto *Hola mundo*, pero también pueden ser imágenes, videos, entre otras cosas.
 
 Los atributos se utilizan para dar un comportamiento a los elementos.
+
+### Etiquetas
+Como mencionamos arriba, utilizamos elementos para crear todo lo que desplegaremos en la página web. Y para definir estos elementos utilizamos etiquetas.
+
+#### Encabezados
+Son definidos utilizando las etiquetas `<h1>`, `<h2>`, hasta `<h6>`.
+<p align="center">
+    <img src="./img/encabezados.png">
+</p>
+
+<p align="center">
+    <img src="./img/encabezados2.png">
+</p>
+
+#### Párrafos
+Se definen con la etiqueta `<p>`
+<p align="center">
+    <img src="./img/parrafo.png">
+</p>
+
+<p align="center">
+    <img src="./img/parrafo2.png">
+</p>
