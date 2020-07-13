@@ -48,7 +48,7 @@ Estos elementos a su vez se componen de etiquetas, contenido y atributos.
     <img src="./img/HTML-ejemplo.png">
 </p>
 
-Con las etiquetas definimos el inicio y fin de un elemento.
+Con las etiquetas definimos el inicio y fin de un elemento. Existen algunos elementos que no tienen etiqueta de cierre, como por ejemplo `<img>`.
 
 El contenido es la información que se mostrará; en el ejemplo tenemos el texto *Hola mundo*, pero también pueden ser imágenes, videos, entre otras cosas.
 
@@ -78,11 +78,12 @@ Se definen con la etiqueta `<p>`
 </p>
 
 #### Imágenes
-Se definen con la etiqueta `<img>`
+Se definen con la etiqueta `<img>`.
 Para este elemento debemos definir además atributos.
 * `src`: debemos indicar donde se encuentra la imagen que deseamos mostrar.
 * `alt`: define un texto alternativo que se mostrará si la imagén no puede ser mostrada.
-* `widht` y `height`: determinar las dimensiones (ancho y alto) de la imagen.
+* `width` y `height`: determina las dimensiones (ancho y alto) de la imagen.
+
 Es importante mencionar que el único atributo obligatorio para poder desplegar una imagen es `src`.
 
 <p align="center">
@@ -93,8 +94,21 @@ Es importante mencionar que el único atributo obligatorio para poder desplegar 
     <img src="./img/imagenes2.png">
 </p>
 
+#### Links
+Se definen con la etiqueta `<a>`.
+
+<p align="center">
+    <img src="./img/links.png">
+</p>
+
+<p align="center">
+    <img src="./img/links2.png">
+</p>
+
+El atributo `href` especifica la dirección del link. Y el texto que colocamos después de la etiqueta inicial, es el texto que se despliega en la página web.
+
 #### Divisiones
-Se definen con la etiqueta `div` y son de los elementos más utilizados pues te permiten dividir el contenido de tu página web en secciones, mejor conocidas como contenedores.
+Se definen con la etiqueta `div` y son de los elementos más útiles pues te permiten dividir el contenido de tu página web en secciones, mejor conocidas como contenedores.
 
 <p align="center">
     <img src="./img/divs.png">
