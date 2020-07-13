@@ -56,5 +56,5 @@ Por último podemos encontrar opciones prácticas de consola como la siguiente:
 1 . https://jsconsole.com/
 
 <p align="center"> 
-<img src="./img/js-console.png" width="500px;" height="600;">
+<img src="./img/jsconsole.png" width="200px;" height="600;">
 </p> 
