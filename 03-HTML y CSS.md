@@ -160,6 +160,17 @@ Como podemos ver en el ejemplo, el número de etiquetas `<th>` que definamos en 
 
 <br>
 
-Existen muchas más etiquetas que podemos utilizar, algunas de ellas, la veremos más adelante.
+Existen muchas más etiquetas que podemos utilizar, aquí, puedes consultarlas todas: [HTML etiquetas](https://www.w3schools.com/TAGS/default.ASP)
 
-Aquí, puedes consultar todas las etiquetas: [HTML etiquetas](https://www.w3schools.com/TAGS/default.ASP)
+## CSS
+CSS es un lenguaje de hojas de estilo que podemos utilizar para estilizar elementos escrtios en HTML.
+
+<p align="center">
+    <img src="./img/css3.png" width="250px">
+</p>
+
+Es sencillo ver la relación entre HTML y CSS, ya que mientras HTML se encarga del formato del sitio, utilizando texto plano, CSS es el que se encargará de darle una presentación más atractiva para los usuarios de la página web.
+
+### Implementación
+
+Para comenzar, existen 3 formas en que podemos implementar el lenguaje de estilos con HTML.
