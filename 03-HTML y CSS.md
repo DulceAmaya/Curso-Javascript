@@ -118,6 +118,48 @@ Se definen con la etiqueta `div` y son de los elementos más útiles pues te per
     <img src="./img/divs2.png">
 </p>
 
+#### Listas
+###### Listas ordenadas
+Se crean con la etiqueta `<ol>`. Cada elemento se crea con la etiqueta `<li>`.
+
+<p align="center">
+    <img src="./img/listasOrdenadas.png">
+</p>
+
+<p align="center">
+    <img src="./img/listasOrdenadas2.png">
+</p>
+
+###### Listas no ordenadas
+Se crean con la etiqueta `<ul>`. Cada elemento se crea con la etiqueta `<li>`.
+
+<p align="center">
+    <img src="./img/listasNoOrdenadas.png">
+</p>
+
+<p align="center">
+    <img src="./img/listasNoOrdenadas2.png">
+</p>
+
+#### Tablas
+Para crear una tabla utilizamos las siguientes etiquetas:
+* `<table>`: define la tabla.
+* `<tr>`: define una nueva fila.
+* `<th>`: define un encabezado, esto es, la primer celda de cada columna. Por defecto su contenido aparece en negritas y centrado.
+* `<td>`: define el contenido del resto de las celdas en cada fila.
+
+<p align="center">
+    <img src="./img/tablas.png">
+</p>
+
+<p align="center">
+    <img src="./img/tablas2.png">
+</p>
+
+Como podemos ver en el ejemplo, el número de etiquetas `<th>` que definamos en la primer fila, determina la cantidad de columnas que tendrá nuestra tabla.
+
+<br>
+
 Existen muchas más etiquetas que podemos utilizar, algunas de ellas, la veremos más adelante.
 
 Aquí, puedes consultar todas las etiquetas: [HTML etiquetas](https://www.w3schools.com/TAGS/default.ASP)
