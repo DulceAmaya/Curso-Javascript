@@ -1,6 +1,5 @@
-# Conceptos básicos de HTML y CSS
+# Conceptos básicos de CSS
 
-## CSS
 CSS es el lenguaje de *Hojas de estilo en cascada* que podemos utilizar para estilizar elementos escrtios en HTML.
 
 <p align="center">
