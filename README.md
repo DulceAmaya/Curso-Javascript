@@ -12,9 +12,9 @@ Curso de introducción al lenguaje de programación Javascript
     - Editores de texto    
     - Consola web  
 
-3. Conceptos básicos HTML
+3. Conceptos básicos de HTML
 
-4. Conceptos básicos CSS
+4. Conceptos básicos de CSS
 
 5. Conceptos básicos de JS  
 
