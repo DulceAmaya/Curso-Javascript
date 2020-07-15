@@ -50,7 +50,7 @@ Estos elementos a su vez se componen de etiquetas, contenido y atributos.
 
 Con las etiquetas definimos el inicio y fin de un elemento. Existen algunos elementos que no tienen etiqueta de cierre, como por ejemplo `<img>`.
 
-El contenido es la información que se mostrará; en el ejemplo tenemos el texto *Hola mundo*, pero también pueden ser imágenes, videos, entre otras cosas.
+El contenido es la información que se mostrará; en el ejemplo tenemos el texto *Hola mundo*, pero también pueden ser imágenes, videos, links, entre otras cosas.
 
 Los atributos se utilizan para dar un comportamiento a los elementos.
 
