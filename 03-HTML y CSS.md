@@ -174,3 +174,25 @@ Es sencillo ver la relación entre HTML y CSS, ya que mientras HTML se encarga d
 ### Implementación
 
 Para comenzar, existen 3 formas en que podemos implementar el lenguaje de estilos con HTML.
+
+#### Inline
+Se utiliza para aplicar el estilo únicamente a un elemento.
+Se inserta con el atributo `style` en la etiqueta del elemento al que le asignaras el estilo.
+
+<p align="center">
+    <img src="./img/inlineCSS.png">
+</p>
+<p align="center">
+    <img src="./img/inlineCSS2.png">
+</p>
+
+Se le pueden asignar múltiples propiedades a un mismo elemento, dentro del atributo `style`, separadas cada una por un `;`.
+
+#### Interno
+Se inserta utilizando la etiqueta `<style>` dentro del elemento `head` en el documento HTML. En este caso, podemos asignar estilos a múltiples elementos utilizando selectores, los cuales veremos más adelante.
+<p align="center">
+    <img src="./img/internoCSS.png">
+</p>
+<p align="center">
+    <img src="./img/internoCSS2.png">
+</p>
