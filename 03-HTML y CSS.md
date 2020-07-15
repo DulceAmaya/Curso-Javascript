@@ -189,10 +189,45 @@ Se inserta con el atributo `style` en la etiqueta del elemento al que le asignar
 Se le pueden asignar múltiples propiedades a un mismo elemento, dentro del atributo `style`, separadas cada una por un `;`.
 
 #### Interno
-Se inserta utilizando la etiqueta `<style>` dentro del elemento `head` en el documento HTML. En este caso, podemos asignar estilos a múltiples elementos utilizando selectores, los cuales veremos más adelante.
+La *hoja de estilo interna* se inserta utilizando la etiqueta `<style>` dentro del elemento `head` en el documento HTML. En este caso, podemos asignar estilos a múltiples elementos utilizando selectores, los cuales veremos más adelante.
 <p align="center">
     <img src="./img/internoCSS.png">
 </p>
 <p align="center">
     <img src="./img/internoCSS2.png">
 </p>
+
+#### Externo
+La *hoja de estilo externa* es la forma más recomendable de agregar estilos a tu documento, pues te permite mantener en archivos separados todo lo relacionado con HTML y todo lo relacionado con CSS.
+
+Para insertarla, utilizamos la etiqueta `<link>`, dentro del elemento `head`.
+En el atributo `href` especificamos la dirección en donde se encuentra la hoja de estilos.
+<p align="center">
+    <img src="./img/externoCSS.png">
+</p>
+<p align="center">
+    <img src="./img/externoCSS2.png">
+</p>
+<p align="center">
+    <img src="./img/externoCSS3.png">
+</p>
+
+### Selectores
+#### Etiquetas
+CSS puede seleccionar un elemento de HTML al cual darle estilo utilizando el *nombre de su etiqueta*.
+<p align="center">
+    <img src="./img/externoCSS2.png">
+</p>
+Volviendo al ejemplo de arriba, utilizamos el selector `h1` para asignarle un estilo a dicha etiqueta, en este caso, para centrar el texto y cambiarle el color de fondo.
+
+Si agregáramos un nuevo elemento `h1` al documento HTML, ese elemento también se vería afectado por el estilo que le asignamos previamente, pues en la hoja de estilos estamos seleccionando a todos los elementos `h1` de nuestra página web.
+<p align="center">
+    <img src="./img/selectorEtiqueta.png">
+</p>
+<p align="center">
+    <img src="./img/selectorEtiqueta2.png">
+</p>
+
+#### Clases
+
+#### Id's
