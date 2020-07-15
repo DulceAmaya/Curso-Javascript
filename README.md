@@ -12,20 +12,20 @@ Curso de introducción al lenguaje de programación Javascript
     - Editores de texto    
     - Consola web  
 
-3. Conceptos básicos HTML y CSS
-    - HTML5
-    - CSS3
+3. Conceptos básicos HTML
 
-4. Conceptos básicos de JS  
+4. Conceptos básicos CSS
 
-5. Operadores    
+5. Conceptos básicos de JS  
 
-6. Tipos de datos      
+6. Operadores    
 
-7. Tipos de funciones  
+7. Tipos de datos      
 
-8. Condicionales y estructuras de control  
+8. Tipos de funciones  
 
-9. Frameworks comunes  
+9. Condicionales y estructuras de control  
 
-10. Aplicación de JS en Framework leaflet    
+10. Frameworks comunes  
+
+11. Aplicación de JS en Framework leaflet    
