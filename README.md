@@ -6,13 +6,15 @@ Curso de introducción al lenguaje de programación Javascript
     - ¿Para quién va dirigido el curso?
     - ¿Qué es JavaScript?  
     - ¿Quién lo usa?  
-    
- 
+
+
 2. Primeros pasos    
     - Editores de texto    
     - Consola web  
-    
-3. Conceptos básicos html css  
+
+3. Conceptos básicos HTML y CSS
+    - HTML5
+    - CSS3
 
 4. Conceptos básicos de JS  
 
@@ -21,7 +23,7 @@ Curso de introducción al lenguaje de programación Javascript
 6. Tipos de datos      
 
 7. Tipos de funciones  
- 
+
 8. Condicionales y estructuras de control  
 
 9. Frameworks comunes  
