@@ -1,6 +1,5 @@
-# Conceptos básicos de HTML y CSS
+# Conceptos básicos de HTML
 
-## HTML
 HTML es un lenguaje de marcado que sirve para crear el esqueleto de cualquier página web. Se trata de un conjunto de etiquetas que definen el contenido que vemos en un página web, como texto, imágenes, tablas y listas, vídeos, etc.
 
 <p align="center">
