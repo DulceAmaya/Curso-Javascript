@@ -105,9 +105,9 @@ Para seleccionar el *identificador* en la hoja de estilos, utilizamos la sintaxi
 
 ### Especificidad
 Como mencionamos arriba, los selectores tienen una prioridad definida, esta es:
-0. Etiquetas.
-1. Clases.
-2. Id's.
+1. Id's.
+2. Clases.
+3. Etiquetas.
 
 Veamos el siguiente ejemplo:
 <p align="center">
