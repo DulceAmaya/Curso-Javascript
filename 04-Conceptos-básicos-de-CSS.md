@@ -50,6 +50,16 @@ En el atributo `href` especificamos la dirección en donde se encuentra la hoja 
     <img src="./img/externoCSS3.png">
 </p>
 
+### Sintaxis
+Para asignar un estilo a un elemento (con una hoja de estilos interna o externa), utilizamos la siguiente sintaxis:
+<p align="center">
+    <img src="./img/sintaxisCSS.png">
+</p>
+
+Primero, indicamos el selector (los cuales veremos en el siguiente punto), en este caso, `h1`. En el cuerpo del selector, declaramos la propiedad y el valor de el o los estilos que le asignaremos al elemento.
+* Propiedad: se refiere a *qué* es lo que queremos estilizar (tipo de fuente, color de fuente, color de fondo, longitud, etc.)
+* Valor: el valor de la propiedad (Arial, red, 18px, etc.)
+
 ### Selectores
 #### Etiquetas
 CSS puede seleccionar un elemento de HTML al cual darle estilo utilizando el *nombre de su etiqueta*.
