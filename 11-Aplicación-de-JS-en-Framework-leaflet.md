@@ -12,8 +12,10 @@ Debemos importar el framework de leaflet.js leaflet.css entre otros, para ello p
 
 * https://leafletjs.com/download.html  
   
+  ```html
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-  Aquí podremos encontrar 
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script> 
+  ```  
   
-* 
+  Aquí podremos encontrar diferentes formas de bajar el archivo, ya sea en algún lugar donde esté hosteado ó directamente podemos guardar el archivo en nuestra computadora
+
