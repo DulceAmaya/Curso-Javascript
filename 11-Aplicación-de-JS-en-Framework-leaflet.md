@@ -5,5 +5,5 @@ Ya hemos abarcado los conocimientos mínimos necesarios del lenguaje Javascript 
 Lo primero que necesitamos es crear nuestra estructura de html básica como podemos ver a continuación:  
 
 <p align="center"> 
-<img src="./img/html-leaflet-01.png" width="700px;" height="200;">
+<img src="./img/html-leaflet-01.png" width="600px;" height="300;">
 </p>   
