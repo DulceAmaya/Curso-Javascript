@@ -134,5 +134,72 @@ En este caso, el selector del id tiene mayor prioridad, por lo que nuestra pági
 </p>
 
 ### Texto
-
 #### Font Family
+Para cambiar la fuente del texto, utilizamos la propiedad `font-family`.
+<p align="center">
+    <img src="./img/fontFamily.png">
+</p>
+
+En este ejemplo, el tipo de fuente de todos los encabezados `h1` será `Arial`.
+
+Para desplegar un tipo de fuente en la página web hay que tener en cuenta que esta debe estar instalada en la computadora del usuario.
+
+[Aquí](https://www.cssfontstack.com/) puedes consultar una lista de fuentes seguras para utilizar en tu sitio web.
+
+#### Font size
+Para cambiar el tamaño de fuente utilizamos la propiedad `font-size`. Esta propiedad recibe como valor un tamaño que podemos especificar con diferentes medidas, la cuales veremos más adelante.
+<p align="center">
+    <img src="./img/fontSize.png">
+</p>
+
+Aquí, definimos el tamaño de fuente para todos los encabezados `h1`, como 18 pixeles.
+
+#### Font weight
+Con la propiedad `font-weight` podemos definir que tan gruesa o delgada será nuestra fuente.
+
+<p align="center">
+    <img src="./img/fontWeight3.png">
+</p>
+<p align="center">
+    <img src="./img/fontWeight.png">
+</p>
+<p align="center">
+    <img src="./img/fontWeight2.png">
+</p>
+
+Los valores que `font-weight` puede recibir son:
+* `normal`
+* `bold`
+* `lighter`
+* `bolder`
+* Además de los valores numéricos 100, 200, ..., 900.
+
+Sin embargo, algunas fuentes solo están disponibles en `normal` y `bold`.
+
+#### Text align
+Por default, el texto en nuestra página siempre aparecerá alineado al lado izquierdo. Para cambiar eso, utilizamos la propiedad `text-align`.
+<p align="center">
+    <img src="./img/textAlign.png">
+</p>
+<p align="center">
+    <img src="./img/textAlign2.png">
+</p>
+
+Los valores que `text-align` puede recibir son:
+* `start`
+* `end`
+* `left`
+* `right`
+* `center`
+* `justify`
+
+### Colores
+Existen múltiples formas en que podemos especificar los colores que usaremos en nuestra página.
+
+##### Nombre
+Los navegadores modernos soportan un total de 140 colores con nombre.
+<p align="center">
+    <img src="./img/colores.png">
+</p>
+
+Aquí puedes consultarlos todos: [Colores Standard](https://www.w3schools.com/colors/colors_names.asp)
