@@ -99,7 +99,7 @@ En el ejemplo podemos ver que tenemos tres elementos `h1`, pero uno de ellos tie
 En la hoja de estilos, primero, asignamos el color de texto `darkcyan` a todos los elementos `h1`, pero en el siguiente selector, donde seleccionamos únicamente a los elementos con la clase `ejemplo`, asignamos un color de texto distinto (además de un color de fondo), esto es importante tenerlo en cuenta, pues la especificación de CSS tiene un esquema prioritario para aquellas reglas que coinciden para más de un elemento, conocido como **especificidad**.
 
 #### Id's
-Otra forma de asignarle un nombre, o identificador, a un elemento HTML es con el atributo `id`. A diferencia de las clases, el propósito de este atributo es asignarle el identificador a un solo elementos, mientras que las clases buscan agrupar varios elementos para darles un mismo estilo.
+Otra forma de asignarle un nombre, o identificador, a un elemento HTML es con el atributo `id`. A diferencia de las clases, el propósito de este atributo es asignarle el identificador a un solo elemento, mientras que las clases buscan agrupar varios elementos para darles un mismo estilo.
 <p align="center">
     <img src="./img/selectorId.png">
 </p>
@@ -127,8 +127,12 @@ Veamos el siguiente ejemplo:
     <img src="./img/especificidad2.png">
 </p>
 
-En este caso, definimos en la hoja de estilos el color de fuente `dodgerblue` para los elementos `h1`. Pero en la siguiente regla, definimos el color de fuente como `crimson` para el id `#ejemplo`.
+En este caso, definimos en la hoja de estilos el color de fuente `dodgerblue` para los elementos `h1`. Pero en la siguiente regla, definimos el color de fuente como `crimson` para el id `ejemplo`.
 En este caso, el selector del id tiene mayor prioridad, por lo que nuestra página se vería de la siguiente forma:
 <p align="center">
     <img src="./img/especificidad3.png">
 </p>
+
+### Texto
+
+#### Font Family
