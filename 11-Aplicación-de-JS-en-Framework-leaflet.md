@@ -19,4 +19,10 @@ Debemos importar el framework de leaflet.js leaflet.css entre otros, para ello p
   
   Aquí podremos encontrar diferentes formas de bajar el archivo, ya sea en algún lugar donde esté hosteado ó directamente podemos guardar el archivo en nuestra computadora. 
   Para fines prácticos cargaremos la versión en la nube y enseñaremos una forma rápida (no recomendamos usar ésta forma para aplicaciones en el mundo real por cuestiones de         seguridad que no están en el alcance de éste curso) 
+* https://developers.google.com/speed/libraries
+
+  ```html
+  
+  ```  
+  
 
