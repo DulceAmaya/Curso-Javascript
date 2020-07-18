@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Primer ejemplo leaflet</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="../js/leaflet.ajax.min.js"></script>
+
+	<style type="text/css" media="screen">
+
+		#map{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="map">
+		
+	</div>
+	<script type="text/javascript" charset="utf-8" >		
+		var map = L.map('map').setView([19.4,-99.15],5);
+		var baseLayer = L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {
+        Zoom: 9,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+		
+        myLayer =  L.geoJSON();
+        estados = null;
+
+        colores = ['#BD0026','#E31A1C','#FC4E2A','#FC4E2A','#FD8D3C','#FEB24C','#FED976','#FFEDA0']
+
+        function getColor(d) {
+    	return d > 1000 ? '#800026' :
+           d > 500  ? '#BD0026' :
+           d > 200  ? '#E31A1C' :
+           d > 100  ? '#FC4E2A' :
+           d > 50   ? '#FD8D3C' :
+           d > 20   ? '#FEB24C' :
+           d > 10   ? '#FED976' :
+                      '#FFEDA0';
+		}
+
+		function style(feature) {
+		    return {
+		        fillColor: colores[Math.floor(Math.random() * colores.length)],//getColor(feature.properties.density),
+		        weight: 2,
+		        opacity: 1,
+		        color: 'white',
+		        dashArray: '3',
+		        fillOpacity: 0.7
+		    };
+		}
+
+		$.getJSON("http://127.0.0.1:8080/entidades.geojson", function(data) {
+        	console.log(data['features'])
+        	data['features'].forEach(element => 
+        		element.properties["density"] = Math.floor(Math.random() * 1000))
+        	L.geoJson(data, {style: style}).addTo(map);	
+    	})
+
+	</script>
+
+</body>
+</html>
