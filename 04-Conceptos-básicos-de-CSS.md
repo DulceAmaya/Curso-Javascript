@@ -146,6 +146,33 @@ Para desplegar un tipo de fuente en la página web hay que tener en cuenta que e
 
 [Aquí](https://www.cssfontstack.com/) puedes consultar una lista de fuentes seguras para utilizar en tu sitio web.
 
+##### Google fonts
+Una herramienta que podemos utilizar para cambiar el tipo de fuente y donde tenemos muchas más opciones disponibles es la página web [Google fonts](https://fonts.google.com/).
+<p align="center">
+    <img src="./img/GoogleFonts.png">
+</p>
+
+Para agregar una fuente a nuestra página solamente debemos seleccionarla en la página web. Después, seleccionamos el estilo que deseemos.
+<p align="center">
+    <img src="./img/GoogleFonts2.png">
+</p>
+<p align="center">
+    <img src="./img/GoogleFonts3.png">
+</p>
+
+En el panel lateral seleccionamos la pestaña `Embed`. Copiamos el texto de la etiqueta `link` y lo pegamos en nuestro documento html dentro del elemento `head`.
+<p align="center">
+    <img src="./img/GoogleFonts4.png">
+</p>
+
+Para terminar, en nuestro documento css, utilizamos la propiedad `font-family` como viene especificada en la página web ("CSS rules to specify families").
+<p align="center">
+    <img src="./img/GoogleFonts5.png">
+</p>
+<p align="center">
+    <img src="./img/GoogleFonts6.png">
+</p>
+
 #### Font size
 Para cambiar el tamaño de fuente utilizamos la propiedad `font-size`. Esta propiedad recibe como valor un tamaño que podemos especificar con diferentes medidas, la cuales veremos más adelante.
 <p align="center">
@@ -193,6 +220,15 @@ Los valores que `text-align` puede recibir son:
 * `center`
 * `justify`
 
+#### Color
+Para cambiar el color del texto utilizamos la propiedad `color`.
+<p align="center">
+    <img src="./img/textColor.png">
+</p>
+<p align="center">
+    <img src="./img/textColor2.png">
+</p>
+
 ### Colores
 Existen múltiples formas en que podemos especificar los colores que usaremos en nuestra página.
 
@@ -203,3 +239,5 @@ Los navegadores modernos soportan un total de 140 colores con nombre.
 </p>
 
 Aquí puedes consultarlos todos: [Colores Standard](https://www.w3schools.com/colors/colors_names.asp)
+
+####
