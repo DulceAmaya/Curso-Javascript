@@ -232,7 +232,7 @@ Para cambiar el color del texto utilizamos la propiedad `color`.
 ### Colores
 Existen múltiples formas en que podemos especificar los colores que usaremos en nuestra página.
 
-##### Nombre
+##### Nombres
 Los navegadores modernos soportan un total de 140 colores con nombre.
 <p align="center">
     <img src="./img/colores.png">
@@ -260,7 +260,7 @@ Utilizando cualquiera de las dos opciones obtenemos el mismo resultado.
 
 [Aquí](https://htmlcolorcodes.com/es/) puedes consultar los códigos de colores para RGB y Hexadecimal.
 
-#### Opacidad
+#### Opacity
 Además de cambiar el color de los elementos, podemos cambiar su opacidad. Esto es, que tan transparente es el objeto.
 
 Para esto, utilizamos la propiedad `opacity` que recibe como valor un número entre 0 y 1, donde 1 representa un color %100 solido y 0 vuelve el objeto invisible.
@@ -273,3 +273,14 @@ Para esto, utilizamos la propiedad `opacity` que recibe como valor un número en
 </p>
 
 En el ejemplo podemos ver la diferencia entre dos objetos del mismo color pero con una opacidad diferente.
+
+#### Background color
+Para cambiar el color de fondo de nuestra página web utilizamos la propiedad `background-color`.
+
+Podemos definir el color de fondo de toda la página web son el selector `html` o `body`. Sin embargo, podemos definir el color de fondo de muchas cosas más, como párrafos, encabezados, contenedores, etc.
+<p align="center">
+    <img src="./img/backgroundColor.png">
+</p>
+<p align="center">
+    <img src="./img/backgroundColor2.png">
+</p>
