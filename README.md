@@ -9,8 +9,8 @@ Curso de introducción al lenguaje de programación Javascript
 
 
 2. [Primeros pasos](02-Primeros-pasos.md)
-    - Editores de texto    
-    - Consola web  
+    - [Editores de texto](02-Primeros%20pasos.md#editores-de-texto)
+    - [Consola web](02-Primeros%20pasos.md#la-consola-web)
 
 3. [Conceptos básicos de HTML](03-Conceptos-básicos-de-HTML.md)
     - [Sintaxis](03-Conceptos-básicos-de-HTML.md#sintaxis)
