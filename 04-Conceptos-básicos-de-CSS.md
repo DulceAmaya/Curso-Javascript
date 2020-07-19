@@ -240,4 +240,36 @@ Los navegadores modernos soportan un total de 140 colores con nombre.
 
 Aquí puedes consultarlos todos: [Colores Standard](https://www.w3schools.com/colors/colors_names.asp)
 
-####
+#### RGB y Hexadecimal
+La gama de colores que podemos seleccionar utilizando RGB o Hexadecimal es mucho más amplia.
+
+* RGB
+<p align="center">
+    <img src="./img/colorRGB.png">
+</p>
+
+* Hexadecimal
+<p align="center">
+    <img src="./img/colorHex.png">
+</p>
+
+Utilizando cualquiera de las dos opciones obtenemos el mismo resultado.
+<p align="center">
+    <img src="./img/color.png">
+</p>
+
+[Aquí](https://htmlcolorcodes.com/es/) puedes consultar los códigos de colores para RGB y Hexadecimal.
+
+#### Opacidad
+Además de cambiar el color de los elementos, podemos cambiar su opacidad. Esto es, que tan transparente es el objeto.
+
+Para esto, utilizamos la propiedad `opacity` que recibe como valor un número entre 0 y 1, donde 1 representa un color %100 solido y 0 vuelve el objeto invisible.
+
+<p align="center">
+    <img src="./img/opacity.png">
+</p>
+<p align="center">
+    <img src="./img/opacity2.png">
+</p>
+
+En el ejemplo podemos ver la diferencia entre dos objetos del mismo color pero con una opacidad diferente.
