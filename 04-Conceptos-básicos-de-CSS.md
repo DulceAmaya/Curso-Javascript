@@ -284,3 +284,58 @@ Podemos definir el color de fondo de toda la página web son el selector `html` 
 <p align="center">
     <img src="./img/backgroundColor2.png">
 </p>
+
+### Unidades
+En la hoja de estilos existen múltiples propiedades que reciben como valor una medida o tamaño que debe ser especificado en ciertas unidades. Por ejemplo la altura (height) o ancho (width) de un elemento, el tamaño del texto, etc.
+
+Hasta ahora, solo hemos utilizado pixeles para especificar estas medidas, pero existen otras unidades que podemos utilizar.
+
+#### Unidades de longitud absoluta
+Se refiere a que no dependen ni son relativas a ningún otro objeto en la página web y en general, se considera que siempre tienen el mismo tamaño.
+
+|Unidad | Nombre|
+|--- | ---|
+|`mm` | milímetros|
+|`cm` | centímetros|
+|`in` | pulgadas|
+|`pt` | puntos|
+|`px` | pixeles|
+
+#### Unidades de longitud relativa
+Son relativas a algún otro objeto en la página web, por ejemplo, el tamaño de la ventana. Esto es una gran ventaja, pues puede permitirnos que, si el tamaño del dispositivo o la ventana donde se despliega nuestra página web cambia, los elementos se mostraran en una escala correspondiente.
+
+|Unidad | Relativa a...|
+|--- | ---|
+|`em`| tamaño de letra del elemento padre|
+|`rem`| tamaño de letra del elemento raíz|
+|`vw`| 1% del ancho de la ventana|
+|`vh`| 1% del alto de la ventana|
+
+Veamos un ejemplo.
+<p align="center">
+    <img src="./img/unidades.png">
+</p>
+
+Aquí, definimos dos contenedores anidados, donde `ejemplo1` es el *elemento padre* y `ejemplo2` es el *elemento hijo*.
+<p align="center">
+    <img src="./img/unidades2.png">
+</p>
+
+En la hoja de estilos, definimos el tamaño de fuente para `ejemplo1` como `20px` y el tamaño de fuente para `ejemplo2` como `2em`.
+
+<p align="center">
+    <img src="./img/unidades3.png">
+</p>
+
+Podemos ver que el texto dentro del segundo contenedor es más grande, esto es porque, `em` es un múltiplo del tamaño de fuente del elemento padre. Entonces, en este ejemplo, el tamaño de fuente del elemento hijo es `2em = 2 x 20px = 40px`.
+
+Estas son solo algunas de la unidades que puedes utilizar, aunque son las más frecuentes, pero [aquí](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Valores_y_unidades_CSS) puedes consultar más al respecto.
+
+### Modelo de caja
+Cualquier elemento en un documento HTML se presenta en la página web contenido en una **caja rectangular**, compuesta por una serie de propiedades que nos permitirán estilizar la presentación de dicho elemento.
+
+Esta *caja* esta compuesta por el tamaño del contenido (alto y ancho), padding, borde y margen.
+
+<p align="center">
+    <img src="./img/boxModel.png">
+</p>
