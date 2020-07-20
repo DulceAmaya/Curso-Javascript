@@ -63,7 +63,8 @@ class CORSRequestHandler(SimpleHTTPRequestHandler):
 httpd = HTTPServer(('localhost', 8080), CORSRequestHandler)
 httpd.serve_forever()
 ```  
-
+Usaremos una terminal para correr el servidor, el puerto será el 8080 y con localhost (127.0.0.1).  
+ 
 
 ```javascript
 
