@@ -93,12 +93,11 @@ Lo siguiente es cargar un tile layer base para nuestro mapa, en éste caso usare
 	<script type="text/javascript" charset="utf-8">
 		//código anterior  
 		var baseLayer = L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {
-			Zoom: 9,
 			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 		}).addTo(map);
 	</script>  
 ```  
-A través del método tileLayer(...) podemos cargar y desplegar capas en nuestro mapa, entre los parámetros de la función está el **URL** al tile layer y las opciones de configuración entre las que usaremos Zoom para indicarle el nivel de zoom con el que queremos que se inicialize, un valor en 9 nos abarcará toda la república mexicana, se puede configurar dependiendo la necesidad de cada situación.  
+A través del método tileLayer(...) podemos cargar y desplegar capas en nuestro mapa, entre los parámetros de la función está el **URL** al tile layer.
 
 Recordando un poco nuestro aprendizaje previo del lenguaje Javascript, recordemos que podemos aplicar funciones a resultados de funciones previas, entonces nuestra función **addTo(map)** que podemos encontrar al final de **tileLayer()**, con ésto le estamos indicando que se agregue el layer a nuestro mapa. Hasta éste punto deberemos tener nuestro mapa de la siguiente manera:  
  
