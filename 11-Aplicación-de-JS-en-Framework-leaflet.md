@@ -101,8 +101,22 @@ Lo siguiente es cargar un tile layer base para nuestro mapa, en éste caso usare
 A través del método tileLayer(...) podemos cargar y desplegar capas en nuestro mapa, entre los parámetros de la función está el **URL** al tile layer y las opciones de configuración entre las que usaremos Zoom para indicarle el nivel de zoom con el que queremos que se inicialize, un valor en 9 nos abarcará toda la república mexicana, se puede configurar dependiendo la necesidad de cada situación.  
 
 Recordando un poco nuestro aprendizaje previo del lenguaje Javascript, recordemos que podemos aplicar funciones a resultados de funciones previas, entonces nuestra función **addTo(map)** que podemos encontrar al final de **tileLayer()**, con ésto le estamos indicando que se agregue el layer a nuestro mapa. Hasta éste punto deberemos tener nuestro mapa de la siguiente manera:  
-
  
 <p align="center"> 
 <img src="./img/leaflet01.png" width="700px;" height="600px;">
 </p>  
+
+### L.geoJSON() 
+
+Usaremos la función geoJSON() para crear y representar una capa con un objeto de tipo geojson o un arreglo de objetos geojson para visualizarlos en el mapa, al extender LayerGroup nos permite manipular varias layers en una sola.  
+
+Existen dos formas de hacerlo, podemos pasarle directamente el objeto geojson o inicializar el objeto vacío y posteriormente agregarle los datos.
+```javascript
+	<script type="text/javascript" charset="utf-8">
+		//código anterior  
+		myLayer =  L.geoJSON();
+	</script>  
+```  
+
+
+
