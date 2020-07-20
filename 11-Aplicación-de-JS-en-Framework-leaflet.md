@@ -69,8 +69,13 @@ Usaremos una terminal para correr el servidor, el puerto será el 8080 y con loc
 <img src="./img/python-server.png" width="600px;" height="200;">
 </p>  
 
-```javascript
+Para jalar nuestros archivos debemos tener la terminal parada en la misma carpeta que nuestros datos a cargar, además de manejar correctamente ya sea la ruta absoluta o relativa como se verá más adelante.  
+Idealmente lo correcto es crear un archivo js con el código, pero para fines prácticos lo haremos dentro de un tag **script** de html 
 
+
+```html
+	<script type="text/javascript" charset="utf-8" >
+	</script>
 ```  
 
 
