@@ -102,4 +102,7 @@ A través del método tileLayer(...) podemos cargar y desplegar capas en nuestro
 
 Recordando un poco nuestro aprendizaje previo del lenguaje Javascript, recordemos que podemos aplicar funciones a resultados de funciones previas, entonces nuestra función **addTo(map)** que podemos encontrar al final de **tileLayer()**, con ésto le estamos indicando que se agregue el layer a nuestro mapa. Hasta éste punto deberemos tener nuestro mapa de la siguiente manera:  
 
-
+ 
+<p align="center"> 
+<img src="./img/leaflet01.png" width="600px;" height="200;">
+</p>  
