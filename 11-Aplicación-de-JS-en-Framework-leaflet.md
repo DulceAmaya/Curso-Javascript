@@ -47,7 +47,7 @@ Debemos crear un bloque **div** donde inicializaremos nuestro mapa de leaflet, p
 ```  
 Ahora solo debemos ver la parte correspondiente a Javascript, pero antes como se mencionó antes para cargar los archivos desde la máquina local que actua como servidor usaremos un script de python.  
 
-```python
+```python3
 #!/usr/bin/env python3
 # encoding: utf-8
 """Use instead of `python3 -m http.server` when you need CORS"""
