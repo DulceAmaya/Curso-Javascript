@@ -66,7 +66,7 @@ httpd.serve_forever()
 Usaremos una terminal para correr el servidor, el puerto será el 8080 y con localhost (127.0.0.1).  
  
 <p align="center"> 
-<img src="./img/python-server.png" width="600px;" height="300;">
+<img src="./img/python-server.png" width="400px;" height="400;">
 </p>  
 
 ```javascript
