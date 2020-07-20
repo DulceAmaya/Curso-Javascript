@@ -38,6 +38,12 @@ Con el siguiente código css centraremos nuestro mapa que es lo que de momento n
 			right: 0;
 		}
 </style>
-```
+```  
+
+Debemos crear un bloque **div** donde inicializaremos nuestro mapa de leaflet, para ello agregamos el siguiente código:  
+
+```html
+<div id="map"></div>
+```  
 
 
