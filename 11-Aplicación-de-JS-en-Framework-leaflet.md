@@ -79,7 +79,7 @@ Idealmente lo correcto es crear un archivo js con el código, pero para fines pr
 ```  
 
 Vamos a inicializar e instanciar nuestro mapa de leaflet con la siguiente línea:  
-```html
+```javascript
 	<script type="text/javascript" charset="utf-8">
 		var map = L.map('map').setView([19.4,-99.15],5);
 	</script>  
