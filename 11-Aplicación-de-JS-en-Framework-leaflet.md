@@ -84,4 +84,5 @@ Vamos a inicializar e instanciar nuestro mapa de leaflet con la siguiente línea
 		var map = L.map('map').setView([19.4,-99.15],5);
 	</script>  
 ```  
-Lo que aquí le estamos indicando es que utilize el div con el id 'map' que creamos en el html y centre el mapa en las latitud, longitud = 19.4, -99.15 correspondiente a la Ciudad de México, México.  
+
+<p><span style="color:blue">Lo que aquí le estamos indicando es que utilize el div con el id 'map' que creamos en el html y centre el mapa en las latitud, longitud = 19.4, -99.15 correspondiente a la Ciudad de México, México.</span>.</p> 
