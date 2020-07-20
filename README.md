@@ -29,6 +29,8 @@ Curso de introducción al lenguaje de programación Javascript
 
 9. Condicionales y estructuras de control  
 
-10. Frameworks comunes  
+10. Promesas
 
-11. Aplicación de JS en Framework leaflet    
+11. Frameworks comunes  
+
+12. Aplicación de JS en Framework leaflet    
