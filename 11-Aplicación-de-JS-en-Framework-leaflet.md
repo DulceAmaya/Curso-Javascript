@@ -26,4 +26,18 @@ Debemos importar el framework de leaflet.js leaflet.css entre otros, para ello p
 
   ```  
   
+Con el siguiente código css centraremos nuestro mapa que es lo que de momento nos interesa  
+```html
+<style type="text/css" media="screen">
+
+		#map{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	</style>
+```
+
 
