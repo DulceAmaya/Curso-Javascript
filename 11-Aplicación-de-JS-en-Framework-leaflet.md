@@ -104,5 +104,5 @@ Recordando un poco nuestro aprendizaje previo del lenguaje Javascript, recordemo
 
  
 <p align="center"> 
-<img src="./img/leaflet01.png" width="600px;" height="200;">
+<img src="./img/leaflet01.png" width="900px;" height="800;">
 </p>  
