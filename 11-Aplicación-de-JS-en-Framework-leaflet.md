@@ -117,5 +117,36 @@ Existen dos formas de hacerlo, podemos pasarle directamente el objeto geojson o 
 	</script>  
 ```  
 
+### Aplicación a un mapa coroplético  
+
+Un mapa coroplético es un tipo de mapa en el que las áreas se sombrean de distintos colores, representando los distintos valores de una variable estadística de una determinada región. De momento usaremos valores aleatorios para asignarle a cada estado de la república y pintarla de determinado color con fines ilustrativos.  
+
+
+```javascript
+
+	estados = null;
+  	colores = ['#BD0026','#E31A1C','#FC4E2A','#FC4E2A','#FD8D3C','#FEB24C','#FED976','#FFEDA0']
+        function getColor(d) {
+    	return d > 1000 ? '#800026' :
+           d > 500  ? '#BD0026' :
+           d > 200  ? '#E31A1C' :
+           d > 100  ? '#FC4E2A' :
+           d > 50   ? '#FD8D3C' :
+           d > 20   ? '#FEB24C' :
+           d > 10   ? '#FED976' :
+                      '#FFEDA0';
+		}
+
+		function style(feature) {
+		    return {
+		        fillColor: colores[Math.floor(Math.random() * colores.length)],//getColor(feature.properties.density),
+		        weight: 2,
+		        opacity: 1,
+		        color: 'white',
+		        dashArray: '3',
+		        fillOpacity: 0.7
+		    };
+		}
+```
 
 
