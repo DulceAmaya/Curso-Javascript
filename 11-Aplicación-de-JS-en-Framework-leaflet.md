@@ -45,5 +45,28 @@ Debemos crear un bloque **div** donde inicializaremos nuestro mapa de leaflet, p
 ```html
 <div id="map"></div>
 ```  
+Ahora solo debemos ver la parte correspondiente a Javascript, pero antes como se mencionó antes para cargar los archivos desde la máquina local que actua como servidor usaremos un script de python.  
+
+```python
+#!/usr/bin/env python3
+# encoding: utf-8
+"""Use instead of `python3 -m http.server` when you need CORS"""
+
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+
+class CORSRequestHandler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET')
+        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
+        return super(CORSRequestHandler, self).end_headers()
+httpd = HTTPServer(('localhost', 8080), CORSRequestHandler)
+httpd.serve_forever()
+```  
+
+
+```javascript
+
+```  
 
 
