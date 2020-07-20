@@ -37,7 +37,7 @@ Con el siguiente código css centraremos nuestro mapa que es lo que de momento n
 			left: 0;
 			right: 0;
 		}
-	</style>
+</style>
 ```
 
 
