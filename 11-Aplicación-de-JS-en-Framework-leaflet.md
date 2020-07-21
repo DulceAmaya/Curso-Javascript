@@ -151,15 +151,16 @@ En el código hay que notar que en arreglo colores definimos los colores en su v
 
 La función **getColor()** solo evaluará el valor del parámetro d y acorde al intervalo al que pertenezca se retornará el valor hexadecimal correspondiente. Por otra parte la función **style** nos brinda la posibilidad de personalizar cada elemento del geojson, ésta función la mandaremos llamar cuando carguemos los datos del geojson más adelante.  
 Las configuración de style que se usara es:  
-	1. fillColor:
-		Aquí indicamos el color de relleno de la geometría.
-	2. weight:
-		Indicamos el valor de la anchura
-	3. opacity:
-		Indicamos el valor de la opacidad
-	4. color:
-		El color del contorno de la geometría
-	5. dashArray:
-		
-	6. fillOpacity:
-		Especifica la operación de pintado para rellenar el elemento.
+
+	1. fillColor:  
+		Aquí indicamos el color de relleno de la geometría.  
+	2. weight:  
+		Indicamos el valor de la anchura  
+	3. opacity:  
+		Indicamos el valor de la opacidad  
+	4. color:  
+		El color del contorno de la geometría  
+	5. dashArray:  
+		  
+	6. fillOpacity:  
+		Especifica la operación de pintado para rellenar el elemento.  
