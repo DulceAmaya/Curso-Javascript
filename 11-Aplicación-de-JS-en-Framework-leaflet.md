@@ -164,3 +164,25 @@ Las configuración de style que se usara es:
 		  
 	6. fillOpacity:  
 		Especifica la operación de pintado para rellenar el elemento.  
+		
+### Cargar datos desde servidor
+
+Ahora que tenemos todo preparado veremos cómo cargar las geometrías de los estados para completar nuestro mapa.  
+
+```javascript
+	<script type="text/javascript" charset="utf-8">
+		//código anterior  
+		$.getJSON("http://127.0.0.1:8080/entidades.geojson", function(data) {
+        	data['features'].forEach(element => 
+        		element.properties["density"] = Math.floor(Math.random() * 1000))
+        	L.geoJson(data, {style: style}).addTo(map);	
+    	})
+	</script>  
+``` 
+Con ayuda del framework JQuery haremos una petición get a la url que se indica como parámetro, recordemos que tenemos montado un servidor con la ayuda de python en **localhost 
+puerto 8080** y el sufijo **entidades.geojson** corresponde al nombre del archivo.  
+Notemos que recibe como parámetro también una función anónima, en ella podemos definir el comportamiento que queremos ejecutar al leer la información. **Data** es el parámetro de dicha función que es el geojson previamente cargado, una vez hecho ésto, necesitamos contar con un atributo del objeto para poder realizar nuestro mapa, como nuestro geojson no tiene ningún valor estadístico asignaremos uno aleatorio para cada estado en un rango de [0,999].  
+
+En el código previo veamos que iteramos cada objeto de **features** en el geojson 
+
+
