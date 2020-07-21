@@ -105,17 +105,6 @@ Recordando un poco nuestro aprendizaje previo del lenguaje Javascript, recordemo
 <img src="./img/leaflet01.png" width="700px;" height="600px;">
 </p>  
 
-### L.geoJSON() 
-
-Usaremos la función geoJSON() para crear y representar una capa con un objeto de tipo geojson o un arreglo de objetos geojson para visualizarlos en el mapa, al extender LayerGroup nos permite manipular varias layers en una sola.  
-
-Existen dos formas de hacerlo, podemos pasarle directamente el objeto geojson o inicializar el objeto vacío y posteriormente agregarle los datos.
-```javascript
-	<script type="text/javascript" charset="utf-8">
-		//código anterior  
-		myLayer =  L.geoJSON();
-	</script>  
-```  
 
 ### Aplicación a un mapa coroplético  
 
@@ -123,7 +112,6 @@ Un mapa coroplético es un tipo de mapa en el que las áreas se sombrean de dist
 
 
 ```javascript
-	estados = null; //variable auxiliar para almacenar los datos próximos.  
   	colores = ['#BD0026','#E31A1C','#FC4E2A','#FC4E2A','#FD8D3C','#FEB24C','#FED976','#FFEDA0'] //el arreglo de colores para el mapa
         
 	function getColor(d) {
@@ -164,6 +152,12 @@ Las configuración de style que se usara es:
 		  
 	6. fillOpacity:  
 		Especifica la operación de pintado para rellenar el elemento.  
+
+### L.geoJSON() 
+
+Usaremos la función geoJSON() para crear y representar una capa con un objeto de tipo geojson o un arreglo de objetos geojson para visualizarlos en el mapa, al extender LayerGroup nos permite manipular varias layers en una sola.  
+
+Existen dos formas de hacerlo, podemos pasarle directamente el objeto geojson o inicializar el objeto vacío y posteriormente agregarle los datos.
 		
 ### Cargar datos desde servidor
 
@@ -183,6 +177,10 @@ Con ayuda del framework JQuery haremos una petición get a la url que se indica 
 puerto 8080** y el sufijo **entidades.geojson** corresponde al nombre del archivo.  
 Notemos que recibe como parámetro también una función anónima, en ella podemos definir el comportamiento que queremos ejecutar al leer la información. **Data** es el parámetro de dicha función que es el geojson previamente cargado, una vez hecho ésto, necesitamos contar con un atributo del objeto para poder realizar nuestro mapa, como nuestro geojson no tiene ningún valor estadístico asignaremos uno aleatorio para cada estado en un rango de [0,999].  
 
-En el código previo veamos que iteramos cada objeto de **features** en el geojson 
+En el código previo veamos que iteramos cada objeto de **features** en el geojson y en las **properties** definimos un nuevo atributo llamado density inicializado en un valor aleatorio entre [0,1000]. Cuando acabe el ciclo **for each** ya solo debemos cargar los datos a un tyle con la función **geoJson**, le pasaremos la configuración que habíamos definido previamente **style** y lo agregaremos al mapa.
+
+
+<p><span style="color:blue">Con ésto deberemos tener ya listo nuestro mapa y ser verá de la siguiente forma (recordando que al tomar valores aleatorios los colores de los estados pueden variar).</span></p>
+
 
 
