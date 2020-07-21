@@ -138,7 +138,7 @@ Un mapa coroplético es un tipo de mapa en el que las áreas se sombrean de dist
 	}
 	function style(feature) {
 	    return {
-	        fillColor: colores[Math.floor(Math.random() * colores.length)],//getColor(feature.properties.density),
+	        fillColor: getColor(feature.properties.density),
 	        weight: 2,
 	        opacity: 1,
 	        color: 'white',
