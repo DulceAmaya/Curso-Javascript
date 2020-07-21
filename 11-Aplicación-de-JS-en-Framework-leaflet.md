@@ -123,30 +123,43 @@ Un mapa coroplético es un tipo de mapa en el que las áreas se sombrean de dist
 
 
 ```javascript
-
-	estados = null;
-  	colores = ['#BD0026','#E31A1C','#FC4E2A','#FC4E2A','#FD8D3C','#FEB24C','#FED976','#FFEDA0']
-        function getColor(d) {
-    	return d > 1000 ? '#800026' :
-           d > 500  ? '#BD0026' :
-           d > 200  ? '#E31A1C' :
-           d > 100  ? '#FC4E2A' :
-           d > 50   ? '#FD8D3C' :
-           d > 20   ? '#FEB24C' :
-           d > 10   ? '#FED976' :
-                      '#FFEDA0';
-		}
-
-		function style(feature) {
-		    return {
-		        fillColor: colores[Math.floor(Math.random() * colores.length)],//getColor(feature.properties.density),
-		        weight: 2,
-		        opacity: 1,
-		        color: 'white',
-		        dashArray: '3',
-		        fillOpacity: 0.7
-		    };
-		}
+	estados = null; //variable auxiliar para almacenar los datos próximos.  
+  	colores = ['#BD0026','#E31A1C','#FC4E2A','#FC4E2A','#FD8D3C','#FEB24C','#FED976','#FFEDA0'] //el arreglo de colores para el mapa
+        
+	function getColor(d) {
+		return d > 1000 ? '#800026' :
+		   d > 500  ? '#BD0026' :
+		   d > 200  ? '#E31A1C' :
+		   d > 100  ? '#FC4E2A' :
+		   d > 50   ? '#FD8D3C' :
+		   d > 20   ? '#FEB24C' :
+		   d > 10   ? '#FED976' :
+			      '#FFEDA0';
+	}
+	function style(feature) {
+	    return {
+	        fillColor: colores[Math.floor(Math.random() * colores.length)],//getColor(feature.properties.density),
+	        weight: 2,
+	        opacity: 1,
+	        color: 'white',
+	        dashArray: '3',
+	        fillOpacity: 0.7
+	    };
+	}  
 ```
+En el código hay que notar que en arreglo colores definimos los colores en su valor hexadecimal que usaremos en el mapa, los valores son arbitrarios, los podemos ajustar de acorde a las necesidades pero por ahora usaremos los colores por defecto.  
 
-
+La función **getColor()** solo evaluará el valor del parámetro d y acorde al intervalo al que pertenezca se retornará el valor hexadecimal correspondiente. Por otra parte la función **style** nos brinda la posibilidad de personalizar cada elemento del geojson, ésta función la mandaremos llamar cuando carguemos los datos del geojson más adelante.  
+Las configuración de style que se usara es:  
+	1. fillColor:
+		Aquí indicamos el color de relleno de la geometría.
+	2. weight:
+		Indicamos el valor de la anchura
+	3. opacity:
+		Indicamos el valor de la opacidad
+	4. color:
+		El color del contorno de la geometría
+	5. dashArray:
+		
+	6. fillOpacity:
+		Especifica la operación de pintado para rellenar el elemento.
