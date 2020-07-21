@@ -182,5 +182,7 @@ En el código previo veamos que iteramos cada objeto de **features** en el geojs
 
 <p><span style="color:blue">Con ésto deberemos tener ya listo nuestro mapa y ser verá de la siguiente forma (recordando que al tomar valores aleatorios los colores de los estados pueden variar).</span></p>
 
-
+<p align="center"> 
+<img src="./img/leaflet02.png" width="600px;" height="200;">
+</p>  
 
