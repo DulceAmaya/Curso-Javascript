@@ -41,10 +41,12 @@ Con el siguiente código css centraremos nuestro mapa que es lo que de momento n
 </style>
 ```  
 
-Debemos crear un bloque **div** donde inicializaremos nuestro mapa de leaflet, para ello agregamos el siguiente código:  
+Debemos crear un bloque **div** donde inicializaremos nuestro mapa de leaflet, para ello agregamos el siguiente código junto con un div container y uno legend tal cual podemos observar al inicio de la página:  
 
 ```html
-<div id="map"></div>
+	<div id="container"></div>
+	<div id="map"></div>
+	<div id="legend"></div>
 ```  
 Ahora solo debemos ver la parte correspondiente a Javascript, pero antes como se mencionó antes para cargar los archivos desde la máquina local que actua como servidor usaremos un script de python.  
 
