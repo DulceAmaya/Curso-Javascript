@@ -38,6 +38,23 @@ Con el siguiente código css centraremos nuestro mapa que es lo que de momento n
 			right: 0;
 			z-index: 1;
 		}
+		#legend {
+		    line-height: 18px;
+		    color: #555;
+		    position: absolute;
+		    bottom: 40px;
+		    right: 20px;
+		    z-index: 2;
+		    background-color: white;
+		    padding: 5px;
+		}
+		#legend i {
+		    width: 50px;
+		    height: 18px;
+		    float: left;
+		    margin-right: 8px;
+		    opacity: 0.7;
+		}
 </style>
 ```  
 
