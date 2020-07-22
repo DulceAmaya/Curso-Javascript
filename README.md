@@ -17,20 +17,35 @@ Curso de introducción al lenguaje de programación Javascript
     - [Elementos](03-Conceptos-básicos-de-HTML.md#elementos)
     - [Etiquetas](03-Conceptos-básicos-de-HTML.md#etiquetas)
 
-4. [Conceptos básicos de CSS](04-Conceptos-básicos-de-CSS.md)
+4. [Conceptos básicos de CSS (Parte 1)](04-Conceptos-básicos-de-CSS.md)
+    - [Implementación](04-Conceptos-básicos-de-CSS.md#implementación)
+    - [Sintaxis](04-Conceptos-básicos-de-CSS.md#sintaxis)
+    - [Selectores](04-Conceptos-básicos-de-CSS.md#selectores)
+    - [Especificidad](04-Conceptos-básicos-de-CSS.md#especificidad)
+ 
+5. Conceptos básicos de CSS Parte(2)
+    - [Texto]
+    - [Colores]
+    - [Unidades]
+    
+6. Conceptos básicos de CSS Parte(3)
+    - Box Model
+    - Display
+    - Position
+    - Grid y Flexbox
 
-5. Conceptos básicos de JS  
+7. Conceptos básicos de JS  
 
-6. Operadores    
+8. Operadores    
 
-7. Tipos de datos      
+9. Tipos de datos      
 
-8. Tipos de funciones  
+10. Tipos de funciones  
 
-9. Condicionales y estructuras de control  
+11. Condicionales y estructuras de control  
 
-10. Promesas
+12. Promesas
 
-11. Frameworks comunes  
+13. Frameworks comunes  
 
-12. Aplicación de JS en Framework leaflet    
+14. Aplicación de JS en Framework leaflet    
