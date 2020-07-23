@@ -242,3 +242,6 @@ Ahora veremos un ejemplo de cómo crear varios marcadores, aunque tiene como lim
 ```
 Ya que tenemos la lista de listas con las coordenadas invertidas, iteramos sobre cada una de ellas para generar el marcador, para ésto veamos el constructor del marcador con movimiento (**Moving marker**)  
 
+<p align="center"> 
+<img src="./img/moving-marker.png" width="600px;" height="300;">
+</p>  
