@@ -50,3 +50,18 @@ Creamos el tag script para nuestro código JS
 <script type="text/javascript" charset="utf-8" ></script>		
 
 ```
+
+Inicializamos, instanciamos y centramos el mapa en las coordenadas, así como el base layer correspondiente de **OSM**
+
+```javascript
+<script type="text/javascript" charset="utf-8" >
+	var map = L.map('map').setView([19.40,-99.12],12);
+			var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+
+
+</script>		
+
+```
