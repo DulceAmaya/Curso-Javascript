@@ -63,5 +63,56 @@ Inicializamos, instanciamos y centramos el mapa en las coordenadas, así como el
 
 
 </script>		
-
 ```
+
+No es necesaria ésta función pero sirve para resaltar las líneas con su color correspondiente:  
+
+```javascript
+	// código previo
+	function getColor(d) {
+    		switch (d) {
+    			case "Linea B":
+    				return '#117f58'
+    				break;
+    			case "Linea 1":
+    				return '#ff71a1'
+    				break;
+    			case "Linea 7":
+    				return '#ff7825'
+    				break;
+    			case "Linea 3":
+    				return '#c6ae0e'
+    				break;
+    			case "Linea 8":
+    				return '#009f5d'
+    				break;
+    			case "Linea 2":
+    				return '#0075bb'
+    				break;
+    			case "Linea A":
+    				return '#972094'
+    				break;
+    			case "Linea 9":
+    				return '#671a00'
+    				break;
+    			case "Linea 5":
+    				return '#f6da14'
+    				break;
+    			case "Linea 4":
+    				return '#39c7b9'
+    				break;
+    			case "Linea 12":
+    				return '#bf9c4a'
+    				break;
+    			case "Linea 6":
+    				return '#ff2122'
+    				break;
+    			default:
+    				// statements_def
+    				break;
+    		}
+	}
+		
+```
+ 
+Usaremos una estructura switch case para cazar el color de la linea correspondiente  
