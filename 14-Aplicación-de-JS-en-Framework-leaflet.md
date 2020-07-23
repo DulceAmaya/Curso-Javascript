@@ -284,7 +284,7 @@ Ahora que tenemos todo preparado veremos cómo cargar las geometrías de los est
 		$.getJSON("http://127.0.0.1:8080/entidades.geojson", function(data) {
         	data['features'].forEach(element => 
         		element.properties["density"] = Math.floor(Math.random() * 1000))
-        	geojson = L.geoJson(data, {style: style, onEachFeature: onEachFeature}).addTo(map);	
+        	datageo = L.geoJson(data, {style: style, onEachFeature: onEachFeature}).addTo(map);	
     	})
 	</script>  
 ``` 
