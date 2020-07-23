@@ -134,7 +134,9 @@ Creamos una función para darle estilo a cada una de las geometrías como vimos 
 **getColor()** es la llamada a la función donde dado el nombre de la línea determinamos el color que está asociado. Para ello al geojson que definiremos posteriormente 
 le pasaremos la propiedad nombre contenida en **properties** de cada objeto.   
 
-Cargaremos los datos del geojson, los datos abiertos los podemos encontrar en el siguiente link
+Cargaremos los datos del geojson, los datos abiertos los podemos encontrar en el siguiente link 
+
+	1. https://datos.cdmx.gob.mx/explore/dataset/lineas-de-metro/export/
 
 
 ```javascript
