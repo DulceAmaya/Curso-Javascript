@@ -245,3 +245,5 @@ Ya que tenemos la lista de listas con las coordenadas invertidas, iteramos sobre
 <p align="center"> 
 <img src="./img/moving-marker.png" width="800px;" height="400;">
 </p>  
+
+Como indica en la documentación el primer parámetro es la geometría (lista de coordenadas), después durations puede ser una lista o un número, en caso de ser una lista hay que indicar explicitamente los valores enteros en milisegundos para cada segmento y en caso de ser un número éste se aplicará para cada segmento.  
