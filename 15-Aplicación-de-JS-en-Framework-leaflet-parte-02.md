@@ -172,6 +172,14 @@ Para cada lista en la lista de coordenadas, tomamos el elemento 0 y lo guardamos
 	//código previo
 	var myLayer = L.geoJSON(geojsonFeature, {style: linestyle}).addTo(map);  
 ```  
+Notemos que en las options podemos agregar la función linestyle que definimos, ésta se aplicará a cada uno de los objetos del geojson (línea de metro)
+
+**Hasta el momento podremos observar en nuestro mapa lo siguiente**  
+
 <p align="center"> 
 <img src="./img/lineas-metro-leaflet.png" width="1000px;" height="600px;">
 </p> 
+
+
+
+
