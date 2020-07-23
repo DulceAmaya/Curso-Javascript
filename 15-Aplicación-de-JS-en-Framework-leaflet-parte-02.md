@@ -247,3 +247,5 @@ Ya que tenemos la lista de listas con las coordenadas invertidas, iteramos sobre
 </p>  
 
 Como indica en la documentación el primer parámetro es la geometría (lista de coordenadas), después durations puede ser una lista o un número, en caso de ser una lista hay que indicar explicitamente los valores enteros en milisegundos para cada segmento y en caso de ser un número éste se aplicará para cada segmento.  
+
+**En options** podemos agregar todos aquellos nativos de **marker** de leaflet y adicionalmente tenemos dos, **autostart** inicia en automático el marcador, por defecto está en false y loop en **false**, con loop el marcador se reiniciará una vez que llegue al final de la línea. 
