@@ -242,7 +242,7 @@ Como indica en la documentación el primer parámetro es la geometría (lista de
 
 **En options** podemos agregar todos aquellos nativos de **marker** de leaflet y adicionalmente tenemos dos, **autostart** inicia en automático el marcador, por defecto está en false y loop en **false**, con loop el marcador se reiniciará una vez que llegue al final de la línea. 
 
-**En las options, con icon mandamos a llamar la configuración del ícono que nos permite personalizarlo*. 
+**En las options, con icon mandamos a llamar la configuración del ícono que nos permite personalizarlo**. 
 
 <p align="center"> 
 <img src="./img/leaflet-final.png" width="800px;" height="400;">
