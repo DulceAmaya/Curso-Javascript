@@ -172,4 +172,6 @@ Para cada lista en la lista de coordenadas, tomamos el elemento 0 y lo guardamos
 	//código previo
 	var myLayer = L.geoJSON(geojsonFeature, {style: linestyle}).addTo(map);  
 ```  
-
+<p align="center"> 
+<img src="./img/lineas-metro-leaflet.png" width="1000px;" height="600px;">
+</p> 
