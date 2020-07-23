@@ -188,5 +188,11 @@ Carguemos la geometría del estado **CDMX**, está contenida en el archivo **cdm
 	})
 ```
 
+Obtenemos lo siguiente:   
+
+<p align="center"> 
+<img src="./img/geometria-cdmx.png" width="1000px;" height="600px;">
+</p> 
+
 
 
