@@ -227,19 +227,12 @@ Ahora veremos un ejemplo de cómo crear varios marcadores, aunque tiene como lim
 	//código anterior
 	for(i = 0; i < coordenadas.length; i++){
 		var linea = coordenadas[i];
-		
+		var desplazamiento = [];	
 		var marker =  L.Marker.movingMarker(linea,
-    		4000, {icon:firefoxIcon, loop:true}).addTo(map);
-		marker.start();
-	    	marker.on('click', function() {
-			if (marker.isRunning()) {
-		            marker.pause();
-		        } else {
-		            marker.start();
-		        }
-		});
+    		5000, {icon:firefoxIcon,autostart:true, loop:true}).addTo(map);    
 	}
 ```
+
 Ya que tenemos la lista de listas con las coordenadas invertidas, iteramos sobre cada una de ellas para generar el marcador, para ésto veamos el constructor del marcador con movimiento (**Moving marker**)  
 
 <p align="center"> 
@@ -249,3 +242,5 @@ Ya que tenemos la lista de listas con las coordenadas invertidas, iteramos sobre
 Como indica en la documentación el primer parámetro es la geometría (lista de coordenadas), después durations puede ser una lista o un número, en caso de ser una lista hay que indicar explicitamente los valores enteros en milisegundos para cada segmento y en caso de ser un número éste se aplicará para cada segmento.  
 
 **En options** podemos agregar todos aquellos nativos de **marker** de leaflet y adicionalmente tenemos dos, **autostart** inicia en automático el marcador, por defecto está en false y loop en **false**, con loop el marcador se reiniciará una vez que llegue al final de la línea. 
+
+**En las options, con icon mandamos a llamar la configuración del ícono que nos permite personalizarlo*. 
