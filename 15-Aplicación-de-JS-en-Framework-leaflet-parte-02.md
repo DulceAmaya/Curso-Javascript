@@ -247,3 +247,7 @@ Como indica en la documentación el primer parámetro es la geometría (lista de
 <p align="center"> 
 <img src="./img/leaflet-final.png" width="800px;" height="400;">
 </p>  
+
+En el siguiente link podemos ver el resultado: 
+
+https://gyazo.com/51486b49de27cf11c63ce664663f6492
