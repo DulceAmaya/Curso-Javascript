@@ -306,3 +306,6 @@ En el código previo veamos que iteramos cada objeto de **features** en el geojs
 <p align="center"> 
 <img src="./img/leaflet03.png" width="1000px;" height="700px;">
 </p>  
+
+Con ésto hemos un mapa básico con leaflet, ahora haremos otro ejemplo de las lineas de metro de la **CDMX** y marcadores con movimiendo. Adicionalmente podemos encontrar otro ejemplo de leaflet en el siguiente link.  
+
