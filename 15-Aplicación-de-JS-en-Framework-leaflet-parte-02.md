@@ -180,6 +180,13 @@ Notemos que en las options podemos agregar la función linestyle que definimos, 
 <img src="./img/lineas-metro-leaflet.png" width="1000px;" height="600px;">
 </p> 
 
+Carguemos la geometría del estado **CDMX**, está contenida en el archivo **cdmx.geojson** en el repositorio  
+
+```javascript
+	$.getJSON("http://127.0.0.1:8080/cdmx.geojson", function(data) {        	
+			L.geoJson(data).addTo(map);	
+	})
+```
 
 
 
