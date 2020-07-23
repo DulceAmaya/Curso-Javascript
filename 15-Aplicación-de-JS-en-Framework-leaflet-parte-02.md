@@ -116,3 +116,18 @@ No es necesaria ésta función pero sirve para resaltar las líneas con su color
 ```
  
 Usaremos una estructura switch case para cazar el color de la linea correspondiente  
+
+Creamos una función para darle estilo a cada una de las geometrías como vimos en el ejemplo anterior: 
+
+```javascript
+	//código previo
+	function linestyle(feature) {
+		return {
+			weight: 3,
+			opacity: 2,
+			color: getColor(feature.properties.name),  //Outline color
+			fillOpacity: 1
+		};
+	}
+```  
+
