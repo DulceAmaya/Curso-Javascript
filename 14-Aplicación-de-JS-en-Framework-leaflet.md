@@ -110,14 +110,7 @@ Vamos a inicializar e instanciar nuestro mapa de leaflet con la siguiente línea
 
 Lo siguiente es cargar un tile layer base para nuestro mapa, en éste caso usaremos el que nos brinda **OpenStreetMaps**, un layer lo podemos pensara como un archivo ó herramienta que es un conjunto de datos geográficos (TERMINAR DE DEFINIR UN TILE LAYER).  
 
-```javascript
-	<script type="text/javascript" charset="utf-8">
-		//código anterior  
-		var baseLayer = L.tileLayer('https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png', {
-			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(map);
-	</script>  
-```  
+
 A través del método tileLayer(...) podemos cargar y desplegar capas en nuestro mapa, entre los parámetros de la función está el **URL** al tile layer.
 
 Recordando un poco nuestro aprendizaje previo del lenguaje Javascript, recordemos que podemos aplicar funciones a resultados de funciones previas, entonces nuestra función **addTo(map)** que podemos encontrar al final de **tileLayer()**, con ésto le estamos indicando que se agregue el layer a nuestro mapa. Hasta éste punto deberemos tener nuestro mapa de la siguiente manera:  
@@ -128,7 +121,53 @@ Recordando un poco nuestro aprendizaje previo del lenguaje Javascript, recordemo
 
 ### L.Control(...)
 
-asd 
+En leaflet existen dos tipos de capas, las base layers que son exclusivas entre sí y las overlays, que agregan información ***encima*** de la capa base.
+**Control es la clase base para implementar controladores en el mapa**.  
+
+Agregaremos el siguiente código que nos indicará el nombre del estado junto con la densidad de población asociada:  
+
+```javascript
+	//código previo
+	var info = L.control();
+``` 
+
+Inicializamos e instanciamos de la clase Control la variable info, posteriormente definiremos un evento **onAdd** sobre nuestra instancia que 
+representará una función:  
+
+```javascript
+	<script type="text/javascript" charset="utf-8">
+	//código previo
+	info.onAdd = function (map) {
+			this._div = L.DomUtil.create('div', 'info');
+			this.update();
+			return this._div;
+	};
+	</script>
+```
+La función en pocas palabras nos crea un bloque **div** en nuestro dom del html con un **id="info**.  
+
+Ahora agregamos sobre el evento **update** el siguiente código con la información que queremos mostrar:  
+
+```javascript
+	<script type="text/javascript" charset="utf-8">
+	//código previo
+	info.update = function (props) {
+			this._div.innerHTML = '<h4>Densidad de población México</h4>' +  (props ?
+				'<b>' + props.entidad_nombre + '</b><br />' + props.density + ' personas / mi<sup>2</sup>'
+				: 'Click sobre un estado');
+	};
+	</script>
+```  
+
+Aquí hay que resaltar que conocemos de antemano el nombre de los atributos de los objetos en el **geojson**, contamos con una propiedad denominada **entidad_nombre** y **density**, al div **info** previamente creado le estamos insertando en el html la información correspondiente.  
+
+```javascript
+	<script type="text/javascript" charset="utf-8">
+	//código previo
+	info.addTo(map);
+	</script>
+```  
+Solo nos queda agregar el control al mapa.  
 
 
 ### Aplicación a un mapa coroplético  
