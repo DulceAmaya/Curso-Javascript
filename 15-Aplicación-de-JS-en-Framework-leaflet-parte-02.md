@@ -10,13 +10,14 @@ Primero que nada creamos un template de html básico:
 
 En el **head** agregamos el siguiente css 
 
+```html
 <style type="text/css" media="screen">
-
-		#map{
+	#map{
 			position: absolute;
 			top: 0;
 			bottom: 0;
 			left: 0;
 			right: 0;
-		}
-	</style>
+	}
+</style>
+```  
