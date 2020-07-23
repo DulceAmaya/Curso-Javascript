@@ -216,6 +216,57 @@ Las configuración de style que se usara es:
 		  
 	6. fillOpacity:  
 		Especifica la operación de pintado para rellenar el elemento.  
+#### Funciones auxiliares para resaltar estados  
+
+Agregaremos unas funciones adicionales para cuando queramos hacer zoom sobre un estado concreto y consultar determinada información  
+
+```javascript
+	  // código previo
+	  function highlightFeature(e) {
+				var layer = e.target;
+
+				layer.setStyle({
+					weight: 5,
+					color: '#666',
+					dashArray: '',
+					fillOpacity: 0.7
+				});
+
+				if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+					layer.bringToFront();
+				}
+
+				info.update(layer.feature.properties);
+	   }
+	
+```
+Con éste código estamos logrando que cuando nuestro mouse apunte a un éstado concreto, éste de alguna forma resalte sobre los demás. Para ello usamos la propiedad **target** del evento de javascript, se guarda en una variable y se le asigna un estilado, al final actualizamos el **div info** con las propiedades concretas del estado.  
+
+```javascript
+	// código previo
+	var datageo;
+	function resetHighlight(e) {
+		geojson.resetStyle(e.target);
+		info.update();
+	}
+	function zoomToFeature(e) {
+		map.fitBounds(e.target.getBounds());
+	}
+	function onEachFeature(feature, layer) {
+		layer.on({
+			mouseover: highlightFeature,
+			mouseout: resetHighlight,
+			click: zoomToFeature
+		});
+	}
+```
+
+Definiremos una variable **geojson** que nos servirá más adelante para guardar información. Ahora cada una de las tres funciones tiene un objetivo:  
+
+	1. resetHighlight vuelve al color original el estado al que hayamos hecho click
+	2. zoomToFeature nos hace zoom y centra la vista sobre la entidad a la que hayamos hecho click
+	3. onEachFeature manda a ejecutar las dos funciones anteriores una vez hecho click sobre un estado
+
 
 ### L.geoJSON() 
 
@@ -233,7 +284,7 @@ Ahora que tenemos todo preparado veremos cómo cargar las geometrías de los est
 		$.getJSON("http://127.0.0.1:8080/entidades.geojson", function(data) {
         	data['features'].forEach(element => 
         		element.properties["density"] = Math.floor(Math.random() * 1000))
-        	L.geoJson(data, {style: style}).addTo(map);	
+        	geojson = L.geoJson(data, {style: style, onEachFeature: onEachFeature}).addTo(map);	
     	})
 	</script>  
 ``` 
@@ -241,7 +292,7 @@ Con ayuda del framework JQuery haremos una petición get a la url que se indica 
 puerto 8080** y el sufijo **entidades.geojson** corresponde al nombre del archivo.  
 Notemos que recibe como parámetro también una función anónima, en ella podemos definir el comportamiento que queremos ejecutar al leer la información. **Data** es el parámetro de dicha función que es el geojson previamente cargado, una vez hecho ésto, necesitamos contar con un atributo del objeto para poder realizar nuestro mapa, como nuestro geojson no tiene ningún valor estadístico asignaremos uno aleatorio para cada estado en un rango de [0,999].  
 
-En el código previo veamos que iteramos cada objeto de **features** en el geojson y en las **properties** definimos un nuevo atributo llamado density inicializado en un valor aleatorio entre [0,1000]. Cuando acabe el ciclo **for each** ya solo debemos cargar los datos a un tyle con la función **geoJson**, le pasaremos la configuración que habíamos definido previamente **style** y lo agregaremos al mapa.
+En el código previo veamos que iteramos cada objeto de **features** en el geojson y en las **properties** definimos un nuevo atributo llamado density inicializado en un valor aleatorio entre [0,1000]. Cuando acabe el ciclo **for each** ya solo debemos cargar los datos a un tyle con la función **geoJson**, le pasaremos la configuración que habíamos definido previamente **style** y lo agregaremos al mapa junto con la función **onEachFeature** definida con anterioridad, el resultado lo guardaremos en la variable **datageo**
 
 
 <p><span style="color:blue">Con ésto deberemos tener ya listo nuestro mapa y ser verá de la siguiente forma (recordando que al tomar valores aleatorios los colores de los estados pueden variar).</span></p>
