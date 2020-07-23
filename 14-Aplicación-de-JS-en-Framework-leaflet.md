@@ -307,5 +307,7 @@ En el código previo veamos que iteramos cada objeto de **features** en el geojs
 <img src="./img/leaflet03.png" width="1000px;" height="700px;">
 </p>  
 
-Con ésto hemos un mapa básico con leaflet, ahora haremos otro ejemplo de las lineas de metro de la **CDMX** y marcadores con movimiendo. Adicionalmente podemos encontrar otro ejemplo de leaflet en el siguiente link.  
+Con ésto hemos un mapa básico con leaflet, ahora haremos otro ejemplo de las lineas de metro de la **CDMX** y marcadores con movimiendo. Adicionalmente podemos encontrar otro ejemplo de leaflet en el siguiente link (pero está montado el servidor en un **proyecto de django**):
+
+https://centrogeo.github.io/Geodjango_charts/GeoDjango/09-Datos-Leaflet.html
 
