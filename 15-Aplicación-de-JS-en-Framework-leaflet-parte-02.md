@@ -194,5 +194,54 @@ Obtenemos lo siguiente:
 <img src="./img/geometria-cdmx.png" width="1000px;" height="600px;">
 </p> 
 
+Usemos un ícono personalizado para nuestro marcador:  
 
+```javascript
+	var firefoxIcon = L.icon({
+			        iconUrl: '../datos/metro.png',
+			        iconSize: [25, 25], // size of the icon
+	});
+```
+Lo mandaremos a llamar más adelante.  
+
+Vamos a guardar todas las líneas (coordendas de la geometría) en una lista 
+
+```javascript
+	//código anterior
+	var coordenadas = []
+	for(i = 0; i < geojsonFeature.features.length; i++){
+		var aux = []
+		for(j = 0; j < geojsonFeature.features[i].geometry.coordinates.length; j++){
+			aux.push(geojsonFeature.features[i].geometry.coordinates[j])
+		}
+		aux = invertirLatLong(aux)
+		coordenadas.push(aux)
+	}
+```
+Lo que realmente hacemos es iterar con un ciclo for sobre cada objeto dentro del geojson, para cada geometría guardamos su lista de coordenadas una vez hemos invertido las mismas con nuestra función **invertirLatLong** y lo guardamos en nuestra lista **coordenadas**.  
+
+Ahora veremos un ejemplo de cómo crear varios marcadores, aunque tiene como limitación el manejo de eventos sobre los mismos.  
+
+
+```javascript
+	//código anterior
+	for(i = 0; i < coordenadas.length; i++){
+		var linea = coordenadas[i];
+		var desplazamiento = [];
+		for(j = 0; j < linea.length; j++){
+			desplazamiento.push(1000);
+		}
+		var marker =  L.Marker.movingMarker(linea,
+    		desplazamiento, {icon:firefoxIcon}).addTo(map);
+		marker.start();
+	    	marker.on('click', function() {
+			if (marker.isRunning()) {
+		            marker.pause();
+		        } else {
+		            marker.start();
+		        }
+		});
+	}
+```
+Ya que tenemos la lista de listas con las coordenadas invertidas, iteramos sobre cada una de ellas para generar el marcador, para ésto veamos el constructor del marcador con movimiento (**Moving marker**)  
 
