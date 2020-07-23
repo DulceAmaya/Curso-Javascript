@@ -136,8 +136,12 @@ le pasaremos la propiedad nombre contenida en **properties** de cada objeto.
 
 Cargaremos los datos del geojson, los datos abiertos los podemos encontrar en el siguiente link 
 
-	1. https://datos.cdmx.gob.mx/explore/dataset/lineas-de-metro/export/
+https://datos.cdmx.gob.mx/explore/dataset/lineas-de-metro/export/
 
+
+<p align="center"> 
+<img src="./img/lineas-metro.png" width="600px;" height="300;">
+</p> 
 
 ```javascript
 	//código previo
