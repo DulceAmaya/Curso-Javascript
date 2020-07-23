@@ -304,5 +304,5 @@ En el código previo veamos que iteramos cada objeto de **features** en el geojs
 <br>
 
 <p align="center"> 
-<img src="./img/leaflet03.png" width="900px;" height="600px;">
+<img src="./img/leaflet03.png" width="1000px;" height="700px;">
 </p>  
