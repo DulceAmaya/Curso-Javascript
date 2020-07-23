@@ -229,7 +229,7 @@ Ahora veremos un ejemplo de cómo crear varios marcadores, aunque tiene como lim
 		var linea = coordenadas[i];
 		
 		var marker =  L.Marker.movingMarker(linea,
-    		4000, {icon:firefoxIcon}).addTo(map);
+    		4000, {icon:firefoxIcon, loop:true}).addTo(map);
 		marker.start();
 	    	marker.on('click', function() {
 			if (marker.isRunning()) {
