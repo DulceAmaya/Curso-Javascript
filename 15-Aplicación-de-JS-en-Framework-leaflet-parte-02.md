@@ -140,7 +140,7 @@ https://datos.cdmx.gob.mx/explore/dataset/lineas-de-metro/export/
 
 
 <p align="center"> 
-<img src="./img/lineas-metro.png" width="600px;" height="300;">
+<img src="./img/lineas-metro.png" width="1000px;" height="500;">
 </p> 
 
 ```javascript
