@@ -163,4 +163,7 @@ Tenemos un problema, nuestras latlong del geojson están invertidas a lo que nec
         	return arreglo
         }
 ```  
+La función reversa lo que hace es invertir el orden de los elementos en la estructura, éstos deben ser iterables, en nuestro caso tenemos listas de listas de dos elementos (dada la naturaleza de la geometría).  
+Para cada lista en la lista de coordenadas, tomamos el elemento 0 y lo guardamos en una variable auxiliar aux, después copiamos en el elemento 0 de la lista, el valor del elemento 1 y el elemento 1 de la lista toma el valor temporal de aux. Con ésto hemos logrado que la lista de coordenadas tenga la latlong invertida como la necesitamos.  
+
 
