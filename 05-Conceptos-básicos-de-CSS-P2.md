@@ -141,7 +141,9 @@ Para esto, utilizamos la propiedad `opacity` que recibe como valor un número en
 
 En el ejemplo podemos ver la diferencia entre dos objetos del mismo color pero con una opacidad diferente.
 
-#### Background color
+### Fondo
+
+#### Color de fondo
 Para cambiar el color de fondo de nuestra página web utilizamos la propiedad `background-color`.
 
 Podemos definir el color de fondo de toda la página web son el selector `html` o `body`. Sin embargo, podemos definir el color de fondo de muchas cosas más, como párrafos, encabezados, contenedores, etc.
@@ -151,6 +153,25 @@ Podemos definir el color de fondo de toda la página web son el selector `html` 
 <p align="center">
     <img src="./img/backgroundColor2.png">
 </p>
+
+#### Imagen de fondo
+Para definir una imagen de fondo utilizamos la propiedad `background-image`.
+
+Al igual que el color de fondo, podemos definir una imagen como fondo no solo de toda la página sino, también de otro elementos, como un contenedor, por ejemplo.
+
+Esta propiedad recibe como valor un `url` con la dirección en donde se encuentra la imagen que deseamos utilizar.
+
+<p align="center">
+    <img src="./img/backgroundImage.png">
+</p>
+
+Además de `background-image` utilizamos la propiedad `background-size = cover`, está propiedad, con el valor `cover`, se encarga de reajustar el tamaño de la imagen para que cubra todo el tamaño de su contenedor.
+
+<p align="center">
+    <img src="./img/backgroundImage2.png">
+</p>
+
+En nuestro ejemplo, además de definir una imagen de fondo para toda la página, definimos un contenedor con la clase ejemplo al que también le asignamos una imagen de fondo distinta.
 
 ### Unidades
 En la hoja de estilos existen múltiples propiedades que reciben como valor una medida o tamaño que debe ser especificado en ciertas unidades. Por ejemplo la altura (height) o ancho (width) de un elemento, el tamaño del texto, etc.
