@@ -29,8 +29,8 @@ Curso de introducción al lenguaje de programación Javascript
     - [Fondo](05-Conceptos-básicos-de-CSS-P2.md#fondo)
     - [Unidades](05-Conceptos-básicos-de-CSS-P2.md#unidades)
 
-6. Conceptos básicos de CSS Parte(3)
-    - Box Model
+6. [Conceptos básicos de CSS Parte(3)](06-Conceptos-básicos-de-CSS-P3.md)
+    - [Box Model](06-Conceptos-básicos-de-CSS-P3.md#modelo-de-caja)
     - Display
     - Position
     - Grid y Flexbox
