@@ -171,7 +171,7 @@ Además de `background-image` utilizamos la propiedad `background-size = cover`,
     <img src="./img/backgroundImage2.png">
 </p>
 
-En nuestro ejemplo, además de definir una imagen de fondo para toda la página, definimos un contenedor con la clase ejemplo al que también le asignamos una imagen de fondo distinta.
+En nuestro ejemplo, además de definir una imagen de fondo para toda la página, definimos un contenedor al que también le asignamos una imagen de fondo distinta.
 
 ### Unidades
 En la hoja de estilos existen múltiples propiedades que reciben como valor una medida o tamaño que debe ser especificado en ciertas unidades. Por ejemplo la altura (height) o ancho (width) de un elemento, el tamaño del texto, etc.
