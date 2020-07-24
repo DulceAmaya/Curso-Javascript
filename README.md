@@ -22,12 +22,13 @@ Curso de introducción al lenguaje de programación Javascript
     - [Sintaxis](04-Conceptos-básicos-de-CSS-P1.md#sintaxis)
     - [Selectores](04-Conceptos-básicos-de-CSS-P1.md#selectores)
     - [Especificidad](04-Conceptos-básicos-de-CSS-P1.md#especificidad)
- 
+
 5. [Conceptos básicos de CSS Parte(2)](05-Conceptos-básicos-de-CSS-P2.md)
     - [Texto](05-Conceptos-básicos-de-CSS-P2.md#texto)
     - [Colores](05-Conceptos-básicos-de-CSS-P2.md#colores)
+    - [Fondo](05-Conceptos-básicos-de-CSS-P2.md#fondo)
     - [Unidades](05-Conceptos-básicos-de-CSS-P2.md#unidades)
-    
+
 6. Conceptos básicos de CSS Parte(3)
     - Box Model
     - Display
