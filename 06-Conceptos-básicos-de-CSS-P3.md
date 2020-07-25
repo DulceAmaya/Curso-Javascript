@@ -131,7 +131,7 @@ En este ejemplo, definimos únicamente el margen del lado izquierdo, con un valo
 
 La propiedad `position` define como se posiciona un elemento en la página web.
 
-Esta propiedad puede recibir 5 valores distintos:
+Esta propiedad puede recibir uno de cuatro valores distintos:
 
 #### Static
 Este es su valor por defecto.
@@ -187,3 +187,18 @@ Continuando con el ejemplo de arriba, vemos que, al definir la posición del pri
 <p align="center">
     <img src="./img/posicionAbsoluta4.png">
 </p>
+
+#### Fixed
+Un elemento con posición `position = fixed` es posicionado con respecto a la ventana, lo que quiere decir que siempre se mantiene en el mismo lugar, aun cuando el usuario se desplaza por la página.
+
+<p align="center">
+    <img src="./img/posicionFixed.png">
+</p>
+<p align="center">
+    <img src="./img/posicionFixed2.png">
+</p>
+<p align="center">
+    <img src="./img/posicionFixed3.png">
+</p>
+
+Podemos ver que, aunque nos desplzamos por la página, el segundo contenedor se mantiene en el mismo lugar.
