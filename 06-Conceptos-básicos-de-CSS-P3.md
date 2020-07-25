@@ -126,3 +126,43 @@ La propiedad `margin` nos permite definir el espacio fuera del elemento para los
 </p>
 
 En este ejemplo, definimos únicamente el margen del lado izquierdo, con un valor de 100 pixeles, por lo que podemos ver que el elemento se desplaza hacia la izquierda.
+
+### Posición
+
+La propiedad `position` define como se posiciona un elemento en la página web.
+
+Esta propiedad puede recibir 5 valores distintos:
+
+#### Static
+Este es su valor por defecto.
+
+#### Relative
+Un elemento con `position = relative` es posicionado con relación a su posición normal.
+
+Para esto, utilizamos además las propiedades:
+* `top`: desplaza el elemento hacia abajo.
+* `bottom`: desplaza el elemento hacia arriba.
+* `right`: desplaza el elemento hacia la izquierda.
+* `left`: desplaza el elemento hacia la derecha.
+
+Veamos un ejemplo.
+<p align="center">
+    <img src="./img/posicion.png">
+</p>
+<p align="center">
+    <img src="./img/posicion2.png">
+</p>
+<p align="center">
+    <img src="./img/posicion3.png">
+</p>
+
+Para comenzar, definimos dos contenedores. Como mencionamos arriba, su posicion por defecto es estática.
+
+<p align="center">
+    <img src="./img/posicion5.png">
+</p>
+<p align="center">
+    <img src="./img/posicion4.png">
+</p>
+
+Ahora, al definir la posición del primer contenedor como relativa, utilizamos la propiedad `left` para desplazarlo 50 pixeles hacía la izquierda con respecto a su posición inicial.
