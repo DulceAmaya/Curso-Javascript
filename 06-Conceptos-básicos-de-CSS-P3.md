@@ -166,3 +166,24 @@ Para comenzar, definimos dos contenedores. Como mencionamos arriba, su posicion 
 </p>
 
 Ahora, al definir la posición del primer contenedor como relativa, utilizamos la propiedad `left` para desplazarlo 50 pixeles hacía la izquierda con respecto a su posición inicial.
+
+#### Absolute
+Cuando la posición de un elemento es definida como `position = absolute` el resto de los elementos en la página ignoraran a dicho elemento y el elemento será posicionado con respecto a la posición de su elemento padre.
+
+Al igual que para la posición relativa, podemos utilizar las propiedades `top`, `bottom`, `right` y `left` para mover el elemento por la página.
+
+<p align="center">
+    <img src="./img/posicionAbsoluta.png">
+</p>
+<p align="center">
+    <img src="./img/posicionAbsoluta2.png">
+</p>
+
+Continuando con el ejemplo de arriba, vemos que, al definir la posición del primer contenedor como absoluta, este cubre completamente al segundo contenedor. Esto es porque el segundo contenedor ignora al primero y es posicionado en el mismo lugar del primer contenedor.
+
+<p align="center">
+    <img src="./img/posicionAbsoluta3.png">
+</p>
+<p align="center">
+    <img src="./img/posicionAbsoluta4.png">
+</p>
