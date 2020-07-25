@@ -50,9 +50,9 @@ La propiedad `border` recibe tres valores:
     <img src="./img/border2.png">
 </p>
 
-Continuando con el ejemplo de arriba, hemos definido un borde de 3 pixeles de ancho, con estilo sólido y color carmín.
+Continuando con el ejemplo de arriba, hemos definido, un borde de 3 pixeles de ancho, con estilo sólido y color carmín.
 
-La propiedad `border` nos permite definir el borde para los cuatro lados del elementos, sin embargo, podemos definir cada uno individualmente con las siguientes propiedades:
+La propiedad `border` nos permite definir el borde para los cuatro lados del elemento, sin embargo, podemos definir cada uno individualmente con las siguientes propiedades:
 * `border-right`
 * `border-left`
 * `border-top`
@@ -73,7 +73,7 @@ El espacio entre el contenido de elemento y su borde se conoce como padding.
 
 Para modificar este espacio utilizamos la propiedad `padding`.
 
-Como podemos ver en el ejemplo de arriba, el texto del párrafo de encima con el borde. Esto lo podemos arregla utilizando el padding.
+Como podemos ver en el ejemplo de arriba, el texto del párrafo de encima con el borde. Esto lo podemos arreglar utilizando el padding.
 
 <p align="center">
     <img src="./img/padding.png">
@@ -82,7 +82,7 @@ Como podemos ver en el ejemplo de arriba, el texto del párrafo de encima con el
     <img src="./img/padding2.png">
 </p>
 
-Ahora, hemos agregado un padding de 10 pixeles a nuestro elemento, por lo que, el modelo de caja de nuestro párrafo, luciría así hasta el momento:
+Ahora, hemos agregado un padding de 10 pixeles a cada lado de nuestro elemento, por lo que, el modelo de caja de nuestro párrafo, luciría así hasta el momento:
 <p align="center">
     <img src="./img/boxModel2.png">
 </p>
@@ -92,3 +92,37 @@ La propiedad `padding` nos permite definir el espacio entre el contenido y el bo
 * `padding-left`
 * `padding-top`
 * `padding-bottom`
+
+#### Margen
+El margen se refiere al espacio fuera de la caja, esto es, el espacio entre el borde del elemento y el resto de los elementos que lo rodean.
+
+Para modificar este espacio utilizamos la propiedad `margin`.
+
+<p align="center">
+    <img src="./img/margen2.png">
+</p>
+<p align="center">
+    <img src="./img/margen3.png">
+</p>
+
+Siguiendo el ejemplo de arriba, si agregamos un margen de 20 pixeles, podemos ver que el elemento se desplaza ligeramente hacia la derecha y hacia abajo.
+
+Entonces, al agregar el margen, el modelo de caja de nuestro elemento luce así:
+<p align="center">
+    <img src="./img/margen.png">
+</p>
+
+La propiedad `margin` nos permite definir el espacio fuera del elemento para los cuatro lados de la caja, sin embargo, podemos definir cada lado individualmente:
+* `margin-right`
+* `margin-left`
+* `margin-top`
+* `margin-bottom`
+
+<p align="center">
+    <img src="./img/margen4.png">
+</p>
+<p align="center">
+    <img src="./img/margen5.png">
+</p>
+
+En este ejemplo, definimos únicamente el margen del lado izquierdo, con un valor de 100 pixeles, por lo que podemos ver que el elemento se desplaza hacia la izquierda.
