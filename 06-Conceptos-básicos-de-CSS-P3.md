@@ -204,3 +204,31 @@ Un elemento con posición `position = fixed` es posicionado con respecto a la ve
 Podemos ver que, aunque nos desplazamos por la página, el segundo contenedor se mantiene en el mismo lugar.
 
 ### Display
+La propiedad `display` establece como se desplegará un elemento en la página, y como se desplegarán además sus hijos.
+
+Todos los elementos html tienen un valor de la propiedad `display` definido por defecto, que determina si pueden o no compartir espacio horizontalmente con otros elementos.
+
+#### Inline
+Los elementos con la propiedad `display = inline` aparecen contenidos en una caja ([Modelo de caja](#modelo-de-caja)) que solamente utiliza el espacio necesario para desplegar su contenido, y que no necesitan una nueva línea para desplegar el siguiente elemento.
+
+Es importante tener en cuenta que, con el valor de `inline`, no es posible definir las dimensiones del elemento, pues, como mencionamos, el tamaño de su caja solo será el necesario para desplegar el contenido.
+
+<p align="center">
+    <img src="./img/displayInline3.png">
+</p>
+<p align="center">
+    <img src="./img/displayInline4.png">
+</p>
+
+Por defecto, cada contenedor ocupa todo el espacio horizontal de la página web, por lo que cada elemento se muestra en una línea invidual.
+
+<p align="center">
+    <img src="./img/displayInline.png">
+</p>
+<p align="center">
+    <img src="./img/displayInline2.png">
+</p>
+
+Al definir el valor de `diaplay` de los elementos `div` como `inline`, ambos contenedores se muestran en la misma línea.
+
+Podemos ver que, aunque en el ejemplo definimos la altura del primer contenedor como 100 pixeles, el elemento solo es del tamaño necesario para desplegar su contenido, en este caso la palabra `¡Hola!`.
