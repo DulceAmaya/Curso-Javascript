@@ -10,5 +10,5 @@ Como en cualquier lenguaje, las estructuras de control nos dan control sobre el 
 
 ## If-elif-else
 
-Quisá sea la estructura de control más elemental y su estructura es la siguiente:  
+Quizá sea la estructura de control más elemental y su estructura es la siguiente:  
 
