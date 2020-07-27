@@ -12,10 +12,12 @@ Como en cualquier lenguaje, las estructuras de control nos dan control sobre el 
 
 Quizá sea la estructura de control más elemental y su estructura es la siguiente:  
 
-if (condition1) {
-  //  block of code to be executed if condition1 is true
-} else if (condition2) {
-  //  block of code to be executed if the condition1 is false and condition2 is true
-} else {
-  //  block of code to be executed if the condition1 is false and condition2 is false
-}
+```Javascript
+    if (condicion-uno) {
+      //  código si evalúa a verdadero
+    } else if (condicion-dos) {
+      //  código si evalúa a verdadero si al condición uno es falsa
+    } else {
+      //  código si las dos primeras condiciones son falsas
+    }
+```
