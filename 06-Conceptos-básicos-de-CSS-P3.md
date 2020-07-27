@@ -249,3 +249,24 @@ Vamos un ejemplo, donde definimos dos elementos con la etiqueta `<a>`.
 </p>
 
 Los links se muestran por defecto como `inline`, por lo que podemos ver que ambos elementos se despliegan en la misma línea.
+<p align="center">
+    <img src="./img/displayBlock4.png">
+</p>
+<p align="center">
+    <img src="./img/displayBlock5.png">
+</p>
+
+Ahora, al definir `display = block`, cada elemento se muestra en su propia línea horizontal y podemos definir sus dimensiones en la hoja de estilos.
+
+#### Inline-Block
+El valor `inline-block` combina características de las dos propiedades anteriores: los elementos pueden aparecer unos junto a otros en la misma línea pero además, podemos definir sus dimensiones.
+
+Continuando con el ejemplo anterior:
+<p align="center">
+    <img src="./img/displayInlineBlock.png">
+</p>
+<p align="center">
+    <img src="./img/displayInlineBlock2.png">
+</p>
+
+Ahora, al definir la propiedad `display = inline-block` ambos elementos se muestran en la misma línea, pero con las dimensiones `100px x 30px`.
