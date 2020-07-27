@@ -127,7 +127,7 @@ La propiedad `margin` nos permite definir el espacio fuera del elemento para los
 
 En este ejemplo, definimos únicamente el margen del lado izquierdo, con un valor de 100 pixeles, por lo que podemos ver que el elemento se desplaza hacia la izquierda.
 
-### Posición
+### Position
 
 La propiedad `position` define como se posiciona un elemento en la página web.
 
@@ -156,7 +156,7 @@ Veamos un ejemplo.
     <img src="./img/posicion3.png">
 </p>
 
-Para comenzar, definimos dos contenedores. Como mencionamos arriba, su posicion por defecto es estática.
+Para comenzar, definimos dos contenedores. Como mencionamos arriba, su posición por defecto es estática.
 
 <p align="center">
     <img src="./img/posicion5.png">
@@ -179,7 +179,7 @@ Al igual que para la posición relativa, podemos utilizar las propiedades `top`,
     <img src="./img/posicionAbsoluta2.png">
 </p>
 
-Continuando con el ejemplo de arriba, vemos que, al definir la posición del primer contenedor como absoluta, este cubre completamente al segundo contenedor. Esto es porque el segundo contenedor ignora al primero y es posicionado en el mismo lugar del primer contenedor.
+Continuando con el ejemplo de arriba, veamos que, al definir la posición del primer contenedor como absoluta, este cubre completamente al segundo contenedor. Esto es porque el segundo contenedor ignora al primero y es posicionado en el mismo lugar del primer contenedor.
 
 <p align="center">
     <img src="./img/posicionAbsoluta3.png">
@@ -201,4 +201,6 @@ Un elemento con posición `position = fixed` es posicionado con respecto a la ve
     <img src="./img/posicionFixed3.png">
 </p>
 
-Podemos ver que, aunque nos desplzamos por la página, el segundo contenedor se mantiene en el mismo lugar.
+Podemos ver que, aunque nos desplazamos por la página, el segundo contenedor se mantiene en el mismo lugar.
+
+### Display
