@@ -270,3 +270,11 @@ Continuando con el ejemplo anterior:
 </p>
 
 Ahora, al definir la propiedad `display = inline-block` ambos elementos se muestran en la misma línea, pero con las dimensiones `100px x 30px`.
+
+<br>
+
+Hay muchos más temas por abordar respecto a las hojas de estilos (y mucho más que aprender de los temas ya mencionados), sin embargo, salen del alcance de este curso. Aquí, puedes encontrar más información de gran utilidad para continuar con tu aprendizaje sobre el lenguaje CSS.
+
+* [CSS Almanac](https://css-tricks.com/almanac/): listado de todas las propiedades de CSS y como utilizarlas.
+* [CSS Tutorial](https://www.w3schools.com/css/): Tutorial del lenguaje CSS.
+* [CSS CheatSheet](https://htmlcheatsheet.com/css/): Página web interactiva de todas las propiedades de CSS.
