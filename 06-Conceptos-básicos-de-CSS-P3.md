@@ -232,3 +232,20 @@ Por defecto, cada contenedor ocupa todo el espacio horizontal de la página web,
 Al definir el valor de `diaplay` de los elementos `div` como `inline`, ambos contenedores se muestran en la misma línea.
 
 Podemos ver que, aunque en el ejemplo definimos la altura del primer contenedor como 100 pixeles, el elemento solo es del tamaño necesario para desplegar su contenido, en este caso la palabra `¡Hola!`.
+
+#### Block
+Los elementos con la propiedad `display = block` ocupan todo el espacio horizontal de la página web (como vimos en el ejemplo de arriba). Para estos elementos si podemos especificar sus dimensiones en la hoja de estilos.
+
+Vamos un ejemplo, donde definimos dos elementos con la etiqueta `<a>`.
+
+<p align="center">
+    <img src="./img/displayBlock.png">
+</p>
+<p align="center">
+    <img src="./img/displayBlock2.png">
+</p>
+<p align="center">
+    <img src="./img/displayBlock3.png">
+</p>
+
+Los links se muestran por defecto como `inline`, por lo que podemos ver que ambos elementos se despliegan en la misma línea.
