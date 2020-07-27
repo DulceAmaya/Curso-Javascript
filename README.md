@@ -33,7 +33,6 @@ Curso de introducción al lenguaje de programación Javascript
     - [Box Model](06-Conceptos-básicos-de-CSS-P3.md#modelo-de-caja)
     - [Position](06-Conceptos-básicos-de-CSS-P3.md#posición)
     - [Display](06-Conceptos-básicos-de-CSS-P3.md#display)
-    - Grid y Flexbox
 
 7. Conceptos básicos de JS  
 
