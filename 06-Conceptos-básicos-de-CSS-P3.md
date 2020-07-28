@@ -215,7 +215,7 @@ Veamos un ejemplo:
     <img src="./img/zIndex.png">
 </p>
 <p align="center">
-    <img src="./img/zIndex.png">
+    <img src="./img/zIndex2.png">
 </p>
 
 En el ejemplo, definimos tres contenedores con posición absoluta, los cuales se superponen.
