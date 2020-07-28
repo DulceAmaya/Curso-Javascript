@@ -204,7 +204,7 @@ Un elemento con posición `position = fixed` es posicionado con respecto a la ve
 Podemos ver que, aunque nos desplazamos por la página, el segundo contenedor se mantiene en el mismo lugar.
 
 #### Z-Index
-En algunas ocasiones, como vimos en el ejemplo de la posición absoluta, puede ocurrir que dos o más objetos se superpongan. La propiedad de `z-index` no permite definir que tan *atrás* o que tan *adelante* se muestra un elemento.
+En algunas ocasiones, como vimos en el ejemplo de la posición absoluta, puede ocurrir que dos o más objetos se superpongan. La propiedad de `z-index` nos permite definir que tan *atrás* o que tan *adelante* se muestra un elemento.
 
 Esta propiedad recibe como valor un número entero, dependiendo del valor el navegador decide el orden en que se mostraran los elementos, este orden consiste en mostrar primero, o al frente, los elementos con un valor entero más grande.
 
@@ -220,7 +220,7 @@ Veamos un ejemplo:
 
 En el ejemplo, definimos tres contenedores con posición absoluta, los cuales se superponen.
 
-Con la propiedad `z-index` podemos modificar el orden en que se muestran los contenedores.
+Con la propiedad `z-index` podemos modificar el orden en que se muestran estos contenedores.
 
 <p align="center">
     <img src="./img/zIndex3.png">
@@ -229,7 +229,7 @@ Con la propiedad `z-index` podemos modificar el orden en que se muestran los con
     <img src="./img/zIndex4.png">
 </p>
 
-Ahora, el elemento que se desplega hasta el frente es el contenedor color morado, con `z-index = 3`, mientras que el contenedor rosa se desplega en segundo lugar, con `z-index = 2` y el hasta el fondo se muestra el contenedor color azul, con `z-index = 1`.
+Ahora, el elemento que se despliega hasta el frente es el contenedor color morado, con `z-index = 3`, mientras que el contenedor rosa se despliega en segundo lugar, con `z-index = 2` y el hasta el fondo se muestra el contenedor color azul, con `z-index = 1`.
 
 ### Display
 La propiedad `display` establece como se desplegará un elemento en la página, y como se desplegarán además sus hijos.
