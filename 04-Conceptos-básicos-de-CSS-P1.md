@@ -94,7 +94,7 @@ Para seleccionar el *nombre de la clase* en la hoja de estilos, utilizamos la si
     <img src="./img/selectorClass3.png">
 </p>
 
-En el ejemplo podemos ver que tenemos tres elementos `h1`, pero uno de ellos tiene además, el atributo `class="ejemplo"`.
+En el ejemplo podemos ver que tenemos cuatro elementos `h1`, pero dos de ellos tienen además, el atributo `class="ejemplo"`.
 
 En la hoja de estilos, primero, asignamos el color de texto `darkcyan` a todos los elementos `h1`, pero en el siguiente selector, donde seleccionamos únicamente a los elementos con la clase `ejemplo`, asignamos un color de texto distinto (además de un color de fondo), esto es importante tenerlo en cuenta, pues la especificación de CSS tiene un esquema prioritario para aquellas reglas que coinciden para más de un elemento, conocido como **especificidad**.
 
