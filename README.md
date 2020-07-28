@@ -31,7 +31,7 @@ Curso de introducción al lenguaje de programación Javascript
 
 6. [Conceptos básicos de CSS Parte(3)](06-Conceptos-básicos-de-CSS-P3.md)
     - [Box Model](06-Conceptos-básicos-de-CSS-P3.md#modelo-de-caja)
-    - [Position](06-Conceptos-básicos-de-CSS-P3.md#posición)
+    - [Position](06-Conceptos-básicos-de-CSS-P3.md#position)
     - [Display](06-Conceptos-básicos-de-CSS-P3.md#display)
 
 7. Conceptos básicos de JS  
