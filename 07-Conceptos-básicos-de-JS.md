@@ -19,7 +19,22 @@ alert("¡Hola mundo!");
 
 Estas sentencias son ejecutadas por el navegador una por una, en el orden en que están escritas.
 
-### Consola
+### Console
+En Javascript la palabra reservada `console` se refiere a un objeto, una colección de datos y acciones, que podemos utilizar en nuestro código.
+
+Al principio de este curso, mencionamos como acceder a la consola de nuestro navegador, lo que nos permitirá ejecutar sentencias de javascript para interactuar con nuestra página web.
+
+Veamos entonces, algunos de los métodos disponibles con el objeto `console`.
+
+#### log()
+El método `console.log()` nos permite imprimir información en la consola.
+
+```javascript
+console.log("Hola");
+console.log(12);
+console.log([1, 2, 3, 4]);
+console.log(true);
+```
 
 ### Tipos de datos
 
