@@ -40,6 +40,15 @@ console.log(true);
     <img src="./img/js/consoleLog.png">
 </p>
 
+#### clear()
+`console.clear()` sirve para limpiar la consola.
+<p align="center">
+    <img src="./img/js/consoleClear.png">
+</p>
+<p align="center">
+    <img src="./img/js/consoleClear2.png">
+</p>
+
 #### error()
 El método `console.error()` nos permite imprimir un mensaje de error en la consola, lo cual es muy útil cuando estamos probando nuestro código.
 
@@ -52,7 +61,30 @@ console.error("Este es un mensaje de error");
 
 Por defecto, los mensajes de error se muestran en color rojo.
 
+#### warn()
 
+Similiar a `console.error()`, `console.warn()` nos permite imprimir un mensaje de advertencia en la consola.
+<p align="center">
+    <img src="./img/js/consoleWarn.png">
+</p>
+
+Por defecto, estos mensajes aparecen en color amarillo.
+
+#### time() y timeEnd()
+Los métodos `console.time()` y `console.timeEnd()` nos permiten conocer cuanto tiempo tarda en ejecutarse una función o un bloque de código. Reciben como parámetro una etiqueta, que debe ser la misma para ambos métodos.
+<p align="center">
+    <img src="./img/js/consoleTime.png">
+</p>
+
+#### table()
+El método `console.table()` nos permite mostrar datos en la consola representados como una tabla. Recibe un arreglo o un objeto como parámetro.
+<p align="center">
+    <img src="./img/js/consoleTable.png">
+</p>
+
+<br>
+
+Existen más métodos disponibles para el objeto `console`, [aquí](https://developer.mozilla.org/es/docs/Web/API/Console) puedes consultarlos todos.
 
 
 
