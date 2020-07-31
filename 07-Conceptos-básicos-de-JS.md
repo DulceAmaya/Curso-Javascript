@@ -113,7 +113,7 @@ Se denotan con `//` antes del comentario.
     <img src="./img/js/comentario2.png">
 </p>
 
-#### Comentario de múltiples líneas
+##### Comentario de múltiples líneas
 Comienza `/*` y termina con `*/`.
 Cualquier texto entre `/*` y `*/` será ignorado por el interprete de Javascript.
 <p align="center">
