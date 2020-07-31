@@ -34,7 +34,9 @@ Curso de introducción al lenguaje de programación Javascript
     - [Position](06-Conceptos-básicos-de-CSS-P3.md#position)
     - [Display](06-Conceptos-básicos-de-CSS-P3.md#display)
 
-7. Conceptos básicos de JS  
+7. [Conceptos básicos de JS](07-Conceptos-básicos-de-JS.md)
+    - [Programas y Sentencias](07-Conceptos-básicos-de-JS.md#programas-y-sentencias)
+    - [Console](07-Conceptos-básicos-de-JS.md#console)
 
 8. Operadores    
 
