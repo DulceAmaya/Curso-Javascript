@@ -64,6 +64,9 @@ Por defecto, los mensajes de error se muestran en color rojo.
 #### warn()
 
 Similiar a `console.error()`, `console.warn()` nos permite imprimir un mensaje de advertencia en la consola.
+```javascript
+console.warn("Esta es una advertencia");
+```
 <p align="center">
     <img src="./img/js/consoleWarn.png">
 </p>
@@ -72,12 +75,20 @@ Por defecto, estos mensajes aparecen en color amarillo.
 
 #### time() y timeEnd()
 Los métodos `console.time()` y `console.timeEnd()` nos permiten conocer cuanto tiempo tarda en ejecutarse una función o un bloque de código. Reciben como parámetro una etiqueta, que debe ser la misma para ambos métodos.
+```javascript
+console.time('label');
+console.log("Hola");
+console.timeEnd('label');
+```
 <p align="center">
     <img src="./img/js/consoleTime.png">
 </p>
 
 #### table()
 El método `console.table()` nos permite mostrar datos en la consola representados como una tabla. Recibe un arreglo o un objeto como parámetro.
+```javascript
+console.table(['manzana', 'mango', 'fresa', 'naranja']);
+```
 <p align="center">
     <img src="./img/js/consoleTable.png">
 </p>
