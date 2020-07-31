@@ -3,7 +3,7 @@
 HTML es un lenguaje de marcado que sirve para crear el esqueleto de cualquier página web. Se trata de un conjunto de etiquetas que definen el contenido que vemos en un página web, como texto, imágenes, tablas y listas, vídeos, etc.
 
 <p align="center">
-    <img src="./img/HTML-logo.png">
+    <img src="./img/html/HTML-logo.png">
 </p>
 
 HTML es un lenguaje de etiquetas que nos permite definir la estructura de nuestra página, en la cual podemos implementarle funcionalidades dinámicas a través del lenguaje CSS y JS como se verá más adelante en el curso.  
@@ -13,7 +13,7 @@ HTML es un lenguaje de etiquetas que nos permite definir la estructura de nuestr
 Para comenzar, tenemos la estructura base de nuestro documento.
 
 <p align="center">
-    <img src="./img/html-documento.png">
+    <img src="./img/html/html-documento.png">
 </p>
 
 * `DOCTYPE` define la versión de HTML, en este caso, HTML5.
@@ -25,7 +25,7 @@ Para comenzar, tenemos la estructura base de nuestro documento.
 Nuestra primer página web se vería así:
 
 <p align="center">
-    <img src="./img/mi_pagina_web.png">
+    <img src="./img/html/mi_pagina_web.png">
 </p>
 
 ### Elementos
@@ -44,7 +44,7 @@ Con estos elementos podemos crear:
 Estos elementos a su vez se componen de etiquetas, contenido y atributos.
 
 <p align="center">
-    <img src="./img/HTML-ejemplo.png">
+    <img src="./img/html/HTML-ejemplo.png">
 </p>
 
 Con las etiquetas definimos el inicio y fin de un elemento. Existen algunos elementos que no tienen etiqueta de cierre, como por ejemplo `<img>`.
@@ -59,21 +59,21 @@ Como mencionamos arriba, utilizamos elementos para crear todo lo que desplegarem
 #### Encabezados
 Son definidos utilizando las etiquetas `<h1>`, `<h2>`, hasta `<h6>`.
 <p align="center">
-    <img src="./img/encabezados.png">
+    <img src="./img/html/encabezados.png">
 </p>
 
 <p align="center">
-    <img src="./img/encabezados2.png">
+    <img src="./img/html/encabezados2.png">
 </p>
 
 #### Párrafos
 Se definen con la etiqueta `<p>`
 <p align="center">
-    <img src="./img/parrafo.png">
+    <img src="./img/html/parrafo.png">
 </p>
 
 <p align="center">
-    <img src="./img/parrafo2.png">
+    <img src="./img/html/parrafo2.png">
 </p>
 
 #### Imágenes
@@ -86,22 +86,22 @@ Para este elemento debemos definir además atributos.
 Es importante mencionar que el único atributo obligatorio para poder desplegar una imagen es `src`.
 
 <p align="center">
-    <img src="./img/imagenes.png">
+    <img src="./img/html/imagenes.png">
 </p>
 
 <p align="center">
-    <img src="./img/imagenes2.png">
+    <img src="./img/html/imagenes2.png">
 </p>
 
 #### Links
 Se definen con la etiqueta `<a>`.
 
 <p align="center">
-    <img src="./img/links.png">
+    <img src="./img/html/links.png">
 </p>
 
 <p align="center">
-    <img src="./img/links2.png">
+    <img src="./img/html/links2.png">
 </p>
 
 El atributo `href` especifica la dirección del link. Y el texto que colocamos después de la etiqueta inicial, es el texto que se despliega en la página web.
@@ -110,11 +110,11 @@ El atributo `href` especifica la dirección del link. Y el texto que colocamos d
 Se definen con la etiqueta `div` y son de los elementos más útiles pues te permiten dividir el contenido de tu página web en secciones, mejor conocidas como contenedores.
 
 <p align="center">
-    <img src="./img/divs.png">
+    <img src="./img/html/divs.png">
 </p>
 
 <p align="center">
-    <img src="./img/divs2.png">
+    <img src="./img/html/divs2.png">
 </p>
 
 #### Listas
@@ -122,22 +122,22 @@ Se definen con la etiqueta `div` y son de los elementos más útiles pues te per
 Se crean con la etiqueta `<ol>`. Cada elemento se crea con la etiqueta `<li>`.
 
 <p align="center">
-    <img src="./img/listasOrdenadas.png">
+    <img src="./img/html/listasOrdenadas.png">
 </p>
 
 <p align="center">
-    <img src="./img/listasOrdenadas2.png">
+    <img src="./img/html/listasOrdenadas2.png">
 </p>
 
 ###### Listas no ordenadas
 Se crean con la etiqueta `<ul>`. Cada elemento se crea con la etiqueta `<li>`.
 
 <p align="center">
-    <img src="./img/listasNoOrdenadas.png">
+    <img src="./img/html/listasNoOrdenadas.png">
 </p>
 
 <p align="center">
-    <img src="./img/listasNoOrdenadas2.png">
+    <img src="./img/html/listasNoOrdenadas2.png">
 </p>
 
 #### Tablas
@@ -148,11 +148,11 @@ Para crear una tabla utilizamos las siguientes etiquetas:
 * `<td>`: define el contenido del resto de las celdas en cada fila.
 
 <p align="center">
-    <img src="./img/tablas.png">
+    <img src="./img/html/tablas.png">
 </p>
 
 <p align="center">
-    <img src="./img/tablas2.png">
+    <img src="./img/html/tablas2.png">
 </p>
 
 Como podemos ver en el ejemplo, el número de etiquetas `<th>` que definamos en la primer fila, determina la cantidad de columnas que tendrá nuestra tabla.
