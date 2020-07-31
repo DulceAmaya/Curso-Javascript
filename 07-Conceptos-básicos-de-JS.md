@@ -97,6 +97,28 @@ console.table(['manzana', 'mango', 'fresa', 'naranja']);
 
 Existen más métodos disponibles para el objeto `console`, [aquí](https://developer.mozilla.org/es/docs/Web/API/Console) puedes consultarlos todos.
 
+### Comentarios
+Los comentarios nos permiten explicar como funciona un bloque de código o una función, para hacer más legible nuestro programa.
+
+Por otro lado, también nos permiten evitar que se ejecute una sección de nuestro código.
+
+Javascript soporta dos tipos de comentarios.
+
+##### Comentarios de una línea
+Se denotan con `//` antes del comentario.
+<p align="center">
+    <img src="./img/js/comentario.png">
+</p>
+<p align="center">
+    <img src="./img/js/comentario2.png">
+</p>
+
+#### Comentario de múltiples líneas
+Comienza `/*` y termina con `*/`.
+Cualquier texto entre `/*` y `*/` será ignorado por el interprete de Javascript.
+<p align="center">
+    <img src="./img/js/comentario3.png">
+</p>
 
 
 ### Tipos de datos
