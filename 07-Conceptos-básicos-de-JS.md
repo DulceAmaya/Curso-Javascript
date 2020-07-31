@@ -40,6 +40,22 @@ console.log(true);
     <img src="./img/js/consoleLog.png">
 </p>
 
+#### error()
+El método `console.error()` nos permite imprimir un mensaje de error en la consola, lo cual es muy útil cuando estamos probando nuestro código.
+
+```javascript
+console.error("Este es un mensaje de error");
+```
+<p align="center">
+    <img src="./img/js/consoleError.png">
+</p>
+
+Por defecto, los mensajes de error se muestran en color rojo.
+
+
+
+
+
 ### Tipos de datos
 
 ### Operadores aritméticos
