@@ -106,19 +106,26 @@ Javascript soporta dos tipos de comentarios.
 
 ##### Comentarios de una línea
 Se denotan con `//` antes del comentario.
-<p align="center">
-    <img src="./img/js/comentario.png">
-</p>
-<p align="center">
-    <img src="./img/js/comentario2.png">
-</p>
+```javascript
+//Este es un comentario
+console.log("Hola");
+```
+
+```javascript
+console.log("Hola"); //Puedes comentar después de una línea de código
+```
 
 ##### Comentario de múltiples líneas
 Comienza `/*` y termina con `*/`.
 Cualquier texto entre `/*` y `*/` será ignorado por el interprete de Javascript.
-<p align="center">
-    <img src="./img/js/comentario3.png">
-</p>
+```javascript
+/*
+Este es un comentario de múltiples líneas.
+Puedes comentar una sección de código
+console.log(5);
+Esto evitará que la instrucción de arriba se ejecute
+*/
+```
 
 
 ### Tipos de datos
