@@ -36,6 +36,10 @@ console.log([1, 2, 3, 4]);
 console.log(true);
 ```
 
+<p align="center">
+    <img src="./img/js/consoleLog.png">
+</p>
+
 ### Tipos de datos
 
 ### Operadores aritméticos
