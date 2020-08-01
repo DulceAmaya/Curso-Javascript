@@ -78,5 +78,3 @@ console.log(5);
 Esto evitará que la instrucción de arriba se ejecute
 */
 ```
-
-### Variables
