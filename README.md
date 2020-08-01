@@ -40,9 +40,9 @@ Curso de introducción al lenguaje de programación Javascript
     - [Consola](07-Conceptos-básicos-de-JS.md#consola)
     - [Comentarios](07-Conceptos-básicos-de-JS.md#comentarios)
 
-8. Operadores    
+8. Tipos de datos y Operadores
 
-9. Tipos de datos      
+9. Variables   
 
 10. Tipos de funciones  
 
