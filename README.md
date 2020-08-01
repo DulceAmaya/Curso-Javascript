@@ -36,7 +36,9 @@ Curso de introducción al lenguaje de programación Javascript
 
 7. [Conceptos básicos de JS](07-Conceptos-básicos-de-JS.md)
     - [Programas y Sentencias](07-Conceptos-básicos-de-JS.md#programas-y-sentencias)
-    - [Console](07-Conceptos-básicos-de-JS.md#console)
+    - [¡Hola mundo!](07-Conceptos-básicos-de-JS.md#hola-mundo)
+    - [Consola](07-Conceptos-básicos-de-JS.md#consola)
+    - [Comentarios](07-Conceptos-básicos-de-JS.md#comentarios)
 
 8. Operadores    
 
