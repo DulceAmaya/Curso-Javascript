@@ -41,7 +41,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [Comentarios](07-Conceptos-básicos-de-JS.md#comentarios)
 
 8. [Tipos de datos, Variables y Operadores](08-Tipos-de-datos-Variables-Operadores.md)
-    - [Tipos de datos](08-Tipos-de-datos-Variables-Operadores.md)
+    - [Tipos de datos](08-Tipos-de-datos-Variables-Operadores.md#tipos-de-datos)
         - [Number](08-Tipos-de-datos-Variables-Operadores.md#number)
         - [String](08-Tipos-de-datos-Variables-Operadores.md#string)
         - [Boolean](08-Tipos-de-datos-Variables-Operadores.md#boolean)
