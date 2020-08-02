@@ -47,6 +47,8 @@ Curso de introducción al lenguaje de programación Javascript
         - [Boolean](08-Tipos-de-datos-Variables-Operadores.md#boolean)
         - [Null](08-Tipos-de-datos-Variables-Operadores.md#null)
         - [Undefined](08-Tipos-de-datos-Variables-Operadores.md#undefined)
+    - Variables
+    - Operadores
 
 9. Variables   
 
