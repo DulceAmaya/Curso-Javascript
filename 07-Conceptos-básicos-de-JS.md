@@ -45,7 +45,7 @@ console.log(true);
 ```
 
 <p align="center">
-    <img src="./img/js/consoleLog.png">
+    <img src="./img/js/consoleLog3.png">
 </p>
 
 
