@@ -79,7 +79,7 @@ Ahora, al método `console.log()` no le estamos indicando directamente que valor
 
 Además de asignar un valor a una variable, podemos actualizar el valor de una variable existente.
 
-Continuando con el ejemplo anterior, hemos inicializado la variable `nombre` con el valor `"Juan"`, pero podemos cambiar su valor para que ahora, `nombre` contenga el valor `"Pedro"`. Para hacer esto no es necesario volver a utilizar la palabra reservada `var`, lo basta con indicar que valor le será asignado a la variable, utilizando el operador de asignación, `=`.
+Continuando con el ejemplo anterior, hemos inicializado la variable `nombre` con el valor `"Juan"`, pero podemos cambiar su valor para que ahora, `nombre` contenga el valor `"Pedro"`. Para hacer esto no es necesario volver a utilizar la palabra reservada `var`, basta con indicar que valor le será asignado a la variable, utilizando el operador de asignación, `=`.
 
 ```javascript
 nombre = "Pedro";
@@ -96,6 +96,7 @@ Para nombrar a los identificadores (nombre de variables y funciones), utilizamos
 
 ```javascript
 var comidaFavorita = "pizza";
+var numeroDeMascotas = 3;
 ```
 
 Hay ciertos puntos que es importante recordar para nombrar una variable:
