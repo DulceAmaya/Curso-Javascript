@@ -25,3 +25,7 @@ Quizá sea la estructura de control más elemental y su estructura es la siguien
 Una estructura if-else nos permite dividir el código (comportamiento) de cierta parte del programa dependiendo el cumplimiento de ciertas condiciones.  
 
 Podemos ver un ejemplo a continuación:  
+
+<p align="center">
+    <img src="./img/ciclos-01.png" width="400px" height="300px">
+</p>
