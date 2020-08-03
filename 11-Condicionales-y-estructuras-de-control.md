@@ -20,7 +20,10 @@ Quizá sea la estructura de control más elemental y su estructura es la siguien
     } else {
       //  código si las dos primeras condiciones son falsas
     }
-```
+```  
+
+Las llaves y paréntesis forman una parte importante de la estructura, mientras que en el paréntesis tenemos la o las condiciones a evaluar, las llaves delimitan el bloque de código correspondiente a la condición.  
+
 
 Una estructura if-else nos permite dividir el código (comportamiento) de cierta parte del programa dependiendo el cumplimiento de ciertas condiciones.  
 
