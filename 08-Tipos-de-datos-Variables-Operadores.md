@@ -38,11 +38,11 @@ Como podemos ver, en el primer ejemplo preguntamos si *5 es mayor que 7*, y obte
 `undefined` se utiliza para aquellas variables a las cuales no se les ha asignado un tipo de dato.
 
 # Variables
-Una variable funciona como un caja que contiene a un valor. En una variable podemos *asignar* valores como un nombre de usuario, una contraseña, una fecha de nacimiento, o una lista de cosas por hacer, que se almacenan en la memoria de la computadora. Estos valores son datos primitivos, objetos y funciones.
+Una variable funciona como un caja que contiene a un valor. En una variable podemos *asignar* valores como un nombre de usuario, una contraseña, una fecha de nacimiento, o una lista de cosas por hacer, que se almacenan en la memoria de la computadora y que podemos recuperar cuando necesitemos utilizarlos. Estos valores son datos primitivos, objetos y funciones.
 
 Las variables nos permiten, además, etiquetar información de manera descriptiva, de modo que nos facilita su uso y entendimiento en nuestro código.
 
-En pocas palabras, las variables nos permiten etiquetar y almacenar valores en la memoria de la computadora.
+En pocas palabras, las variables nos permiten etiquetar y almacenar valores en la memoria de la computadora para utilizarlos después.
 
 <p align="center">
     <img src="./img/js/variables.png">
@@ -54,10 +54,45 @@ Existen diferentes formas en que podemos crear o *declarar* estas variables, ade
 En 2015, la versión de ES6 de Javascript presentó algunos cambios importantes, uno de ellos siendo la forma en que se declaraban variables. Aunque ahora es cada vez menos común, aún podemos encontrarnos con la palabra reservada `var` para crear una variable.
 
 ```javascript
-var usuario = "juan123";
+var nombre = "Juan";
 ```
 
-Para nombrar a los identificadores (nombre de variables y funciones), utilizamos algo que se conoce como **camel case**. Esta es una convención seguida por los programadores, después de todo no es obligatorio hacerlo para que el código, pero se considera una buena práctica de programación, que facilita la lectura y legibilidad de nuestro código. Para esto, el nombre de un identificador debe comenzar *con letra minúscula* y, si está compuesto por más de una palabra, *las siguientes palabras se escribirán comenzando con letra mayúscula*, sin dejar ningún espacio.
+* La palabra reservada `var` le indica al navegador que estamos creando una nueva variable.
+
+* `nombre` es el nombre de la variable.
+
+* `=` es el *operador de asignación* que se encargar de asignarle un valor a nuestra variable.
+
+* `"Juan"` es el valor que le estamos asignando a la variable en cuanto la creamos. Podemos decir entonces que la varible `nombre` se *inicializa* con el valor de `"Juan"`.
+
+Ahora, en lugar de hacer algo como esto, que habíamos visto en un ejemplo anterior:
+<p align="center">
+    <img src="./img/js/var.png">
+</p>
+
+Podemos hacer algo así:
+<p align="center">
+    <img src="./img/js/var2.png">
+</p>
+
+Ahora, al método `console.log()` no le estamos indicando directamente que valor imprimir, si no que le estamos diciendo que imprima el valor almacenado en la variable `nombre`.
+
+Además de asignar un valor a una variable, podemos actualizar el valor de una variable existente.
+
+Continuando con el ejemplo anterior, hemos inicializado la variable `nombre` con el valor `"Juan"`, pero podemos cambiar su valor para que ahora, `nombre` contenga el valor `"Pedro"`. Para hacer esto no es necesario volver a utilizar la palabra reservada `var`, lo basta con indicar que valor le será asignado a la variable, utilizando el operador de asignación, `=`.
+
+```javascript
+nombre = "Pedro";
+```
+
+Entonces, ahora, al imprimir el valor de `nombre` obtendríamos el siguiente resultado:
+<p align="center">
+    <img src="./img/js/var3.png">
+</p>
+
+<br>
+
+Para nombrar a los identificadores (nombre de variables y funciones), utilizamos algo que se conoce como **camel case**. Esta es una convención seguida por los programadores, después de todo no es obligatorio hacerlo para que el código funcione, pero se considera una buena práctica de programación que facilita la lectura y legibilidad de nuestro código. Para esto, el nombre de un identificador debe comenzar *con letra minúscula* y, si está compuesto por más de una palabra, *las siguientes palabras se escribirán comenzando con letra mayúscula*, sin dejar ningún espacio.
 
 ```javascript
 var comidaFavorita = "pizza";
