@@ -21,7 +21,6 @@ Quizá sea la estructura de control más elemental y su estructura es la siguien
       //  código si las dos primeras condiciones son falsas
     }
 ```  
-
 Las llaves y paréntesis forman una parte importante de la estructura, mientras que en el paréntesis tenemos la o las condiciones a evaluar, las llaves delimitan el bloque de código correspondiente a la condición.  
 
 
@@ -41,5 +40,14 @@ Hagamos un ejercicio pequeño y común con la estructura **If-else**, veamoslo s
 
 "**Diseñar un script que permita saber si un año es bisiesto. Un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400.**"
 
-
+```Javascript
+anio=int(input("Año:"))
+if anio%4 == 0:
+    if anio%100 != 0 or anio%400 == 0:
+        print("Bisiesto")
+    else:
+        print("No bisiesto")
+else:
+    print("No bisiesto")
+```
 
