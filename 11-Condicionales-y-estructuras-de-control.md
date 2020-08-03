@@ -36,3 +36,7 @@ Podemos ver un ejemplo a continuación:
 <p align="center">
     <img src="./img/ciclos-01.png">
 </p>
+
+Hagamos un ejercicio pequeño y común con la estructura **If-else**, veamoslo siguiente:  
+
+**Hacer un programa que permita saber si un año es bisiesto. Para que un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400.**
