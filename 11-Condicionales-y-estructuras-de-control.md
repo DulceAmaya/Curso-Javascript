@@ -27,5 +27,5 @@ Una estructura if-else nos permite dividir el código (comportamiento) de cierta
 Podemos ver un ejemplo a continuación:  
 
 <p align="center">
-    <img src="./img/ciclos-01.png" width="400px" height="300px">
+    <img src="./img/ciclos-01.png">
 </p>
