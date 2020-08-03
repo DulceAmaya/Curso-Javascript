@@ -40,4 +40,13 @@ Hagamos un ejercicio pequeño y común con la estructura **If-else**, veamoslo s
 
 "**Diseñar un script que permita saber si un año es bisiesto. Un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400.**"
 
-
+```javascript
+    var year = 2000
+    if anio%4 == 0:
+        if anio%100 != 0 or anio%400 == 0:
+            print("Bisiesto")
+        else:
+            print("No bisiesto")
+    else:
+        print("No bisiesto")
+```  
