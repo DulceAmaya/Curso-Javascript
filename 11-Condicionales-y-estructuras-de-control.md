@@ -102,3 +102,8 @@ Como podemos ver en el caso de no tener el break en el case 10, ésto hace que s
 **Continue** es usada en los ciclos o estructuras con el fin de terminar la iteración actual  y continuar con la siguiente.
 
 ## While
+
+Nos brinda la opción de crear ciclos y ejecutar el ciclo interno siempre y cuando la condición de permanencia sea evaluada a verdadera. La estructura es la siguiente:  
+
+
+
