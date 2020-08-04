@@ -71,7 +71,7 @@ La estructura del switch es la siguiente:
 ``` 
 
 Los pasos que se ejecutan en una **estructura switch** son:  
-    1. The switch expression is evaluated once.  
-    2. The value of the expression is compared with the values of each case.  
-    3. If there is a match, the associated block of code is executed.  
-    4. If there is no match, the default code block is executed.  
+    1. La expresión del switch es evaluada.  
+    2. Se compara el valor resultante con cada uno de los casos (case).  
+    3. Si existe coincidencia, se ejecuta el bloque de código correspondiente al case.  
+    4. En otro caso, si no hay coincidencia, se ejecuta el case por defecto **default**.  
