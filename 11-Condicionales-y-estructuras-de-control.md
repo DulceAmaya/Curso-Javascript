@@ -155,3 +155,8 @@ while (0 >= i) {
 <p align="center">
     <img src="./img/ciclos-04.png">
 </p>
+
+Como podemos ver el simple hecho de no incrementar el valor de la variable **i** o no incrementarla de forma adecuada en cada iteración hace que caiga en **loop infinito** 
+y nunca terminará o en otro caso dependiendo lo que estemos haciendo terminará dependiendo la memoria virtual llegando a un error conocido como desbordamiendo de memoria.  
+
+
