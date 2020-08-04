@@ -106,6 +106,6 @@ Como podemos ver en el caso de no tener el break en el case 10, ésto hace que s
 Nos brinda la opción de crear ciclos y ejecutar el ciclo interno siempre y cuando la condición de permanencia sea evaluada a verdadera. La estructura es la siguiente:  
 
 <p align="center">
-    <img src="./img/ciclos-03.png">
+    <img src="./img/ciclos-03.png" width="700px" height="500px">
 </p>
 
