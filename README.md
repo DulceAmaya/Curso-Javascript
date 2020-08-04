@@ -55,7 +55,6 @@ Curso de introducción al lenguaje de programación Javascript
         - Operadores aritméticos
         - Operadores lógicos
 
-9. Variables   
 
 10. Tipos de funciones  
 
