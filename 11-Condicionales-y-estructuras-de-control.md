@@ -151,3 +151,7 @@ while (0 >= i) {
     console.log("Se ejecuta el while");
 }
 ```
+
+<p align="center">
+    <img src="./img/ciclos-04.png">
+</p>
