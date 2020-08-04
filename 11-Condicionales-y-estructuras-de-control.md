@@ -137,5 +137,17 @@ Los pasos a seguir son:
     4. Creamos un ciclo while donde la condición de permanencia nos garantice que se ejecuta si y solamente si el iterador es mayor o igual a 0.  
     5. A nuestra cadena auxiliar le iremos copiando el caraceter en la i-ésima posición de la cadena original, recordemos que la cadenas las podemos recorrer o iterar tal y como
     iteramos nuestros arreglos y listas.  
-    6. Una vez terminado el ciclo while podemos garantizar que en cadenaInvertida tenemos la cadena recibida como parámetro de forma invertida.
-    7. Imprimimos el resultado.
+    6. Recordemos que en cada iteración debemos decrementar el iterador, ésto nos garantiza que no caiga en lo que se conoce como un loop infinito.  
+    7. Una vez terminado el ciclo while podemos garantizar que en cadenaInvertida tenemos la cadena recibida como parámetro de forma invertida.
+    8. Imprimimos el resultado.  
+    
+Hablemos un poco de los **loops** infinitos o ciclos infinitos.  
+Los **ciclos infinitos** son un error de programación en el que el ciclo nunca llega a la negación de la condición de permanencia, por lo que el ciclo siempre se ejecutará durante la ejecución del programa. Un **loop** infinito se puede ver tan fácil como el siguiente ejemplo:  
+
+
+```javascript
+var i = -5
+while (0 >= i) {
+    console.log("Se ejecuta el while");
+}
+```
