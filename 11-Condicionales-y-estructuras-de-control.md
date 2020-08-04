@@ -93,3 +93,7 @@ Los pasos que se ejecutan en una **estructura switch** son:
     }
 ``` 
 
+<p align="center">
+    <img src="./img/ciclos-02.png">
+</p>
+
