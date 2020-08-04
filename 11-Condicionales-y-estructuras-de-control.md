@@ -131,7 +131,7 @@ invertir(cadena)
 ``` 
 Los pasos a seguir son:  
 
-    1. Creamos una función llamada **invertir** que recibe la cadena como parámetro.   
+    1. Creamos una función llamada reversa que recibe la cadena como parámetro.   
     2. Definimos nuestro iterador i inicializado en el tamaño de la cadena de entrada.     
     3. Definimos una cadena auxiliar cadenaInvertida inicializada en la cadena vacía.  
     4. Creamos un ciclo while donde la condición de permanencia nos garantice que se ejecuta si y solamente si el iterador es mayor o igual a 0.  
