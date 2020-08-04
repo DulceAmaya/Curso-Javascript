@@ -125,10 +125,10 @@ function reversa(cadena) {
   }
   console.log(cadenaInversa);
 }
-var cadena = window.prompt("Escribe la cadena a invertir");
-invertir(cadena)
+var cad = window.prompt("Escribe la cadena a invertir");
+reversa(cad)
+```  
 
-``` 
 Los pasos a seguir son:  
 
     1. Creamos una función llamada reversa que recibe la cadena como parámetro.   
