@@ -55,3 +55,19 @@ Hagamos un ejercicio pequeño y común con la estructura **If-else** donde podam
 ## Switch
 
 La estructura switch surge de un concepto conocido como **caza de patrones**, la idea es que dada una "expresión" de algún tipo se evalue y se ejecute el código correspondiente a ese **caso**. Algunos lenguajes como python no implementan ésta estructura pero es facil implementarlo usando la estructura **if-else if-else**.
+
+La estructura del switch es la siguiente:  
+```Javascript
+    switch(expresion){    
+        case x:
+        // bloque de código
+            break;
+        case y:
+        // bloque de código
+            break;
+        default:
+            continue;
+    }
+``` 
+
+
