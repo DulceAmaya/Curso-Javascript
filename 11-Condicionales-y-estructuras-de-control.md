@@ -109,5 +109,33 @@ Nos brinda la opción de crear ciclos y ejecutar el ciclo interno siempre y cuan
     <img src="./img/ciclos-03.png" width="700px" height="500px">
 </p>
 
-Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**, es decir el programador se encarga de la actualización del código. 
+Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**, es decir el programador se encarga de la actualización del código. Si lo pensamos un while nos es útil para ejecutar un mismo comportamiento un determinado número de veces. 
 
+Hagamos un ejemplo con un ciclo while:  
+**Leamos una cadena de entrada desde una ventana e invertimos la cadena imprimiendo el resultado en pantalla** 
+
+```javascript
+function reversa(cadena) {
+  var i = cadena.length;
+  var cadenaInversa = "";
+
+  while (i>=0) {
+    cadenaInversa += cadena.charAt(x);
+    i--;
+  }
+  console.log(cadenaInversa);
+}
+var cadena = window.prompt("Escribe la cadena a invertir");
+invertir(cadena)
+
+``` 
+Los pasos a seguir son:  
+
+    1. Creamos una función llamada **invertir** que recibe la cadena como parámetro.   
+    2. Definimos nuestro iterador i inicializado en el tamaño de la cadena de entrada.     
+    3. Definimos una cadena auxiliar cadenaInvertida inicializada en la cadena vacía.  
+    4. Creamos un ciclo while donde la condición de permanencia nos garantice que se ejecuta si y solamente si el iterador es mayor o igual a 0.  
+    5. A nuestra cadena auxiliar le iremos copiando el caraceter en la i-ésima posición de la cadena original, recordemos que la cadenas las podemos recorrer o iterar tal y como
+    iteramos nuestros arreglos y listas.  
+    6. Una vez terminado el ciclo while podemos garantizar que en cadenaInvertida tenemos la cadena recibida como parámetro de forma invertida.
+    7. Imprimimos el resultado.
