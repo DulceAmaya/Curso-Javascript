@@ -66,7 +66,7 @@ La estructura del switch es la siguiente:
         // bloque de código
             break;
         default:
-            continue;
+            break;
     }
 ``` 
 
@@ -75,3 +75,19 @@ Los pasos que se ejecutan en una **estructura switch** son:
     2. Se compara el valor resultante con cada uno de los casos (case).  
     3. Si existe coincidencia, se ejecuta el bloque de código correspondiente al case.  
     4. En otro caso, si no hay coincidencia, se ejecuta el case por defecto **default**.  
+                                                                                          
+### Continue y brake
+
+```Javascript
+    var n = 10
+    switch(n){
+        case 10:
+            console.log("es 10")
+            break;
+        case 20:
+            console.log("es 20")
+            break;
+        default:
+            break;
+    }
+``` 
