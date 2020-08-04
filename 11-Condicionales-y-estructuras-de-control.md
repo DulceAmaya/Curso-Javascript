@@ -78,12 +78,13 @@ Los pasos que se ejecutan en una **estructura switch** son:
                                                                                           
 ### Continue y brake
 
-```Javascript
+**Brake** es una palabra reservada del lenguaje que nos permite terminar de forma instantánea la ejecución de determinado bloque de código, la importancia de tener un brake en el caso de un switch es que en el caso de no ponerlo, la ejecución del código se seguirá hasta terminar todos los case o encontrar el primer brake en la estructura de control.
+
+```javascript
     var n = 10
     switch(n){
         case 10:
             console.log("es 10")
-            break;
         case 20:
             console.log("es 20")
             break;
@@ -91,3 +92,4 @@ Los pasos que se ejecutan en una **estructura switch** son:
             break;
     }
 ``` 
+
