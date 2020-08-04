@@ -160,3 +160,6 @@ Como podemos ver el simple hecho de no incrementar el valor de la variable **i**
 y nunca terminará o en otro caso dependiendo lo que estemos haciendo terminará dependiendo la memoria virtual llegando a un error conocido como desbordamiendo de memoria.  
 
 
+## For
+
+For es 
