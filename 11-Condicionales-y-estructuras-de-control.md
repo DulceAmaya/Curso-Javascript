@@ -100,3 +100,5 @@ Los pasos que se ejecutan en una **estructura switch** son:
 Como podemos ver en el caso de no tener el break en el case 10, ésto hace que se ejecuten los códigos de los dos case 10 y 20 respectivamente.
 
 **Continue** es usada en los ciclos o estructuras con el fin de terminar la iteración actual  y continuar con la siguiente.
+
+## While
