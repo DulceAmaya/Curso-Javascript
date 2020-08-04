@@ -70,4 +70,8 @@ La estructura del switch es la siguiente:
     }
 ``` 
 
-
+Los pasos que se ejecutan en una **estructura switch** son:
+    1. The switch expression is evaluated once.
+    2. The value of the expression is compared with the values of each case.
+    3. If there is a match, the associated block of code is executed.
+    4. If there is no match, the default code block is executed.
