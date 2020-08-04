@@ -109,3 +109,5 @@ Nos brinda la opción de crear ciclos y ejecutar el ciclo interno siempre y cuan
     <img src="./img/ciclos-03.png" width="700px" height="500px">
 </p>
 
+Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**, es decir el programador se encarga de la actualización del código. 
+
