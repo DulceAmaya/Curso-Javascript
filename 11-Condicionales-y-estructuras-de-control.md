@@ -52,3 +52,6 @@ Hagamos un ejercicio pequeño y común con la estructura **If-else** donde podam
         console.log("No es bisiesto");
     }
 ```  
+## While
+
+La estructura de control **while**
