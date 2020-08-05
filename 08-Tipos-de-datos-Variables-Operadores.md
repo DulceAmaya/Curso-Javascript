@@ -137,3 +137,37 @@ const pi = 3.1416;
 <p align="center">
     <img src="./img/js/const2.png">
 </p>
+
+#### Ejemplo
+Ahora que hemos aprendido como almacenar valores en una variable para utilizarlos en nuestro programa veamos un rápido ejemplo.
+
+Al inicio de este curso, vimos como mostrar un mensaje en el navegador utilizando el método `alert()`. Para esto, debiamos indicarle entre los paréntesis que mensaje imprimir, pero, ¿qué pasa si no sabemos lo que dirá este mensaje? Digamos que queremos que el usuario decida que mostrar en el mensaje.
+
+Para esto, podemos utilizar el método `prompt()`. Este método nos permite mostrar un mensaje al usuario (opcionalmente) para solicitarle que ingrese un texto.
+
+```javascript
+prompt("Di algo");
+```
+
+<p align="center">
+    <img src="./img/js/prompt.png">
+</p>
+
+Entonces, utilizando el método `prompt()`, podemos solicitarle al usuario que ingrese un texto e imprimir después un mensaje. Para poder hacerlo, necesitamos recordar cual es el texto que ingrese el usuario utilizando una variable.
+
+```javascript
+let mensaje = prompt("Di algo"); //Aquí, estamos almacenando en la variable mensaje el texto que recibirá el método prompt.
+alert(mensaje); //Y ahora, solo nos resta mostrar el texto que hayamos almacenado en la variable.
+```
+
+<p align="center">
+    <img src="./img/js/ejemploVariables.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/ejemploVariables2.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/ejemploVariables3.png">
+</p>
