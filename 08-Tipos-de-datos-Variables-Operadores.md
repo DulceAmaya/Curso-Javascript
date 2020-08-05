@@ -64,9 +64,9 @@ La palabra reservada `let` es una de las adiciones hechas al lenguaje en la vers
 let nombre = "Juan";
 ```
 
-* La palabra reservada `let` le indica al navegador que estamos creando una nueva variable.
+* La palabra reservada `let` indica que estamos creando una nueva variable.
 
-* `nombre` es el nombre de la variable.
+* `nombre` es el identificador (o nombre) de la variable.
 
 * `=` es el *operador de asignación* que se encargar de asignarle un valor a nuestra variable.
 
@@ -86,7 +86,7 @@ Ahora, al método `console.log()` no le estamos indicando directamente que valor
 
 Además de asignar un valor a una variable, podemos actualizar el valor de una variable existente.
 
-Continuando con el ejemplo anterior, hemos inicializado la variable `nombre` con el valor `"Juan"`, pero podemos cambiar su valor para que ahora, `nombre` contenga el valor `"Pedro"`. Para hacer esto no es necesario volver a utilizar la palabra reservada `var`, basta con indicar que valor le será asignado a la variable, utilizando el operador de asignación, `=`.
+Continuando con el ejemplo anterior, hemos inicializado la variable `nombre` con el valor `"Juan"`, pero podemos cambiar su valor para que ahora, `nombre` contenga el valor `"Pedro"`. Para hacer esto no es necesario volver a utilizar la palabra reservada `let`, basta con indicar que valor le será asignado a la variable, utilizando el operador de asignación, `=`.
 
 ```javascript
 nombre = "Pedro";
@@ -124,3 +124,16 @@ Hay ciertos puntos que es importante recordar para nombrar una variable:
 * Aunque, como ya mencionamos, su nombre debe comenzar con una letra.
 * Javascript es sensible a mayúsculas y minúsculas, por lo que la variable `nombre` y la variable `Nombre` no serían la misma.
 * Las palabras reservadas no pueden ser utilizadas para nombrar variables.
+
+### const
+La variables asignadas con la palabra reservada `const` se comportan igual que aquellas creadas con el `let`, excepto por que **no pueden ser reasignadas**.
+
+```javascript
+const pi = 3.1416;
+```
+<p align="center">
+    <img src="./img/js/const.png">
+</p>
+<p align="center">
+    <img src="./img/js/const2.png">
+</p>
