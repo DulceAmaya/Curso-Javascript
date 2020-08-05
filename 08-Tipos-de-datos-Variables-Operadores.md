@@ -54,10 +54,17 @@ Existen diferentes formas en que podemos crear o *declarar* estas variables, ade
 En 2015, la versión de ES6 de Javascript presentó algunos cambios importantes, uno de ellos siendo la forma en que se declaraban variables. Aunque ahora es cada vez menos común, aún podemos encontrarnos con la palabra reservada `var` para crear una variable.
 
 ```javascript
-var nombre = "Juan";
+var x = 5;
 ```
 
-* La palabra reservada `var` le indica al navegador que estamos creando una nueva variable.
+### let
+La palabra reservada `let` es una de las adiciones hechas al lenguaje en la versión ES6 y, actualmente, es la forma más utilizada para declarar variables.
+
+```javascript
+let nombre = "Juan";
+```
+
+* La palabra reservada `let` le indica al navegador que estamos creando una nueva variable.
 
 * `nombre` es el nombre de la variable.
 
@@ -72,7 +79,7 @@ Ahora, en lugar de hacer algo como esto, que habíamos visto en un ejemplo anter
 
 Podemos hacer algo así:
 <p align="center">
-    <img src="./img/js/var2.png">
+    <img src="./img/js/let2.png">
 </p>
 
 Ahora, al método `console.log()` no le estamos indicando directamente que valor imprimir, si no que le estamos diciendo que imprima el valor almacenado en la variable `nombre`.
@@ -87,20 +94,20 @@ nombre = "Pedro";
 
 Entonces, ahora, al imprimir el valor de `nombre` obtendríamos el siguiente resultado:
 <p align="center">
-    <img src="./img/js/var3.png">
+    <img src="./img/js/let3.png">
 </p>
 
 Javascript es un lenguaje de programación **débilmente tipado**, lo que significa que, al declarar una variable, no es necesario especificar el tipo del valor que le asignaremos. Como resultado, podemos actualizar el valor de una variable por cualquier tipo de dato, sin importar el valor con el que fue inicializada.
 
 Continuando con el ejemplo de arriba, entonces podemos, por ejemplo, asignar a `nombre` un número.
 <p align="center">
-    <img src="./img/js/var4.png">
+    <img src="./img/js/let4.png">
 </p>
 
 <br>
 Es importante tener en cuenta que no es necesario asignar un valor a la variable para declararla. En tal caso, la variable sería inicializada con el valor de `undefined`.
 <p align="center">
-    <img src="./img/js/var5.png">
+    <img src="./img/js/let5.png">
 </p>
 
 <br>
@@ -108,8 +115,8 @@ Es importante tener en cuenta que no es necesario asignar un valor a la variable
 Para nombrar a los identificadores (nombre de variables y funciones), utilizamos algo que se conoce como **camel case**. Esta es una convención seguida por los programadores, después de todo no es obligatorio hacerlo para que el código funcione, pero se considera una buena práctica de programación que facilita la lectura y legibilidad de nuestro código. Para esto, el nombre de un identificador debe comenzar *con letra minúscula* y, si está compuesto por más de una palabra, *las siguientes palabras se escribirán comenzando con letra mayúscula*, sin dejar ningún espacio.
 
 ```javascript
-var comidaFavorita = "pizza";
-var numeroDeMascotas = 3;
+let comidaFavorita = "pizza";
+let numeroDeMascotas = 3;
 ```
 
 Hay ciertos puntos que es importante recordar para nombrar una variable:
@@ -117,11 +124,3 @@ Hay ciertos puntos que es importante recordar para nombrar una variable:
 * Aunque, como ya mencionamos, su nombre debe comenzar con una letra.
 * Javascript es sensible a mayúsculas y minúsculas, por lo que la variable `nombre` y la variable `Nombre` no serían la misma.
 * Las palabras reservadas no pueden ser utilizadas para nombrar variables.
-
-### let
-La palabra reservada `let` es una de las adiciones hechas al lenguaje en la versión ES6 y, actualmente, es la forma más utilizada para declarar variables.
-
-```javascript
-let x = 5;
-let esPar = true;
-```
