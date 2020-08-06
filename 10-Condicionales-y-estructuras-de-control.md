@@ -229,9 +229,8 @@ Vamos a quitar los múltiplos de 5 de una lista de enteros positivos sin repetic
 numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 for (num in numeros) {
     if(num % 5 == 0){
-      var indice = numeros.indexOf(num)
-      console.log(indice)
-      numeros.splice(indice, 1);
+      var indice = numeros.indexOf(num);
+      numeros.splice(1, indice);
     }
 }
 console.log(numeros)
