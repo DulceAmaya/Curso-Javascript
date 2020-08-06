@@ -167,3 +167,17 @@ For es uan estructura muy interesante, en comportamiendo y funcionamiento es sim
 <p align="center">
     <img src="./img/ciclos-05.png" width="700px" height="500px">
 </p>
+
+**Hablemos de las 3 partes que componen al for**.
+
+### Iterador
+   
+Al igual que el while, el iterador es una variable que nos servirá para ejecutar el ciclo for un determinado número de veces. Un ejemplo de inicialización se puede ver de la siguiente forma:  
+
+```javascript
+var i;
+for (i =0;permanencia;incremento) {
+    // cuerpo del for
+}
+```  
+
