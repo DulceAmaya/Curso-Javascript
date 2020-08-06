@@ -194,3 +194,10 @@ for (i =0;i < 10;incremento) {
 }
 ```  
 
+El cuerpo del for se ejecutará n veces dependiendo el incremento del iterador.  
+
+### Incremento del iterador
+
+El incremento del iterador es donde indicamos en cuánto actualiza su valor el iterador puede ser ascendente o descendente.  
+
+
