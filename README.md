@@ -53,6 +53,7 @@ Curso de introducción al lenguaje de programación Javascript
         - [const](08-Tipos-de-datos-Variables-Operadores.md#const)
     - [Operadores](08-Tipos-de-datos-Variables-Operadores.md#operadores)
         - [Operadores aritméticos](08-Tipos-de-datos-Variables-Operadores.md#operadores-aritméticos)
+        - [Operadores de comparación](08-Tipos-de-datos-Variables-Operadores.md#operadores-de-comparación)
         - Operadores lógicos
 
 
