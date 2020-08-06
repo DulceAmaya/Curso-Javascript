@@ -180,4 +180,17 @@ for (i =0;permanencia;incremento) {
     // cuerpo del for
 }
 ```  
+La diferencia entre el for y while es muy notoria en el manejo del iterador.  
+
+### Permanencia del ciclo
+
+La permanencia del ciclo es aquella condición donde se determina si el ciclo se ejecuta o termina. Aquí en general es una evaluación a verdadero o falso, en caso de que no se cumpla la condición de permanencia el ciclo terminará.  
+
+Lo podemos ver en el siguiente ejemplo:  
+```javascript
+var i;
+for (i =0;i < 10;incremento) {
+    // cuerpo del for
+}
+```  
 
