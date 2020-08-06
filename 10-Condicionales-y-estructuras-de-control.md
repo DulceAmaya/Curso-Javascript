@@ -164,3 +164,6 @@ y nunca terminará o en otro caso dependiendo lo que estemos haciendo terminará
 
 For es uan estructura muy interesante, en comportamiendo y funcionamiento es similar al while pero tiene una estructura diferente:  
 
+<p align="center">
+    <img src="./img/ciclos-05.png">
+</p>
