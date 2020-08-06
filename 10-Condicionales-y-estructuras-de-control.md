@@ -221,4 +221,6 @@ La estructura de control  **ForEach** es un caso particular del ciclo for, ya qu
     <img src="./img/ciclos-07.png" width="700px" height="500px">
 </p>
 
+Hagamos un pequeño ejercicio con la estructura for-each 
+
 
