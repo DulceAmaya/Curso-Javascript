@@ -203,6 +203,10 @@ El incremento del iterador es donde indicamos en cuánto actualiza su valor el i
 ```javascript
 var i;
 for (i =0;i < 10;i+=2) {
-    // cuerpo del for
+    console.log("hola");
 }
 ```  
+
+Notemos que el ciclo se ejecutará 5 veces, cuando el valor del iterador sea **0,2,4,6,8**
+
+
