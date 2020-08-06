@@ -186,7 +186,7 @@ Toman valores numéricos en sus operandos y dan como resultado un valor también
 Además de los operadores básicos que ya conocemos: `+`, `-`, `*`, `/`, existen algunos otros:
 
 ###### Modulo
-`x % y`. El operador módulo, nos devuelvo el residuo obtenido al dividir `x / y`.
+`x % y`. El operador módulo, nos devuelve el residuo obtenido al dividir `x / y`.
 
 ```javascript
 let x = 20 % 6; // x = 2.
@@ -232,14 +232,79 @@ Por lo que, si después, imprimimos el valor de `x`, podemos ver que ahora es x 
 ##### Decremento
 `x--`, `--x`. Funciona de manera idéntica al incremento solo que decrementa en una unidad el valor de x.
 
-### Operadores lógicos
+### Operadores de comparación
 
+Los operadores de comparación comparan los valores de dos operandos y devuelven como resultado un dato booleano.
 
+Los operandos pueden ser valores numéricos, cadenas, booleanos u objetos. En el caso de las cadenas, la comparación la realizan basándose en el orden lexicográfico.
 
+##### Igualdad
 
+Devuelve `true` si ambos operandos son iguales, o `false` en caso contrario. Si los operandos son de tipos distintos, javascript intenta convertirlos al tipo apropiado para poder compararlos.
 
+```javascript
+25 == 12; //false
+"hola" == "hola"; //true
+"3" == 3; //true
+```
 
+##### Desigualdad
+Al contrario de la igualdad, devuelve `true` si los operandos son distintos o `false` en caso de que sean iguales.
 
+```javascript
+5 != 5; //false
+"hola" != "adios"; //true
+12 != "12"; //false
+```
+##### Mayor que
+Compara si el primer operando es estrictamente mayor que el segundo, de ser así devuelve `true` o `false` en caso contrario
+
+```javascript
+12 > 10; //true
+-9.2 > 0; //false
+3 > 3; //false
+```
+
+##### Mayor o igual que
+Compara si el primer operando es mayor o igual que el segundo, de ser así devuelve `true` o `false` en caso contrario
+
+```javascript
+3 >= 7; //false
+7 >= 7; //true
+```
+
+##### Menor que
+Compara si el primer operando es estrictamente menor que el segundo, de ser así devuelve `true` o `false` en caso contrario
+
+```javascript
+7 < 10; //true
+0 < 1.3; //true
+3 < 3; //false
+```
+
+##### Mayor o igual que
+Compara si el primer operando es menor o igual que el segundo, de ser así devuelve `true` o `false` en caso contrario
+
+```javascript
+3 <= 7; //true
+1.2 >= 1.2;//true
+```
+
+##### Estrictamente iguales
+Similar a la igualdad, solo que devuelve `true` si los operandos son iguales y son además del mismo tipo o `false` en otro caso.
+
+```javascript
+5 === 5; //true
+2 === "2" //false
+```
+
+##### Estrictamente desiguales
+Del mismo modo, devuelve `true` si los operandos no son iguales o son de diferente tipo, y `false` en caso de que sean iguales y además sean del mismo tipo.
+
+```javascript
+5 !== "5" //true
+13 !== 2 //true
+```
 
 
 
