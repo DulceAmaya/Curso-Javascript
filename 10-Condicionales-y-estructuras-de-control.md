@@ -215,3 +215,5 @@ Notemos que el ciclo se ejecutará 5 veces, cuando el valor del iterador sea **0
 
 ## For Each  
 
+La estructura de control  **ForEach** es un caso particular del ciclo for, ya que nos permite iterar sobre las propiedades de los objetos iterables. Es una forma breve de hacer in ciclo y su estructura es la siguiente:  
+
