@@ -179,3 +179,78 @@ Existen 3 tipos principales de operadores:
 * Los operadores *unarios* son aquellos que requieren un único operando, por ejemplo `x++`.
 * Los operadores *binarios* son aquellos que necesitan de dos operandos, por ejemplo una suma `5 + 10`.
 * El operador *terciario* necesita 3 operandos y es un caso especial que revisaremos mas adelante.
+
+### Operadores aritméticos
+Toman valores numéricos en sus operandos y dan como resultado un valor también numérico.
+
+Además de los operadores básicos que ya conocemos: `+`, `-`, `*`, `/`, existen algunos otros:
+
+###### Modulo
+`x % y`. El operador módulo, nos devuelvo el residuo obtenido al dividir `x / y`.
+
+```javascript
+let x = 20 % 6; // x = 2.
+```
+
+###### Incremento
+`x++`, `++x`. Incrementa el operando en una unidad. Es similar a asignar `x = x + 1`.
+
+`++x` devuelve el valor de x después de haberle sumado 1. Por otro lado, `x++` devuelve el valor de x antes de sumarle 1 unidad.
+
+Veamos un ejemplo:
+
+<p align="center">
+    <img src="./img/js/operadoresAritmeticos.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/operadoresAritmeticos4.png">
+</p>
+
+El operador `++x` incrementa en una unidad el valor de `x` y se lo asigna a la variable antes de pasárselo a `console.log()`, por lo que el método imprime 21 en la consola.
+
+<p align="center">
+    <img src="./img/js/operadoresAritmeticos5.png">
+</p>
+
+Y si después volvemos a imprimir el valor de `x`, podemos ver que, en efecto, tiene asignado el valor de 21.
+
+Por otro lado, `x++` le pasa el valor de `x`, en este caso 20, a `consle.log()` antes de incrementarlo.
+<p align="center">
+    <img src="./img/js/operadoresAritmeticos.png">
+</p>
+<p align="center">
+    <img src="./img/js/operadoresAritmeticos2.png">
+</p>
+
+Por lo que, si después, imprimimos el valor de `x`, podemos ver que ahora es x es igual a 21.
+
+<p align="center">
+    <img src="./img/js/operadoresAritmeticos3.png">
+</p>
+
+##### Decremento
+`x--`, `--x`. Funciona de manera idéntica al incremento solo que decrementa en una unidad el valor de x.
+
+### Operadores lógicos
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Operadores de asignación
+Un operando de asignación le asigna, al operando de lado izquierdo, el valor obtenido del operando del lado derecho.
+
+|Operando |Ejemplo| Descripción|
+|---|---|--|
+|`=`| `let x = 5` | Asigna a la variable `x` el valor de 5 |
+|`+=`| `x += 8` | Le asigna a `x` el resultado de sumar el *valor actual* de `x` más 8; `x = x + 8`
+|`-=`| `x -= 3` | Le asigna a `x` el resultado de restarle 3 al *valor actual* de `x`; `x = x - 3`
