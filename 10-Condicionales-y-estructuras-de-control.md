@@ -200,4 +200,9 @@ El cuerpo del for se ejecutará n veces dependiendo el incremento del iterador.
 
 El incremento del iterador es donde indicamos en cuánto actualiza su valor el iterador puede ser ascendente o descendente.  
 
-
+```javascript
+var i;
+for (i =0;i < 10;i+=2) {
+    // cuerpo del for
+}
+```  
