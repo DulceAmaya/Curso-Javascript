@@ -223,4 +223,16 @@ La estructura de control  **ForEach** es un caso particular del ciclo for, ya qu
 
 Hagamos un pequeño ejercicio con la estructura for-each 
 
+Vamos a quitar los múltiplos de 5 de una lista de enteros positivos sin repeticiones.
 
+```javascript
+numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+for (num in numeros) {
+    console.log(num)
+    if(num % 5 == 0){
+      var indice = numeros.indexOf(num)
+      console.log(indice)
+      numeros.splice(indice, 1);
+    }
+}
+```  
