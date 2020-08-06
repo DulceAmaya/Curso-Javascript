@@ -171,3 +171,11 @@ alert(mensaje); //Y ahora, solo nos resta mostrar el texto que hayamos almacenad
 <p align="center">
     <img src="./img/js/ejemploVariables3.png">
 </p>
+
+# Operadores
+Javascript tiene una amplia gama de operadores que nos permiten manipular valores para utilizarlos en nuestro programa.
+
+Existen 3 tipos principales de operadores:
+* Los operadores *unarios* son aquellos que requieren un único operando, por ejemplo `x++`.
+* Los operadores *binarios* son aquellos que necesitan de dos operandos, por ejemplo una suma `5 + 10`.
+* El operador *terciario* necesita 3 operandos y es un caso especial que revisaremos mas adelante.
