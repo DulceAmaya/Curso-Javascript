@@ -212,3 +212,6 @@ Notemos que el ciclo se ejecutará 5 veces, cuando el valor del iterador sea **0
 <p align="center">
     <img src="./img/ciclos-06.png">
 </p>
+
+## For Each  
+
