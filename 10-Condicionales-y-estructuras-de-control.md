@@ -209,4 +209,6 @@ for (i =0;i < 10;i+=2) {
 
 Notemos que el ciclo se ejecutará 5 veces, cuando el valor del iterador sea **0,2,4,6,8**
 
-
+<p align="center">
+    <img src="./img/ciclos-06.png">
+</p>
