@@ -317,7 +317,7 @@ Del mismo modo, devuelve `true` si los operandos no son iguales o son de diferen
 Convencionalmente funcionan con operandos booleanos y nos devuelve un resultado booleano dependiendo de si se cumple o no una condición.
 
 ##### And lógico `&&`
-Devuelve `true` si ambos operandos evalúan a `true` o `false` en otro caso.
+Devuelve `true` si ambos operandos evalúan a `true`, o `false` en otro caso.
 
 ```javascript
 let x = (5 >= 3) && (12 == 12) //x = true
@@ -329,7 +329,7 @@ let y = (2 < 10) && (1 != 1) //x = false
 ```
 
 ##### Or lógico `||`
-Devuelve `false` si ambos operandos evalúan a `false` o `true` en otro caso.
+Devuelve `false` si ambos operandos evalúan a `false` o, `true` en otro caso.
 
 ```javascript
 let x = (2 === "2") || (1 >= 0) //x = true
