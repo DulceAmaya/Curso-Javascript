@@ -185,15 +185,15 @@ Toman valores numéricos en sus operandos y dan como resultado un valor también
 
 Además de los operadores básicos que ya conocemos: `+`, `-`, `*`, `/`, existen algunos otros:
 
-###### Modulo
+###### Modulo `%`
 `x % y`. El operador módulo, nos devuelve el residuo obtenido al dividir `x / y`.
 
 ```javascript
-let x = 20 % 6; // x = 2.
+let x = 20 % 6; //x = 2.
 ```
 
-###### Incremento
-`x++`, `++x`. Incrementa el operando en una unidad. Es similar a asignar `x = x + 1`.
+###### Incremento `x++`, `++x`
+Incrementa el operando en una unidad. Es similar a asignar `x = x + 1`.
 
 `++x` devuelve el valor de x después de haberle sumado 1. Por otro lado, `x++` devuelve el valor de x antes de sumarle 1 unidad.
 
@@ -229,14 +229,14 @@ Por lo que, si después, imprimimos el valor de `x`, podemos ver que ahora es x 
     <img src="./img/js/operadoresAritmeticos3.png">
 </p>
 
-##### Decremento
-`x--`, `--x`. Funciona de manera idéntica al incremento solo que decrementa en una unidad el valor de x.
+##### Decremento `x--`, `--x`
+Funciona de manera idéntica al incremento solo que decrementa en una unidad el valor de x.
 
-##### Exponenciación
+##### Exponenciación `**`
 La versión ES6 presentó el operador de exponenciación, `x ** y`, que nos devuelve el resultado de elevar `x` a la `y` potencia.
 
 ```javascript
-let x = 2 ** 5; // x = 32
+let x = 2 ** 5; //x = 32
 ```
 
 ### Operadores de comparación
@@ -245,7 +245,7 @@ Los operadores de comparación comparan los valores de dos operandos y devuelven
 
 Los operandos pueden ser valores numéricos, cadenas, booleanos u objetos. En el caso de las cadenas, la comparación la realizan basándose en el orden lexicográfico.
 
-##### Igualdad
+##### Igualdad `==`
 
 Devuelve `true` si ambos operandos son iguales, o `false` en caso contrario. Si los operandos son de tipos distintos, javascript intenta convertirlos al tipo apropiado para poder compararlos.
 
@@ -255,7 +255,7 @@ Devuelve `true` si ambos operandos son iguales, o `false` en caso contrario. Si 
 "3" == 3; //true
 ```
 
-##### Desigualdad
+##### Desigualdad `!=`
 Al contrario de la igualdad, devuelve `true` si los operandos son distintos o `false` en caso de que sean iguales.
 
 ```javascript
@@ -263,7 +263,7 @@ Al contrario de la igualdad, devuelve `true` si los operandos son distintos o `f
 "hola" != "adios"; //true
 12 != "12"; //false
 ```
-##### Mayor que
+##### Mayor que `>`
 Compara si el primer operando es estrictamente mayor que el segundo, de ser así devuelve `true` o `false` en caso contrario
 
 ```javascript
@@ -272,7 +272,7 @@ Compara si el primer operando es estrictamente mayor que el segundo, de ser así
 3 > 3; //false
 ```
 
-##### Mayor o igual que
+##### Mayor o igual que `>=`
 Compara si el primer operando es mayor o igual que el segundo, de ser así devuelve `true` o `false` en caso contrario
 
 ```javascript
@@ -280,7 +280,7 @@ Compara si el primer operando es mayor o igual que el segundo, de ser así devue
 7 >= 7; //true
 ```
 
-##### Menor que
+##### Menor que `<`
 Compara si el primer operando es estrictamente menor que el segundo, de ser así devuelve `true` o `false` en caso contrario
 
 ```javascript
@@ -289,7 +289,7 @@ Compara si el primer operando es estrictamente menor que el segundo, de ser así
 3 < 3; //false
 ```
 
-##### Mayor o igual que
+##### Mayor o igual que `<=`
 Compara si el primer operando es menor o igual que el segundo, de ser así devuelve `true` o `false` en caso contrario
 
 ```javascript
@@ -297,7 +297,7 @@ Compara si el primer operando es menor o igual que el segundo, de ser así devue
 1.2 >= 1.2;//true
 ```
 
-##### Estrictamente iguales
+##### Estrictamente iguales `===`
 Similar a la igualdad, solo que devuelve `true` si los operandos son iguales y son además del mismo tipo o `false` en otro caso.
 
 ```javascript
@@ -305,7 +305,7 @@ Similar a la igualdad, solo que devuelve `true` si los operandos son iguales y s
 2 === "2" //false
 ```
 
-##### Estrictamente desiguales
+##### Estrictamente desiguales `!==`
 Del mismo modo, devuelve `true` si los operandos no son iguales o son de diferente tipo, y `false` en caso de que sean iguales y además sean del mismo tipo.
 
 ```javascript
@@ -314,9 +314,40 @@ Del mismo modo, devuelve `true` si los operandos no son iguales o son de diferen
 ```
 
 ### Operadores lógicos
+Convencionalmente funcionan con operandos booleanos y nos devuelve un resultado booleano dependiendo de si se cumple o no una condición.
 
+##### And lógico `&&`
+Devuelve `true` si ambos operandos evalúan a `true` o `false` en otro caso.
 
+```javascript
+let x = (5 >= 3) && (12 == 12) //x = true
+```
+En el ejemplo de arriba, la comparación del primer operando devuelve `true`, al igual que la comparación del segundo operando, por lo que tenemos `true && true`, lo cual nos da `true` como resultado.
 
+```javascript
+let y = (2 < 10) && (1 != 1) //x = false
+```
+
+##### Or lógico `||`
+Devuelve `false` si ambos operandos evalúan a `false` o `true` en otro caso.
+
+```javascript
+let x = (2 === "2") && (1 >= 0) //x = true
+```
+
+En el ejemplo de arriba, la comparación del primer operando devuelve `false`, pero el segundo devuelve `true`, con lo que tenemos `false || true`, por lo que tenemos `true` como resultado.
+
+```javascript
+let y = (20 > 10) && (3 != 3) //x = false
+```
+
+##### Negación `!`
+Devuelve el valor contrario al valor de su operando.
+
+```javascript
+let x = !true //x = false
+let y = !(5 == 6) //y = true
+```
 
 ### Operadores de asignación
 Un operando de asignación le asigna, al operando de lado izquierdo, el valor obtenido del operando del lado derecho.
