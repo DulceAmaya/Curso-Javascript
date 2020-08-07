@@ -332,7 +332,7 @@ let y = (2 < 10) && (1 != 1) //x = false
 Devuelve `false` si ambos operandos evalúan a `false` o `true` en otro caso.
 
 ```javascript
-let x = (2 === "2") && (1 >= 0) //x = true
+let x = (2 === "2") || (1 >= 0) //x = true
 ```
 
 En el ejemplo de arriba, la comparación del primer operando devuelve `false`, pero el segundo devuelve `true`, con lo que tenemos `false || true`, por lo que tenemos `true` como resultado.
@@ -357,3 +357,16 @@ Un operando de asignación le asigna, al operando de lado izquierdo, el valor ob
 |`=`| `let x = 5` | Asigna a la variable `x` el valor de 5 |
 |`+=`| `x += 8` | Le asigna a `x` el resultado de sumar el *valor actual* de `x` más 8; `x = x + 8`
 |`-=`| `x -= 3` | Le asigna a `x` el resultado de restarle 3 al *valor actual* de `x`; `x = x - 3`
+
+### Concatenación de cadenas `+`
+Una operación muy útil y muy importante que podemos realizar con el tipo de dato string es la concatenación. Este operando nos devuelve una nueva cadena compuesta por la unión de las dos cadenas que recibe como operandos.
+
+```javascript
+let x = "Hola" + " " + "mundo"; //x = "Hola mundo"
+```
+
+Además de concatenar dos cadenas, podemos concatenar una cadena y un número y también obtendremos como resultado una cadena.
+
+```javascript
+let y = "Adios" + 4; //y = "Adios4"
+```
