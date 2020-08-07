@@ -232,6 +232,13 @@ Por lo que, si después, imprimimos el valor de `x`, podemos ver que ahora es x 
 ##### Decremento
 `x--`, `--x`. Funciona de manera idéntica al incremento solo que decrementa en una unidad el valor de x.
 
+##### Exponenciación
+La versión ES6 presentó el operador de exponenciación, `x ** y`, que nos devuelve el resultado de elevar `x` a la `y` potencia.
+
+```javascript
+let x = 2 ** 5; // x = 32
+```
+
 ### Operadores de comparación
 
 Los operadores de comparación comparan los valores de dos operandos y devuelven como resultado un dato booleano.
@@ -306,7 +313,7 @@ Del mismo modo, devuelve `true` si los operandos no son iguales o son de diferen
 13 !== 2 //true
 ```
 
-
+### Operadores lógicos
 
 
 
