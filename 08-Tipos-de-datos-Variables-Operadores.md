@@ -437,7 +437,7 @@ let nombre = prompt("¿Cuál es tu nombre?");
 Ahora, solo resta utilizar el método `alert()` para mostrar el mensaje.
 
 ```javascript
-let nombre = alert("¡Hola, " + nombre + "!"));
+alert("¡Hola, " + nombre + "!"));
 ```
 
 <p align="center">
