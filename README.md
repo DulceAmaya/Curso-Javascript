@@ -61,7 +61,7 @@ Curso de introducción al lenguaje de programación Javascript
 
 10. Condicionales y estructuras de control  
 
-11. Tipos de funciones  
+11. [Funciones](10-Funciones.md)
 
 12. Promesas
 
