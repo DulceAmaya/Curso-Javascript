@@ -59,9 +59,9 @@ Curso de introducción al lenguaje de programación Javascript
         - [Concatenación de cadenas](08-Tipos-de-datos-Variables-Operadores.md#concatenación-de-cadenas-)
 
 
-10. Tipos de funciones  
+10. Condicionales y estructuras de control  
 
-11. Condicionales y estructuras de control  
+11. Tipos de funciones  
 
 12. Promesas
 
