@@ -420,3 +420,26 @@ Además de concatenar dos cadenas, podemos concatenar una cadena y un número y 
 ```javascript
 let y = "Adios" + 4; //y = "Adios4"
 ```
+
+#### Ejemplo
+Continuando con el ejemplo anterior y utilizando además la concatenación de cadenas, ahora podemos mostrar un mensaje personalizado.
+
+Utilizando el método `prompt()` podemos solicitarle al usuario su nombre, y almacenarlo en una variable.
+
+```javascript
+let nombre = prompt("¿Cuál es tu nombre?");
+```
+
+<p align="center">
+    <img src="./img/js/ejemploOperandos.png">
+</p>
+
+Ahora, solo resta utilizar el método `alert()` para mostrar el mensaje.
+
+```javascript
+let nombre = alert("¡Hola, " + nombre + "!"));
+```
+
+<p align="center">
+    <img src="./img/js/ejemploOperandos2.png">
+</p>
