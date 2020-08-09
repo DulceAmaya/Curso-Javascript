@@ -302,15 +302,15 @@ Similar a la igualdad, solo que devuelve `true` si los operandos son iguales y s
 
 ```javascript
 5 === 5; //true
-2 === "2" //false
+2 === "2"; //false
 ```
 
 ##### Estrictamente desiguales `!==`
 Del mismo modo, devuelve `true` si los operandos no son iguales o son de diferente tipo, y `false` en caso de que sean iguales y además sean del mismo tipo.
 
 ```javascript
-5 !== "5" //true
-13 !== 2 //true
+5 !== "5"; //true
+13 !== 2; //true
 ```
 
 ### Operadores lógicos
@@ -320,43 +320,61 @@ Convencionalmente funcionan con operandos booleanos y nos devuelve un resultado 
 Devuelve `true` si ambos operandos evalúan a `true`, o `false` en otro caso.
 
 ```javascript
-let x = (5 >= 3) && (12 == 12) //x = true
+let x = (5 >= 3) && (12 == 12); //x = true
 ```
 En el ejemplo de arriba, la comparación del primer operando devuelve `true`, al igual que la comparación del segundo operando, por lo que tenemos `true && true`, lo cual nos da `true` como resultado.
 
 ```javascript
-let y = (2 < 10) && (1 != 1) //x = false
+let y = (2 < 10) && (1 != 1); //x = false
 ```
 
 ##### Or lógico `||`
 Devuelve `false` si ambos operandos evalúan a `false` o, `true` en otro caso.
 
 ```javascript
-let x = (2 === "2") || (1 >= 0) //x = true
+let x = (2 === "2") || (1 >= 0); //x = true
 ```
 
 En el ejemplo de arriba, la comparación del primer operando devuelve `false`, pero el segundo devuelve `true`, con lo que tenemos `false || true`, por lo que tenemos `true` como resultado.
 
 ```javascript
-let y = (20 > 10) && (3 != 3) //x = false
+let y = (20 > 10) && (3 != 3); //x = false
 ```
 
 ##### Negación `!`
 Devuelve el valor contrario al valor de su operando.
 
 ```javascript
-let x = !true //x = false
-let y = !(5 == 6) //y = true
+let x = !true; //x = false
+let y = !(5 == 6); //y = true
 ```
 
 ### Operadores de asignación
 Un operando de asignación le asigna, al operando de lado izquierdo, el valor obtenido del operando del lado derecho.
 
-|Operando |Ejemplo| Descripción|
-|---|---|--|
-|`=`| `let x = 5` | Asigna a la variable `x` el valor de 5 |
-|`+=`| `x += 8` | Le asigna a `x` el resultado de sumar el *valor actual* de `x` más 8; `x = x + 8`
-|`-=`| `x -= 3` | Le asigna a `x` el resultado de restarle 3 al *valor actual* de `x`; `x = x - 3`
+##### Asignación `=`
+Asigna al operando en el lado izquierdo el valor obtenido del operando del lado derecho.
+
+```javascript
+let x = 5; //x = 5
+let y = (4 ** 3); //y = 64
+```
+
+##### Asignación de adición `+=`
+`x += y`. Le asigna a `x` el resultado de sumar `x + y`.
+
+```javascript
+let x = 5;
+x += 10; //x = 5 + 10 = 15
+```
+
+##### Asignación de sustracción
+`x -= y`. Le asigna a `x` el resultado de restar `x - y`.
+
+```javascript
+let x = 12;
+x -= 8; //x = 12 - 8 = 4
+```
 
 ### Concatenación de cadenas `+`
 Una operación muy útil y muy importante que podemos realizar con el tipo de dato string es la concatenación. Este operando nos devuelve una nueva cadena compuesta por la unión de las dos cadenas que recibe como operandos.
