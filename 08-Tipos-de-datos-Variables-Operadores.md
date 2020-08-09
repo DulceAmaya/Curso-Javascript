@@ -239,6 +239,65 @@ La versión ES6 presentó el operador de exponenciación, `x ** y`, que nos devu
 let x = 2 ** 5; //x = 32
 ```
 
+### Operadores de asignación
+Un operando de asignación le asigna, al operando de lado izquierdo, el valor obtenido del operando del lado derecho.
+
+##### Asignación `=`
+Asigna al operando en el lado izquierdo el valor obtenido del operando del lado derecho.
+
+```javascript
+let x = 5; //x = 5
+let y = (4 ** 3); //y = 64
+```
+
+##### Asignación de adición `+=`
+`x += y`. Le asigna a `x` el resultado de sumar `x + y`.
+
+```javascript
+let x = 5;
+x += 10; //x = 5 + 10 = 15
+```
+
+##### Asignación de sustracción `-=`
+`x -= y`. Le asigna a `x` el resultado de restar `x - y`.
+
+```javascript
+let x = 12;
+x -= 8; //x = 12 - 8 = 4
+```
+
+##### Asignación de multiplicación `*=`
+`x *= y`. Le asigna a `x` el resultado de multiplicar `x * y`.
+
+```javascript
+let x = 2;
+x *= 7; //x = 2 * 7 = 14
+```
+
+##### Asignación de división `/=`
+`x /= y`. Le asigna a `x` el resultado de dividir `x / y`.
+
+```javascript
+let x = 24;
+x /= 8; //x = 24 / 8 = 3
+```
+
+##### Asignación de módulo `%=`
+`x %= y`. Le asigna a `x` el resultado de obtener el módulo de `x % y`.
+
+```javascript
+let x = 35;
+x %= 6; //x = 35 % 6 =  5
+```
+
+##### Asignación de exponenciación `**=`
+`x **= y`. Le asigna a `x` el resultado de elevar `x ** y`.
+
+```javascript
+let x = 2;
+x **= 8; //x = 2 ** 8 = 256
+```
+
 ### Operadores de comparación
 
 Los operadores de comparación comparan los valores de dos operandos y devuelven como resultado un dato booleano.
@@ -347,65 +406,6 @@ Devuelve el valor contrario al valor de su operando.
 ```javascript
 let x = !true; //x = false
 let y = !(5 == 6); //y = true
-```
-
-### Operadores de asignación
-Un operando de asignación le asigna, al operando de lado izquierdo, el valor obtenido del operando del lado derecho.
-
-##### Asignación `=`
-Asigna al operando en el lado izquierdo el valor obtenido del operando del lado derecho.
-
-```javascript
-let x = 5; //x = 5
-let y = (4 ** 3); //y = 64
-```
-
-##### Asignación de adición `+=`
-`x += y`. Le asigna a `x` el resultado de sumar `x + y`.
-
-```javascript
-let x = 5;
-x += 10; //x = 5 + 10 = 15
-```
-
-##### Asignación de sustracción `-=`
-`x -= y`. Le asigna a `x` el resultado de restar `x - y`.
-
-```javascript
-let x = 12;
-x -= 8; //x = 12 - 8 = 4
-```
-
-##### Asignación de multiplicación `*=`
-`x *= y`. Le asigna a `x` el resultado de multiplicar `x * y`.
-
-```javascript
-let x = 2;
-x *= 7; //x = 2 * 7 = 14
-```
-
-##### Asignación de división `/=`
-`x /= y`. Le asigna a `x` el resultado de dividir `x / y`.
-
-```javascript
-let x = 24;
-x /= 8; //x = 24 / 8 = 3
-```
-
-##### Asignación de módulo `%=`
-`x %= y`. Le asigna a `x` el resultado de obtener el módulo de `x % y`.
-
-```javascript
-let x = 35;
-x %= 6; //x = 35 % 6 =  5
-```
-
-##### Asignación de exponenciación `**=`
-`x **= y`. Le asigna a `x` el resultado de elevar `x ** y`.
-
-```javascript
-let x = 2;
-x **= 8; //x = 2 ** 8 = 256
 ```
 
 ### Concatenación de cadenas `+`
