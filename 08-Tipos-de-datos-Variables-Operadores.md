@@ -368,12 +368,44 @@ let x = 5;
 x += 10; //x = 5 + 10 = 15
 ```
 
-##### Asignación de sustracción
+##### Asignación de sustracción `-=`
 `x -= y`. Le asigna a `x` el resultado de restar `x - y`.
 
 ```javascript
 let x = 12;
 x -= 8; //x = 12 - 8 = 4
+```
+
+##### Asignación de multiplicación `*=`
+`x *= y`. Le asigna a `x` el resultado de multiplicar `x * y`.
+
+```javascript
+let x = 2;
+x *= 7; //x = 2 * 7 = 14
+```
+
+##### Asignación de división `/=`
+`x /= y`. Le asigna a `x` el resultado de dividir `x / y`.
+
+```javascript
+let x = 24;
+x /= 8; //x = 24 / 8 = 3
+```
+
+##### Asignación de módulo `%=`
+`x %= y`. Le asigna a `x` el resultado de obtener el módulo de `x % y`.
+
+```javascript
+let x = 35;
+x %= 6; //x = 35 % 6 =  5
+```
+
+##### Asignación de exponenciación `**=`
+`x **= y`. Le asigna a `x` el resultado de elevar `x ** y`.
+
+```javascript
+let x = 2;
+x **= 8; //x = 2 ** 8 = 256
 ```
 
 ### Concatenación de cadenas `+`
