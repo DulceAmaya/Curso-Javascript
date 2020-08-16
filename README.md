@@ -39,6 +39,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [¡Hola mundo!](07-Conceptos-básicos-de-JS.md#hola-mundo)
     - [Consola](07-Conceptos-básicos-de-JS.md#consola)
     - [Comentarios](07-Conceptos-básicos-de-JS.md#comentarios)
+    - [Javascript en nuestra página web](07-Conceptos-básicos-de-JS.md#javascript-en-nuestra-página-web)
 
 8. [Tipos de datos, Variables y Operadores](08-Tipos-de-datos-Variables-Operadores.md)
     - [Tipos de datos](08-Tipos-de-datos-Variables-Operadores.md#tipos-de-datos)
@@ -62,6 +63,7 @@ Curso de introducción al lenguaje de programación Javascript
 10. Condicionales y estructuras de control  
 
 11. [Funciones](10-Funciones.md)
+    - [Sintaxis](10-Funciones.md#sintaxis)
 
 12. Promesas
 
