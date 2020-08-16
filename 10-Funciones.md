@@ -15,7 +15,7 @@ El código que se ejecutará al invocar la función está delimitado por `{}`.
     <img src="./img/js/funciones.png">
 </p>
 
-### Invocación
+### Invocación de funciones
 Arriba explicamos como definir o crear una función, sin embargo, para poder utilizarla debemos *invocarla*, esto es, llamarla o utilizarla en alguna otra parte del código.
 
 <p align="center">
