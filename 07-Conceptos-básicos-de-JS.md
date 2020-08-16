@@ -78,3 +78,27 @@ console.log(5);
 Esto evitará que la instrucción de arriba se ejecute
 */
 ```
+### Javascript en nuestra página web
+Como vimos en el ejemplo de arriba, para comenzar a programar con JavaScript no necesitamos más que la consola de nuestro navegador, sin embargo, y como mencionamos al inicio del curso, el uso en conjunto de HTML, CSS y Javascript es lo que nos permite diseña la parte *frontend* de un sitio web.
+
+Para comenzar debemos crear un archivo `.js`, que es donde escribiremos todo nuestro código javascript. Y, para integrarlo, utilizamos la etiqueta `<script>` dentro de nuestro documento html.
+
+<p align="center">
+    <img src="./img/js/jsEnHtml.png">
+</p>
+
+Dentro de la etiqueta `<script>`, solo debemos indicar donde se ubica nuestro archivo con el atributo `src`.
+
+Ahora, podemos mostrar un mensaje también en nuestra página web.
+
+En nuestro archivo `script.js` podemos escribir el siguiente código:
+
+```javascript
+alert("¡Hola mundo!");
+```
+
+Y, al abrir nuestra página web, veríamos lo siguiente:
+
+<p align="center">
+    <img src="./img/js/jsEnHtml2.png">
+</p>
