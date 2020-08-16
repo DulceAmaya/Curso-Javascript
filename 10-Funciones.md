@@ -14,3 +14,20 @@ El código que se ejecutará al invocar la función está delimitado por `{}`.
 <p align="center">
     <img src="./img/js/funciones.png">
 </p>
+
+### Invocación
+Arriba explicamos como definir o crear una función, sin embargo, para poder utilizarla debemos *invocarla*, esto es, llamarla o utilizarla en alguna otra parte del código.
+
+<p align="center">
+    <img src="./img/js/invocarFuncion.png">
+</p>
+
+Aquí, solo hemos creado la función `miFuncion`, por lo que no ocurre nada más, hasta que la llamamos utilizando *argumentos*.
+
+<p align="center">
+    <img src="./img/js/invocarFuncion2.png">
+</p>
+
+`miFuncion`, necesita conocer los valores de `p1` y `p2` para poder imprimir en la consola el resultado de su suma, es por esto que, al invocarla, debemos indicarle cuales son estos valores, estos son los *argumentos*.
+
+En este ejemplo, los argumentos de `miFuncion` son `4` y `7`, por lo tanto, al ejecutar `miFuncion`, tendríamos que `p1 = 4` y `p2 = 7`;
