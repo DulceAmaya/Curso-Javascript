@@ -72,6 +72,32 @@ Como podemos ver, está función no necesita parámetros, pues solamente imprime
     <img src="./img/js/argumentos2.png">
 </p>
 
+##### Parámetros por defecto
+Otra de las características añadidas en la versión ES6 de Javascript son los **parámetros por defecto**. Esto, nos permite definir un valor por defecto para los parámetros de nuestra función en caso de que al invocarla esta no reciba un los argumentos correspondientes.
+
+Retomemos nuestra función `bienvenida`. Para hacer el mensaje más amigable, podemos agregar el nombre del usuario. Entonces la función se vería de la siguiente forma:
+
+```javascript
+function bienvenida(nombre = "usuario"){
+    console.log("¡Hola, " + nombre + "! Bienvenido al curso de introducción a JavaScript");
+}
+```
+
+En el código de arriba, utilizamos el operador `=` para asignar el valor `"usuario"` al parámetro `nombre`.
+
+Entonces, si invocamos la función utilizando un argumento, obtendríamos el siguiente resultado:
+<p align="center">
+    <img src="./img/js/argumentos4.png">
+</p>
+
+Pero, si invocamos la función `bienvenida` sin pasarle ningún argumento, tendríamos lo siguiente:
+<p align="center">
+    <img src="./img/js/argumentos5.png">
+</p>
+
+De esta forma al asignarle al parámetro un valor por defecto tenemos un plan de respaldo en caso de que la función sea invocada sin los argumentos que necesita.
+
+
 ### Return
 
 ### Function Expressions
