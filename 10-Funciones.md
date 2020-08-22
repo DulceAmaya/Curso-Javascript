@@ -49,6 +49,13 @@ Entonces, al invocar la función, necesitamos decirle cuales serán los valores 
     <img src="./img/js/argumentos.png">
 </p>
 
+Además de utilizar valores explícitos como argumentos, también podemos utilizar variables.
+<p align="center">
+    <img src="./img/js/argumentos3.png">
+</p>
+
+
+<br>
 
 Por otro lado, también pueden existir funciones que no necesiten parámetros.
 
@@ -64,8 +71,6 @@ Como podemos ver, está función no necesita parámetros, pues solamente imprime
 <p align="center">
     <img src="./img/js/argumentos2.png">
 </p>
-
-
 
 ### Return
 
