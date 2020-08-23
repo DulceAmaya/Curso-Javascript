@@ -97,8 +97,52 @@ Pero, si invocamos la función `bienvenida` sin pasarle ningún argumento, tendr
 
 De esta forma al asignarle al parámetro un valor por defecto tenemos un plan de respaldo en caso de que la función sea invocada sin los argumentos que necesita.
 
-
 ### Return
+
+Cuando invocamos una función el interprete ejecuta el código en el cuerpo en el cuerpo de la función y evalúa su resultado. Por defecto, el resultado será `undefined`
+
+Por ejemplo, definamos la función `areaTriangulo`, que recibe como parámetro la base y la altura de un triángulo y calcula su área.
+
+```javascript
+function areaTriangulo(base, altura){
+    let perimetro = (base * altura) / 2;
+}
+```
+
+<p align="center">
+    <img src="./img/js/return.png">
+</p>
+
+Aunque, en efecto, la función asigna a la variable `perimetro` el resultado de calcular el perímetro de un triángulo, al invocar la función obtenemos como resultado `undefined`.
+
+Y entonces, ¿cómo podemos conseguir que la función nos devuelva el resultado? Para esto tenemos la palabra reservada `return`.
+
+<p align="center">
+    <img src="./img/js/return2.png">
+</p>
+
+La palabra reservada `return` nos permite devolver información de la ejecución de una función.
+
+Cuando se utiliza la sentencia `return` la ejecución de la función se detiene, por lo que si hay más código después, este no será ejecutado.
+
+```javascript
+function areaTriangulo(base, altura){
+    let perimetro = (base * altura) / 2;
+    return perimetro;
+}
+```
+
+Volviendo a nuestro ejemplos, ahora podemos agregar la sentencia `return` al final, que devolverá el valor en la variable `perimetro`.
+
+<p align="center">
+    <img src="./img/js/return3.png">
+</p>
+
+Y ahora, al invocar nuestra función obtenemos un resultado.
+
+
+
+
 
 ### Function Expressions
 
