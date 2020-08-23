@@ -65,6 +65,10 @@ Curso de introducción al lenguaje de programación Javascript
 11. [Funciones](10-Funciones.md)
     - [Sintaxis](10-Funciones.md#sintaxis)
     - [Invocación de funciones](10-Funciones.md#Invocación-de-funciones)
+    - [Parámetros y argumentos](10-Funciones.md#parámetros-y-argumentos)
+    - [Return](10-Funciones.md#return)
+    - [Function Expressions](10-Funciones.md#function-expressions)
+    - [Arrow Functions](10-Funciones.md#arrow-functions)
 
 12. Promesas
 
