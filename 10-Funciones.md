@@ -132,7 +132,7 @@ function areaTriangulo(base, altura){
 }
 ```
 
-Volviendo a nuestro ejemplos, ahora podemos agregar la sentencia `return` al final, que devolverá el valor en la variable `perimetro`.
+Volviendo a nuestro ejemplo, ahora podemos agregar la sentencia `return` al final, que devolverá el valor en la variable `perimetro`.
 
 <p align="center">
     <img src="./img/js/return3.png">
@@ -140,10 +140,24 @@ Volviendo a nuestro ejemplos, ahora podemos agregar la sentencia `return` al fin
 
 Y ahora, al invocar nuestra función obtenemos un resultado.
 
-
-
-
-
 ### Function Expressions
+Otra forma de crear una función es con las `function expressions`.
+
+Para definir una función dentro de una expresión también utilizamos la palabra reservada `function`, y, usualmente, no se le asigna un identificador. Las funciones sin un nombre se les conoce como **funciones anónimas**.
+
+Estas expresiones se almacenan usualmente en una variable que después se utiliza para ejecutar la función
+
+<p align="center">
+    <img src="./img/js/functionExpression.png">
+</p>
+
 
 ### Arrow Functions
+
+La versión ES6 de Javascript introdujo la sintaxis de las `arrow functions`, una forma más corta de escribir funciones utilizando la notación de flecha `() =>`.
+
+La sintaxis de `arrow function` elimina el uso de la palabra reservada `function` para declarar una función y, en su lugar, utiliza la siguiente sintaxis:
+
+<p align="center">
+    <img src="./img/js/arrowFunction.png">
+</p>
