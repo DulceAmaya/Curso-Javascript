@@ -140,8 +140,40 @@ Volviendo a nuestro ejemplo, ahora podemos agregar la sentencia `return` al fina
 
 Y ahora, al invocar nuestra función obtenemos un resultado.
 
+Podemos utilizar las llamadas a funciones, y los resultados que obtenemos de ellas, de la misma forma que utilizamos una variable; en asignaciones, operaciones e incluso otras funciones.
+
+```javascript
+function calcularEdad(fecha){
+    return 2020 - fecha;
+}
+
+function esMayorDeEdad(edad){
+    if(edad > 18)
+        return true;
+    else
+        return false;
+}
+
+function crearLicencia(nombre, fecha){
+    if(esMayorDeEdad(calcularEdad(fecha)))
+        return "¡" + nombre + ", tu licencia está lista!";
+    else
+        return nombre + ", eres muy joven para manejar";
+}
+```
+
+<p align="center">
+    <img src="./img/js/return4.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/return5.png">
+</p>
+
+Como vemos en el ejemplo, utilizamos el resultado obtenido de invocar a `calcularEdad()` como argumento para invocar a la función `esMayorDeEdad()` y además, utilizamos el resultado de dicha invocación como la condición a evaluar dentro del *if*.
+
 ### Function Expressions
-Otra forma de crear una función es con las `function expressions`.
+Otra forma de crear una función es con las **function expressions**.
 
 Para definir una función dentro de una expresión también utilizamos la palabra reservada `function`, y, usualmente, no se le asigna un identificador. Las funciones sin un nombre se les conoce como **funciones anónimas**.
 
@@ -151,13 +183,43 @@ Estas expresiones se almacenan usualmente en una variable que después se utiliz
     <img src="./img/js/functionExpression.png">
 </p>
 
+Entonces podemos crear una función  así:
+
+```javascript
+const puedoManejar = function(edad){
+    if (edad > 18)
+        return "Si";
+    else
+        return "No";
+}
+```
+Y podemos invocar a la función con `puedoManejar()`.
+
+<p align="center">
+    <img src="./img/js/functionExpression2.png">
+</p>
+
+
 
 ### Arrow Functions
 
-La versión ES6 de Javascript introdujo la sintaxis de las `arrow functions`, una forma más corta de escribir funciones utilizando la notación de flecha `() =>`.
+La versión ES6 de Javascript introdujo la sintaxis de las **arrow functions**, una forma más corta de escribir funciones utilizando la notación de flecha `() =>`.
 
-La sintaxis de `arrow function` elimina el uso de la palabra reservada `function` para declarar una función y, en su lugar, utiliza la siguiente sintaxis:
+La sintaxis de **arrow function** elimina el uso de la palabra reservada `function` para declarar una función y, en su lugar, utiliza la siguiente sintaxis:
 
 <p align="center">
     <img src="./img/js/arrowFunction.png">
+</p>
+
+
+```javascript
+const promedio = (a, b, c) => {
+    return (a + b + c) / 3;
+}
+```
+
+Y podemos invocar la función utilizando `promedio()`.
+
+<p align="center">
+    <img src="./img/js/arrowFunction2.png">
 </p>
