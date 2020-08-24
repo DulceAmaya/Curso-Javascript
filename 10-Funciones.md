@@ -177,7 +177,7 @@ Otra forma de crear una función es con las **function expressions**.
 
 Para definir una función dentro de una expresión también utilizamos la palabra reservada `function`, y, usualmente, no se le asigna un identificador. Las funciones sin un nombre se les conoce como **funciones anónimas**.
 
-Estas expresiones se almacenan usualmente en una variable que después se utiliza para ejecutar la función
+Estas expresiones se almacenan usualmente en una variable que después se utiliza para invocar la función
 
 <p align="center">
     <img src="./img/js/functionExpression.png">
