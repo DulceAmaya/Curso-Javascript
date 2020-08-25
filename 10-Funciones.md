@@ -22,7 +22,7 @@ Arriba explicamos como definir o crear una función, sin embargo, para poder uti
     <img src="./img/js/invocarFuncion.png">
 </p>
 
-Aquí, solo hemos creado la función `miFuncion`, por lo que no ocurre nada más, hasta que la llamamos utilizando *argumentos*.
+Aquí, solo hemos creado la función `miFuncion`, por lo que no ocurre nada más hasta que la llamamos utilizando *argumentos*.
 
 <p align="center">
     <img src="./img/js/invocarFuncion2.png">
