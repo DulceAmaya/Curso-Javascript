@@ -41,35 +41,36 @@ Curso de introducción al lenguaje de programación Javascript
     - [Comentarios](07-Conceptos-básicos-de-JS.md#comentarios)
     - [Javascript en nuestra página web](07-Conceptos-básicos-de-JS.md#javascript-en-nuestra-página-web)
 
-8. [Tipos de datos y Arreglos](08-Tipos-de-datos-Arreglos.md)
-    - [Tipos de datos](08-Tipos-de-datos-Arreglos.md#tipos-de-datos)
-        - [Number](08-Tipos-de-datos-Arreglos.md#number)
-        - [String](08-Tipos-de-datos-Arreglos.md#string)
-        - [Boolean](08-Tipos-de-datos-Arreglos.md#boolean)
-        - [Null](08-Tipos-de-datos-Arreglos.md#null)
-        - [Undefined](08-Tipos-de-datos-Arreglos.md#undefined)
-9. [Variables y Operadores](09-Variables-Operadores.md)
-    - [Variables](09-Variables-Operadores.md#variables)
-        - [var](09-Variables-Operadores.md#var)
-        - [let](09-Variables-Operadores.md#let)
-        - [const](09-Variables-Operadores.md#const)
-    - [Operadores](09-Variables-Operadores.md#operadores)
-        - [Operadores aritméticos](09-Variables-Operadores.md#operadores-aritméticos)
-        - [Operadores de asignación](09-Variables-Operadores.md#operadores-de-asignación)
-        - [Operadores de comparación](09-Variables-Operadores.md#operadores-de-comparación)
-        - [Operadores lógicos](09-Variables-Operadores.md#operadores-lógicos)
-        - [Concatenación de cadenas](09-Variables-Operadores.md#concatenación-de-cadenas-)
+8. [Tipos de datos, Variables y Operadores](08-Tipos-de-datos-Variables-Operadores.md)
+    - [Tipos de datos](08-Tipos-de-datos-Variables-Operadores.md#tipos-de-datos)
+        - [Number](08-Tipos-de-datos-Variables-Operadores.md#number)
+        - [String](08-Tipos-de-datos-Variables-Operadores.md#string)
+        - [Boolean](08-Tipos-de-datos-Variables-Operadores.md#boolean)
+        - [Null](08-Tipos-de-datos-Variables-Operadores.md#null)
+        - [Undefined](08-Tipos-de-datos-Variables-Operadores.md#undefined)
+    - [Variables](08-Tipos-de-datos-Variables-Operadores.md#variables)
+        - [var](08-Tipos-de-datos-Variables-Operadores.md#var)
+        - [let](08-Tipos-de-datos-Variables-Operadores.md#let)
+        - [const](08-Tipos-de-datos-Variables-Operadores.md#const)
+    - [Operadores](08-Tipos-de-datos-Variables-Operadores.md#operadores)
+        - [Operadores aritméticos](08-Tipos-de-datos-Variables-Operadores.md#operadores-aritméticos)
+        - [Operadores de asignación](08-Tipos-de-datos-Variables-Operadores.md#operadores-de-asignación)
+        - [Operadores de comparación](08-Tipos-de-datos-Variables-Operadores.md#operadores-de-comparación)
+        - [Operadores lógicos](08-Tipos-de-datos-Variables-Operadores.md#operadores-lógicos)
+        - [Concatenación de cadenas](08-Tipos-de-datos-Variables-Operadores.md#concatenación-de-cadenas-)
 
 
-10. Condicionales y estructuras de control  
+9. Condicionales y estructuras de control  
 
-11. [Funciones](10-Funciones.md)
+10. [Funciones](10-Funciones.md)
     - [Sintaxis](10-Funciones.md#sintaxis)
     - [Invocación de funciones](10-Funciones.md#Invocación-de-funciones)
     - [Parámetros y argumentos](10-Funciones.md#parámetros-y-argumentos)
     - [Return](10-Funciones.md#return)
     - [Function Expressions](10-Funciones.md#function-expressions)
     - [Arrow Functions](10-Funciones.md#arrow-functions)
+
+11. [Arreglos]
 
 12. Promesas
 
