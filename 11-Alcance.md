@@ -57,7 +57,7 @@ Aquí declaramos la variable `mascota` dentro del cuerpo de la función por lo q
 
 El error nos dice que `mascota no está definido`, esto es porque la variable solo existe dentro de la función.
 
-Vemos otro ejemplo.
+Veamos otro ejemplo.
 
 ```javascript
 const ejemplo2 = () =>{
@@ -77,3 +77,26 @@ ejemplo2() //Error
 </p>
 
 En este caso, obtenemos un error al ejecutar la función `ejemplo2()`, pues aunque la condición del `if` se cumple y el cuerpo se ejecuta (se crea la variable `b = 15`), esta no existe fuera de los corchetes donde fue creada, por lo que no podemos utilizarla en el `return`.
+
+Es importante recordar también que los argumentos que recibe una función al ser invocada funcionan como variables locales dentro del cuerpo de la función.
+
+```javascript
+const ejemplo3 = (ciudad) => {
+    alert("Mi ciudad favorita es: " + ciudad);
+}
+
+ejemplo3("San Francisco");
+
+console.log(ciudad); //Error
+```
+
+<p align="center">
+    <img src="./img/js/alcance5.png">
+</p>
+
+### Vida de una variable
+La vida de una variable comienza cuando es declarada.
+
+Las variables locales son eliminadas cuando termina la ejecución de su bloque de código, mientras que en el navegador las variables globales son eliminadas cuando se cierra la ventana o pestaña donde se encuentra la página web.
+
+### Buenas prácticas
