@@ -70,7 +70,12 @@ Curso de introducción al lenguaje de programación Javascript
     - [Function Expressions](10-Funciones.md#function-expressions)
     - [Arrow Functions](10-Funciones.md#arrow-functions)
 
-11. [Arreglos]
+11. [Alcance](11-Alcance.md)
+    - [Bloques](11-Alcance.md#bloques)
+    - [Alcance global](11-Alcance.md#alcance-global)
+    - [Alcance local](11-Alcance.md#alcance-local)
+    - [Vida de una variable](11-Alcance.md#vida-de-una-variable)
+    - [Buenas prácticas](11-Alcance.md#buenas-prácticas)
 
 12. Promesas
 
