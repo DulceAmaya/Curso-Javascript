@@ -64,8 +64,9 @@ const ejemplo2 = () =>{
     let a = 10;
     if(a > 5){
         let b = 15;
+        console.log(a + b); //Se imprime en consola 25;
     }
-    return a + b;
+    return a + b; //Error
 }
 
 ejemplo2() //Error
@@ -75,4 +76,4 @@ ejemplo2() //Error
     <img src="./img/js/alcance4.png">
 </p>
 
-En este caso, obtenemos un error al ejecutar la función `ejemplo2()`, pues aunque la condición del if se cumple y el cuerpo se ejecuta (se crea la variable `b = 15`), esta no existe fuera de los corchetes donde fue creada, por lo que no podemos utilizarla en el `return`.
+En este caso, obtenemos un error al ejecutar la función `ejemplo2()`, pues aunque la condición del `if` se cumple y el cuerpo se ejecuta (se crea la variable `b = 15`), esta no existe fuera de los corchetes donde fue creada, por lo que no podemos utilizarla en el `return`.
