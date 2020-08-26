@@ -100,3 +100,6 @@ La vida de una variable comienza cuando es declarada.
 Las variables locales son eliminadas cuando termina la ejecución de su bloque de código, mientras que en el navegador las variables globales son eliminadas cuando se cierra la ventana o pestaña donde se encuentra la página web.
 
 ### Buenas prácticas
+Aunque en principio podría parecer más sencillo hacer todas la variables accesibles para nuestro código, esto se considera una muy mala práctica de programación pues conforme tu programa vaya creciendo esto podría ocasionarte problemas.
+
+Es por eso que siempre debemos intentar utilizar variables locales. De esta forma no solo puedes evitar errores o confusiones con los nombres y valores de tus variables, sino que el utilizar variables locales hará tu código más legible pues los bloques te proporcionan una mejor organización e incluso te permitirá ahorrar espacio, pues las variables dejarán de existir en cuanto su bloque termine de ejecutarse.
