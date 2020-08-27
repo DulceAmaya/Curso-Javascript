@@ -68,14 +68,14 @@ La estructura del switch es la siguiente:
         default:
             break;
     }
-``` 
+```
 
 Los pasos que se ejecutan en una **estructura switch** son:  
     1. La expresión del switch es evaluada.  
     2. Se compara el valor resultante con cada uno de los casos (case).  
     3. Si existe coincidencia, se ejecuta el bloque de código correspondiente al case.  
     4. En otro caso, si no hay coincidencia, se ejecuta el case por defecto **default**.  
-                                                                                          
+
 ### Continue y brake
 
 **Brake** es una palabra reservada del lenguaje que nos permite terminar de forma instantánea la ejecución de determinado bloque de código, la importancia de tener un brake en el caso de un switch es que en el caso de no ponerlo, la ejecución del código se seguirá hasta terminar todos los case o encontrar el primer brake en la estructura de control.
@@ -91,7 +91,7 @@ Los pasos que se ejecutan en una **estructura switch** son:
         default:
             break;
     }
-``` 
+```
 
 <p align="center">
     <img src="./img/ciclos-02.png">
@@ -109,10 +109,10 @@ Nos brinda la opción de crear ciclos y ejecutar el ciclo interno siempre y cuan
     <img src="./img/ciclos-03.png" width="700px" height="500px">
 </p>
 
-Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**, es decir el programador se encarga de la actualización del código. Si lo pensamos un while nos es útil para ejecutar un mismo comportamiento un determinado número de veces. 
+Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**, es decir el programador se encarga de la actualización del código. Si lo pensamos un while nos es útil para ejecutar un mismo comportamiento un determinado número de veces.
 
 Hagamos un ejemplo con un ciclo while:  
-**Leamos una cadena de entrada desde una ventana e invertimos la cadena imprimiendo el resultado en pantalla** 
+**Leamos una cadena de entrada desde una ventana e invertimos la cadena imprimiendo el resultado en pantalla**
 
 ```javascript
 function reversa(cadena) {
@@ -140,7 +140,7 @@ Los pasos a seguir son:
     6. Recordemos que en cada iteración debemos decrementar el iterador, ésto nos garantiza que no caiga en lo que se conoce como un loop infinito.  
     7. Una vez terminado el ciclo while podemos garantizar que en cadenaInvertida tenemos la cadena recibida como parámetro de forma invertida.
     8. Imprimimos el resultado.  
-    
+
 Hablemos un poco de los **loops** infinitos o ciclos infinitos.  
 Los **ciclos infinitos** son un error de programación en el que el ciclo nunca llega a la negación de la condición de permanencia, por lo que el ciclo siempre se ejecutará durante la ejecución del programa. Un **loop** infinito se puede ver tan fácil como el siguiente ejemplo:  
 
@@ -156,7 +156,7 @@ while (0 >= i) {
     <img src="./img/ciclos-04.png">
 </p>
 
-Como podemos ver el simple hecho de no incrementar el valor de la variable **i** o no incrementarla de forma adecuada en cada iteración hace que caiga en **loop infinito** 
+Como podemos ver el simple hecho de no incrementar el valor de la variable **i** o no incrementarla de forma adecuada en cada iteración hace que caiga en **loop infinito**
 y nunca terminará o en otro caso dependiendo lo que estemos haciendo terminará dependiendo la memoria virtual llegando a un error conocido como desbordamiendo de memoria.  
 
 
@@ -171,7 +171,7 @@ For es uan estructura muy interesante, en comportamiendo y funcionamiento es sim
 **Hablemos de las 3 partes que componen al for**.
 
 ### Iterador
-   
+
 Al igual que el while, el iterador es una variable que nos servirá para ejecutar el ciclo for un determinado número de veces. Un ejemplo de inicialización se puede ver de la siguiente forma:  
 
 ```javascript
@@ -221,7 +221,7 @@ La estructura de control  **ForEach** es un caso particular del ciclo for, ya qu
     <img src="./img/ciclos-07.png" width="700px" height="500px">
 </p>
 
-Hagamos un pequeño ejercicio con la estructura for-each 
+Hagamos un pequeño ejercicio con la estructura for-each.
 
 Vamos a quitar los múltiplos de 5 de una lista de enteros positivos sin repeticiones.
 
