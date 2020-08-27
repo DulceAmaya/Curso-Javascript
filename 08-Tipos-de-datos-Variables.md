@@ -54,7 +54,7 @@ Existen diferentes formas en que podemos crear o *declarar* estas variables, ade
 En 2015, la versión de ES6 de Javascript presentó algunos cambios importantes, uno de ellos siendo la forma en que se declaraban variables. Aunque ahora es cada vez menos común, aún podemos encontrarnos con la palabra reservada `var` para crear una variable.
 
 ```javascript
-var x = 5;
+var x = 7;
 ```
 
 ### let
