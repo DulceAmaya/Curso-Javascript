@@ -7,7 +7,7 @@ El alcance define en que partes del código se puede acceder o utilizar una vari
 ### Bloques
 Para comprender el concepto de alcance necesitamos primero explicar brevemente que es un *bloque*.
 
-Se le denomina *bloque* al código que se encuentra delimitado entre corchetes `{}`. Los bloques de código nos permiten agrupar una o más sentencias.
+Se le denomina *bloque* al código que se encuentra delimitado entre llaves `{}`. Los bloques de código nos permiten agrupar una o más sentencias.
 
 Ya hemos utilizado bloques antes, en funciones y estructuras de control, por ejemplo:
 
@@ -49,7 +49,7 @@ const ejemplo = () =>{
 console.log(mascota) //Error
 ```
 
-Aquí declaramos la variable `mascota` dentro del cuerpo de la función por lo que, al intentar utilizarla fuera de los corchetes tendríamos un error.
+Aquí declaramos la variable `mascota` dentro del cuerpo de la función por lo que, al intentar utilizarla fuera de las llaves tendríamos un error.
 
 <p align="center">
     <img src="./img/js/alcance3.png">
@@ -76,7 +76,7 @@ ejemplo2() //Error
     <img src="./img/js/alcance4.png">
 </p>
 
-En este caso, obtenemos un error al ejecutar la función `ejemplo2()`, pues aunque la condición del `if` se cumple y el cuerpo se ejecuta (se crea la variable `b = 15`), esta no existe fuera de los corchetes donde fue creada, por lo que no podemos utilizarla en el `return`.
+En este caso, obtenemos un error al ejecutar la función `ejemplo2()`, pues aunque la condición del `if` se cumple y el cuerpo se ejecuta (se crea la variable `b = 15`), esta no existe fuera de las llaves donde fue creada, por lo que no podemos utilizarla en el `return`.
 
 Es importante recordar también que los argumentos que recibe una función al ser invocada funcionan como variables locales dentro del cuerpo de la función.
 
