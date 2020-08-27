@@ -244,7 +244,7 @@ let x = "Hola" + " " + "mundo"; //x = "Hola mundo"
 Además de concatenar dos cadenas, podemos concatenar una cadena y un número y también obtendremos como resultado una cadena.
 
 ```javascript
-let y = "Adios" + 4; //y = "Adios4"
+let y = "Adios" + 3; //y = "Adios3"
 ```
 
 ### Plantillas de cadena de texto `${}`
