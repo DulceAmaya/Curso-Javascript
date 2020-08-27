@@ -41,7 +41,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [Comentarios](07-Conceptos-básicos-de-JS.md#comentarios)
     - [Javascript en nuestra página web](07-Conceptos-básicos-de-JS.md#javascript-en-nuestra-página-web)
 
-8. [Tipos de datos, Variables y Operadores](08-Tipos-de-datos-Variables-Operadores.md)
+8. [Tipos de datos y Variables](08-Tipos-de-datos-Variables-Operadores.md)
     - [Tipos de datos](08-Tipos-de-datos-Variables-Operadores.md#tipos-de-datos)
         - [Number](08-Tipos-de-datos-Variables-Operadores.md#number)
         - [String](08-Tipos-de-datos-Variables-Operadores.md#string)
@@ -52,33 +52,34 @@ Curso de introducción al lenguaje de programación Javascript
         - [var](08-Tipos-de-datos-Variables-Operadores.md#var)
         - [let](08-Tipos-de-datos-Variables-Operadores.md#let)
         - [const](08-Tipos-de-datos-Variables-Operadores.md#const)
-    - [Operadores](08-Tipos-de-datos-Variables-Operadores.md#operadores)
-        - [Operadores aritméticos](08-Tipos-de-datos-Variables-Operadores.md#operadores-aritméticos)
-        - [Operadores de asignación](08-Tipos-de-datos-Variables-Operadores.md#operadores-de-asignación)
-        - [Operadores de comparación](08-Tipos-de-datos-Variables-Operadores.md#operadores-de-comparación)
-        - [Operadores lógicos](08-Tipos-de-datos-Variables-Operadores.md#operadores-lógicos)
-        - [Concatenación de cadenas](08-Tipos-de-datos-Variables-Operadores.md#concatenación-de-cadenas-)
+
+9. [Operadores](09-Operadores.md)
+    - [Operadores aritméticos](09-Operadores.md#operadores-aritméticos)
+    - [Operadores de asignación](09-Operadores.md#operadores-de-asignación)
+    - [Operadores de comparación](09-Operadores.md#operadores-de-comparación)
+    - [Operadores lógicos](09-Operadores.md#operadores-lógicos)
+    - [Concatenación de cadenas](09-Operadores.md#concatenación-de-cadenas-)
 
 
-9. Condicionales y estructuras de control  
+10. Condicionales y estructuras de control  
 
-10. [Funciones](10-Funciones.md)
-    - [Sintaxis](10-Funciones.md#sintaxis)
-    - [Invocación de funciones](10-Funciones.md#Invocación-de-funciones)
-    - [Parámetros y argumentos](10-Funciones.md#parámetros-y-argumentos)
-    - [Return](10-Funciones.md#return)
-    - [Function Expressions](10-Funciones.md#function-expressions)
-    - [Arrow Functions](10-Funciones.md#arrow-functions)
+11. [Funciones](11-Funciones.md)
+    - [Sintaxis](11-Funciones.md#sintaxis)
+    - [Invocación de funciones](11-Funciones.md#Invocación-de-funciones)
+    - [Parámetros y argumentos](11-Funciones.md#parámetros-y-argumentos)
+    - [Return](11-Funciones.md#return)
+    - [Function Expressions](11-Funciones.md#function-expressions)
+    - [Arrow Functions](11-Funciones.md#arrow-functions)
 
-11. [Alcance](11-Alcance.md)
-    - [Bloques](11-Alcance.md#bloques)
-    - [Alcance global](11-Alcance.md#alcance-global)
-    - [Alcance local](11-Alcance.md#alcance-local)
-    - [Vida de una variable](11-Alcance.md#vida-de-una-variable)
-    - [Buenas prácticas](11-Alcance.md#buenas-prácticas)
+12. [Alcance](12-Alcance.md)
+    - [Bloques](12-Alcance.md#bloques)
+    - [Alcance global](12-Alcance.md#alcance-global)
+    - [Alcance local](12-Alcance.md#alcance-local)
+    - [Vida de una variable](12-Alcance.md#vida-de-una-variable)
+    - [Buenas prácticas](12-Alcance.md#buenas-prácticas)
 
-12. Promesas
+13. Promesas
 
-13. Frameworks comunes  
+14. Frameworks comunes  
 
-14. Aplicación de JS en Framework leaflet    
+15. Aplicación de JS en Framework leaflet    
