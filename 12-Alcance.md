@@ -5,7 +5,7 @@ Un concepto muy importante en la programación es el concepto de **alcance**.
 El alcance define en que partes del código se puede acceder o utilizar una variable, ya que mientras algunas variables pueden ser accedidas en cualquier parte del programa, otras solo pueden ser utilizadas en ciertas partes del código.
 
 ### Bloques
-Para comprender el concepto de alcance necesitamos primero explicar brevemente que es un bloque.
+Para comprender el concepto de alcance necesitamos primero explicar brevemente que es un *bloque*.
 
 Se le denomina *bloque* al código que se encuentra delimitado entre corchetes `{}`. Los bloques de código nos permiten agrupar una o más sentencias.
 
