@@ -11,9 +11,26 @@ Para crear un arreglo comenzamos por asignarlo a una variable. Los elementos del
     <img src="./img/js/arreglos.png">
 </p>
 
-### Elementos de un arreglo
 En Javascript podemos definir arreglos heterogéneos, esto es que los elementos de un arreglo pueden ser de diferentes tipos, e incluso pueden ser otros arreglos.
 
 ```javascript
 let arreglo = [1, "hola", true, 20.5, undefined, [1, 2, "adios"]];
+```
+
+### Acceder a sus elementos
+Como mencionamos arriba, los elementos de un arreglo se encuentra numerados, por lo que podemos utilizar su *índice* para acceder a ellos.
+
+La numeración de los elementos en un arreglo comienza por el número 0.
+
+Para acceder a los elemntos de un arreglo utilizamos la siguiente sintaxis.
+
+<p align="center">
+    <img src="./img/js/arreglos2.png">
+</p>
+
+Al acceder a un elemento de un arreglo, podemos asignarlo a una variable, por ejemplo.
+
+```javascript
+let miArreglo = ["pato", "pez", "gato"];
+let animal = miArreglo[1]; //animal = "pez"
 ```
