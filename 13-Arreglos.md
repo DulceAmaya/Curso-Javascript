@@ -17,7 +17,7 @@ En Javascript podemos definir arreglos heterogéneos, esto es que los elementos 
 let arreglo = [1, "hola", true, 20.5, undefined, [1, 2, "adios"]];
 ```
 
-### Acceder a sus elementos
+### Acceder a los elementos de un arreglo
 Como mencionamos arriba, los elementos de un arreglo se encuentra numerados, por lo que podemos utilizar su *índice* para acceder a ellos.
 
 La numeración de los elementos en un arreglo comienza por el número 0.
