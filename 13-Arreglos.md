@@ -5,7 +5,7 @@ En javascript los arreglos son utilizados para almacenar múltiples valores en u
 Los arreglos pueden almacenar cualquier tipo de datos y, al igual que en una lista, los elementos de un arreglo tienen una posición numerada lo que significa que podemos utilizar un índice para acceder a ellos.
 
 ### Sintaxis
-Para crear un arreglo comenzamos por asignarlo a una variable. Los elementos del arreglo los encerramos entre corchetes `[]`, separando cada elemento con una coma.
+Para crear un arreglo encerramos sus elementos entre corchetes `[]` y separamos cada uno con una coma. Más comúnmente, asignamos el arreglo a una variable, para así poder darle un nombre.
 
 <p align="center">
     <img src="./img/js/arreglos.png">
@@ -33,4 +33,24 @@ Al acceder a un elemento de un arreglo, podemos asignarlo a una variable, por ej
 ```javascript
 let miArreglo = ["pato", "pez", "gato"];
 let animal = miArreglo[1]; //animal = "pez"
+```
+
+No solo podemos acceder a un elemento en un arreglo para guardarlo en una variable, también podemos modificarlo.
+
+```javascript
+miArreglo[2] = "ratón"; //miArreglo = ["pato", "pez", "ratón"]
+```
+Como sabemos, el valor de una variable `const` no puede ser reasignado, sin embargo, sin embargo los elementos de un arreglo declarado con `const` si pueden ser modificados.
+
+```javascript
+const numeros = [1, 2, 3, 4, 5];
+numeros[2] = 10; //numeros = [1, 2, 10, 4, 5]
+```
+
+### Longitud de un arreglo
+Una de las propiedades de los arreglos es su longitud. Podemos recuperar la longitud de un arreglo utilizamos la palabra reservada `length`.
+
+```javascript
+const numeros = [1, 2, 3, 4, 5];
+let longitud = numeros.length; //longitud = 5
 ```
