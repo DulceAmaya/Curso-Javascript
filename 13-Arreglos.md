@@ -97,12 +97,13 @@ El método `forEach()` recibe como parámetro una función que aplica a cada ele
 
 ```javascript
 animales.forEach(animal => console.log(animal));
-}
 ```
 
 Aquí, le estamos diciendo a la función `forEach()`: *Por cada animal en el arreglo imprime ese animal en la consola*.
 
-### Agregar elementos a un arreglo
+### Métodos útiles
+
+##### push()
 La forma mas sencilla de agregar un elemnto a un arreglo es utilizando el método `push()`, que recibe el nuevo elemento como parámetro y lo agrega al final del arreglo.
 
 ```javascript
@@ -112,7 +113,7 @@ animales.push("elefante"); //animales = ["perro", "gato", "pez", "pato", "jirafa
 }
 ```
 
-Otra forma de agregar elementos a un arreglo es ayudándonos con la propiedad de longitud
+Otra forma de agregar elementos al final de un arreglo es ayudándonos con la propiedad de longitud
 
 ```javascript
 animales[animales.length] = "delfín";
@@ -122,8 +123,8 @@ animales[animales.length] = "delfín";
 ```
 Aquí, utilizamos la longitud del arreglo para acceder a la posición siguiente al último elemento (recordemos que el índice del último elemento es la longitud del arreglo menos 1) y asignarle el nuevo elemento.
 
-### Eliminar el último elemento de un arreglo
-Podemos utilizar el método `pop()` para eliminar el último elemento de un arreglo. Este método no recibe ningún parámetro.
+##### pop()
+Podemos utilizar el método `pop()` para eliminar el último elemento de un arreglo. Este método no recibe ningún parámetro y nos devuelve como resultado el elemento que elimino.
 
 ```javascript
 const animales = ["perro", "gato", "pez", "pato", "jirafa"];
@@ -134,3 +135,40 @@ let ultimo = animales.pop(); //ultimo = "jirafa"
 ```
 
 Al eliminar un elemento del arreglo su longitud disminuye.
+
+##### shift()
+Para eliminar el primer elemento de un arreglo podemos utilizar el método `shift()`. Al igual que el método anterior no recibe parámetros y nos devueleve el elemento eliminado.
+
+```javascript
+const animales = ["perro", "gato", "pez", "pato", "jirafa"];
+
+let primero = animales.shift(); //primero = "perro"
+//animales = ["gato", "pez", "pato", "jirafa"]
+}
+```
+
+Al eliminar el primer elemento del arreglo su longitud disminuye.
+
+##### map()
+El método `map()` nos devuelve un arreglo nuevo, después de haberle aplicado una función (que recibe como parámetro) a cada elemento del arreglo original.
+
+```javascript
+const pares = [2, 4, 6, 8, 10];
+const ejemplo = pares.map(elemento => elemento * 3); //ejemplo = [6, 12, 18, 24, 30];
+}
+```
+
+En el ejemplo, comenzamos por definir un arreglo llamado pares, con 5 números pares.
+
+El resultado de invocar al método `map()` lo almacenamos en la variable `ejemplo`. Al método le pasamos como parámetro una función que a cada *elemento* lo multiplicará por 3.
+
+##### reserve()
+El método `reverse()` nos devuelve un arreglo ordenado en forma contraria al original. Este método no recibe parámetros.
+
+```javascript
+const animales = ["perro", "gato", "pez", "pato", "jirafa"];
+const ejemplo = pares.reverse(); //animales = ["jirafa", "pato", "pez", "gato", "perro"]
+}
+```
+
+[Aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) puedes consultar todos lo métodos que puedes utilizar con arreglos.
