@@ -162,7 +162,18 @@ En el ejemplo, comenzamos por definir un arreglo llamado pares, con 5 números p
 
 El resultado de invocar al método `map()` lo almacenamos en la variable `ejemplo`. Al método le pasamos como parámetro una función que a cada *elemento* lo multiplicará por 3.
 
-##### reserve()
+##### filter()
+El método `filter()` nos devuelve un nuevo arreglo compuesto de los elementos del arreglo original que cumplen con cierta condición, la cual se la pasamos al método como parámetro.
+
+```javascript
+const numeros = [15, 2, 9, 37, 14, 3, 21];
+const multiplos3 = pares.filter(elemento => (elemento % 3) === 0); //multiplos3 = [15, 9, 3, 21];
+}
+```
+
+En este ejemplo, el método `filter()` nos devuelve un arreglo que solo tiene a los elementos múltiplos de 3 del arreglo original.
+
+##### reverse()
 El método `reverse()` nos devuelve un arreglo ordenado en forma contraria al original. Este método no recibe parámetros.
 
 ```javascript
