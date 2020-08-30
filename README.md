@@ -82,11 +82,12 @@ Curso de introducción al lenguaje de programación Javascript
     - [Acceder a los elementos de un arreglo](13-Arreglos.md#acceder-a-los-elementos-de-un-arreglo)
     - [Longitud de un arreglo](13-Arreglos.md#longitud-de-un-arreglo)
     - [Recorriendo un arreglo](13-Arreglos.md#recorriendo-un-arreglo)
-    - [Agregar elementos a un arreglo](13-Arreglos.md#agregar-elementos-a-un-arreglo)
-    - [Eliminar el último elemento de un arreglo](13-Arreglos.md#eliminar-el-último-elemento-de-un-arreglo)
+    - [Métodos útiles](13-Arreglos.md#métodos-útiles)
 
-14. Promesas
+14. [Objetos](14-Objetos.md)
 
-15. Frameworks comunes  
+15. Promesas
 
-16. Aplicación de JS en Framework leaflet    
+16. Frameworks comunes  
+
+17. Aplicación de JS en Framework leaflet    
