@@ -20,3 +20,8 @@ Todos los auto, o todas las personas, tienen las mismas propiedades, pero con di
 <p align="center">
     <img src="./img/js/objetos3.png">
 </p>
+
+### Sintaxis
+<p align="center">
+    <img src="./img/js/objetos4.png">
+</p>
