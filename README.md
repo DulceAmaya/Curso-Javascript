@@ -85,6 +85,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [Métodos útiles](13-Arreglos.md#métodos-útiles)
 
 14. [Objetos](14-Objetos.md)
+    - [Sintaxis](14-Objetos.md#sintaxis)
 
 15. Promesas
 
