@@ -90,3 +90,24 @@ imprimePropiedad("edad"); //21
 En este caso, dentro de la función `imprimePropiedad` utilizamos el valor de la variable `llave` como el nombre de la propiedad a la que buscamos acceder.
 
 Esto no es posible utilizando la notación punto, pues si escribieramos algo así dentro de la función `personaje.llave` el interprete buscaría por una propiedad llamada `llave` dentro del objeto.
+
+### Asignar propiedades
+
+Los objetos en Javascript son mutables, esto quiere decir que podemos actualizarlos después de crearlos.
+
+Para esto, podemos usar cualquiera de las dos notaciones vistas arriba, además del operador de asignación, ya sea que agreguemos una nueva llave y un nuevo valor, o actualicemos el valor de una llave existente.
+
+```javascript
+const personaje = {
+    nombre : "John",
+    edad : 21,
+    hobbies : ["leer", "jugar videojuegos", "aprender idiomas"]
+};
+
+personaje.nombre = "Bill";
+personaje.colorFavorito = "rojo";
+```
+
+Como vemos en el ejemplo, en el primer caso actualizamos el valor de la propiedad `nombre`, pero en el segundo, como accedemos a una propiedad que originalmente no existe, `colorFavorito`, esta propiedad se crea con el valor que le estamos asignando.
+
+### Métodos
