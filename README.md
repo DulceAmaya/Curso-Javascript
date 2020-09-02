@@ -88,6 +88,8 @@ Curso de introducción al lenguaje de programación Javascript
     - [Sintaxis](14-Objetos.md#sintaxis)
     - [Acceder a las propiedades](14-Objetos.md#acceder-a-las-propiedades)
     - [Asignar propiedades](14-Objetos.md#asignar-propiedades)
+    - [Métodos](14-Objetos.md#métodos)
+    - [La palabra reservada *this*](14-Objetos.md#la-palabra-reservada-this)
 
 15. Promesas
 
