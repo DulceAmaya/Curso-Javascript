@@ -134,3 +134,33 @@ Para invocar el métod de un objeto utilizamos la sintaxis `nombreObjeto.metodo(
 ```javascript
 personaje.presentar(); //Hola, me llamo John y me gusta leer
 ```
+
+### La palabra reservada *this*
+
+Cuando definimos un método para un objeto, la palabra reservada `this` se refiere al objeto padre de dicho método.
+
+Siguiendo con nuestro objeto personaje, definimos la función `presentar()` que utiliza las propiedades `nombre` y `hobbies` del objeto para imprimir una presentación.
+
+```javascript
+const personaje = {
+    nombre : "John",
+    edad : 21,
+    hobbies : ["leer", "jugar videojuegos", "aprender idiomas"],
+    presentar : function(){
+        console.log(`Hola, me llamo ${personaje.nombre} y me gusta ${personaje.hobbies[0]}`);
+    }
+};
+```
+
+Entonces, en lugar que escribir `personaje.nombre` para acceder al nombre del personaje, podemos escribr `this.nombre`, pues con `this` estamos haciendo referencia al objeto al que pertenece el método `presentar()` que en este caso es el objeto personaje.
+
+```javascript
+const personaje = {
+    nombre : "John",
+    edad : 21,
+    hobbies : ["leer", "jugar videojuegos", "aprender idiomas"],
+    presentar : function(){
+        console.log(`Hola, me llamo ${this.nombre} y me gusta ${this.hobbies[0]}`);
+    }
+};
+```
