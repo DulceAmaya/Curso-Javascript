@@ -111,3 +111,26 @@ personaje.colorFavorito = "rojo";
 Como vemos en el ejemplo, en el primer caso actualizamos el valor de la propiedad `nombre`, pero en el segundo, como accedemos a una propiedad que originalmente no existe, `colorFavorito`, esta propiedad se crea con el valor que le estamos asignando.
 
 ### Métodos
+
+Como mencionábamos al principio además de tener características un objeto también puede realizar acciones, dichas acciones se denominan *métodos*.
+
+Lo cierto es que ya hemos utilizado métodos antes; `console` es un objeto de Javascript y `log()` un método de este objeto.
+
+Para crear un método en nuestro objeto utilizamos la misma sintaxis que describimos para las propiedades. El nombre de la llave será el nombre que utilizaremos para invocar el método mientras que el valor que le asignaremos será una función anónima, es decir, una función sin nombre.
+
+```javascript
+const personaje = {
+    nombre : "John",
+    edad : 21,
+    hobbies : ["leer", "jugar videojuegos", "aprender idiomas"],
+    presentar : function(){
+        console.log(`Hola, me llamo ${personaje.nombre} y me gusta ${personaje.hobbies[0]}`);
+    }
+};
+```
+
+Para invocar el métod de un objeto utilizamos la sintaxis `nombreObjeto.metodo()`.
+
+```javascript
+personaje.presentar(); //Hola, me llamo John y me gusta leer
+```
