@@ -90,6 +90,8 @@ Curso de introducción al lenguaje de programación Javascript
     - [Asignar propiedades](14-Objetos.md#asignar-propiedades)
     - [Métodos](14-Objetos.md#métodos)
     - [La palabra reservada *this*](14-Objetos.md#la-palabra-reservada-this)
+    - [Objetos anidados](14-Objetos.md#objetos-anidados)
+    - [Recorriendo objetos](14-Objetos.md#recorriendo-objetos)
 
 15. Promesas
 
