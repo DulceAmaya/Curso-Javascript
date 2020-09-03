@@ -209,3 +209,54 @@ Al imprimir la propiedad `canciones`, podemos ver que tenemos un arreglo compues
 </p>
 
 Podemos, por ejemplo, almacenar la primer canción del arreglo en una variable, y también podemos acceder a las propiedades de la canción utilizando la notación punto.
+
+<br>
+
+Veamos otro ejemplo. Crearemos ahora un objeto `banda`, para un grupo musical compuesto por 3 miembros.
+
+```javascript
+let banda = {
+    nombre : "20Songs",
+    genero : "Rock",
+    integrantes : {
+        vocalista : {
+            nombre : "John",
+            instrumento : "voz"
+        },
+        baterista : {
+            nombre : "Michael",
+            instrumento : "batería"
+        },
+        guitarrista : {
+            nombre : "Peter",
+            instrumento : "guitarra"
+        }        
+    }
+}
+```
+
+Aquí vemos que al acceder a los integrantes de la banda, obtenemos un objeto con 3 propiedades, vocalista, baterista y guitarrista, donde cada propiedad tiene como valor otro objeto.
+
+<p align="center">
+    <img src="./img/js/objetosAnidados4.png">
+</p>
+
+### Recorriendo objetos.
+
+En el capítulo anterior aprendimos como recorrer los elementos de un arreglo utilizando sus índices numerados, sin embargo, las llaves de las propiedades de un objeto no tienen un orden que podamos seguir para recorrerlos.
+
+Para solucionar esto, Javascript cuenta con la sintaxis de `for... in`, que nos permite ejecutar un bloque de código para cada propiedad en un objeto.
+
+Continuando con el objeto `banda` que definimos arriba, veamos un ejemplo:
+
+```javascript
+for(let integrante in banda.integrantes){
+    console.log(`${integrante} : ${banda.integrantes[integrante].nombre}`);
+};
+```
+
+<p align="center">
+    <img src="./img/js/objetosAnidados5.png">
+</p>
+
+En este caso la sintaxis del `for... in` se leería: *para cada integrante en los integrantes del objeto banda, imprime su nombre*.
