@@ -164,3 +164,48 @@ const personaje = {
     }
 };
 ```
+
+### Objetos anidados
+
+Comúnmente podemos encontrarnos con objetos que tienen como atributos a otros objetos, o incluso, arreglos de objetos.
+
+Pensemos en un cantante. Para crear un objeto que represente a un cantante, podemos darle un nombre y un género musical.
+
+```javascript
+let cantante = {
+    nombre : "Rob Thomas",
+    genero : "Pop rock"
+};
+```
+
+Además, podemos asignarle una lista (arreglo) de canciones, donde cada canción será un objeto con un título y el álbum al que pertenece.
+
+```javascript
+let cantante = {
+    nombre : "Rob Thomas",
+    genero : "Pop rock",
+    canciones : [
+        {titulo : "Wonderful", album : "Cradlesong"},
+        {titulo : "Funny", album : "Chip Tooth Smile"},
+        {titulo : "Hold On Forever", album : "The Great Unknown"}
+    ]
+};
+```
+
+Ahora que hemos creado nuestro objeto `cantante`, podemos acceder a sus propiedades como vimos arriba.
+
+<p align="center">
+    <img src="./img/js/objetosAnidados.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/objetosAnidados2.png">
+</p>
+
+Al imprimir la propiedad `canciones`, podemos ver que tenemos un arreglo compuesto por tres objetos.
+
+<p align="center">
+    <img src="./img/js/objetosAnidados3.png">
+</p>
+
+Podemos, por ejemplo, almacenar la primer canción del arreglo en una variable, y también podemos acceder a las propiedades de la canción utilizando la notación punto.
