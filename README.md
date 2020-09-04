@@ -93,7 +93,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [Objetos anidados](14-Objetos.md#objetos-anidados)
     - [Recorriendo objetos](14-Objetos.md#recorriendo-objetos)
 
-15. Promesas
+15. [Manipulación del DOM](15-Manipulacion-DOM.md)
 
 16. Frameworks comunes  
 
