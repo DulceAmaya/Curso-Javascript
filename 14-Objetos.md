@@ -221,7 +221,10 @@ let banda = {
     integrantes : {
         vocalista : {
             nombre : "John",
-            instrumento : "voz"
+            instrumento : "voz",
+            canta : function(){
+                console.log("Lalalala");
+            }
         },
         baterista : {
             nombre : "Michael",
@@ -240,6 +243,14 @@ Aquí vemos que al acceder a los integrantes de la banda, obtenemos un objeto co
 <p align="center">
     <img src="./img/js/objetosAnidados4.png">
 </p>
+
+Al igual que en el ejemplo de arriba, podemos asignar, por ejemplo, el objeto `vocalista` a una variable y acceder a sus propiedades usando cualquiera de las dos notaciones.
+
+```javascript
+let vocalista = banda.integrantes.vocalista;
+vocalista["nombre"]; //John
+vocalista.canta(); //Lalalala
+```
 
 ### Recorriendo objetos.
 
