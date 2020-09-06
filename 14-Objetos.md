@@ -271,3 +271,30 @@ for(let integrante in banda.integrantes){
 </p>
 
 En este caso la sintaxis del `for... in` se leería: *para cada integrante en los integrantes del objeto banda, imprime su nombre*.
+
+### Comparando objetos
+
+En Javascript dos objetos distintos nunca serán iguales, así tengan las misma propiedades.
+
+```javascript
+const superheroe = {
+    nombre : "Superman",
+    poder : "volar"
+}
+
+const superheroe2 = {
+    nombre : "Superman",
+    poder : "volar"
+}
+```
+<p align="center">
+    <img src="./img/js/compararObjetos.png">
+</p>
+
+Al comparar ambos objetos (utilizando los operadores de comparación `==` y `===`) obtenemos como resultado `false` aun cuando ambos objetos tiene las mismas propiedades, con el mismo nombre, y con los mismos valores asignados.
+
+<p align="center">
+    <img src="./img/js/compararObjetos2.png">
+</p>
+
+Lo que sucede aquí es que al comparar dos objetos, javascript compara su referencia en memoria y no su valor, como pasaría al comparar dos cadenas o números, y, al ser dos objetos distintos, almacenados en diferentes localidades de memoria, su referencia es distinta.
