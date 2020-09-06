@@ -297,4 +297,14 @@ Al comparar ambos objetos (utilizando los operadores de comparación `==` y `===
     <img src="./img/js/compararObjetos2.png">
 </p>
 
-Lo que sucede aquí es que al comparar dos objetos, javascript compara su referencia en memoria y no su valor, como pasaría al comparar dos cadenas o números, y, al ser dos objetos distintos, almacenados en diferentes localidades de memoria, su referencia es distinta.
+Lo que sucede aquí es que al comparar dos objetos Javascript compara su referencia en memoria y no su valor, como pasaría al comparar dos cadenas o números, y, al ser dos objetos distintos almacenados en diferentes localidades de memoria, su referencia es distinta.
+
+```javascript
+const superheroe3 = superheroe;
+```
+
+Aquí, estamos asignando a la variable `superheroe3` la referencia al objeto `superheroe`, por lo que al compararlos obtendríamos como resultado `true`.
+
+<p align="center">
+    <img src="./img/js/compararObjetos3.png">
+</p>
