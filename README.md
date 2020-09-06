@@ -92,6 +92,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [La palabra reservada *this*](14-Objetos.md#la-palabra-reservada-this)
     - [Objetos anidados](14-Objetos.md#objetos-anidados)
     - [Recorriendo objetos](14-Objetos.md#recorriendo-objetos)
+    - [Comparando objetos](14-Objetos.md#comparando-objetos)
 
 15. [Manipulación del DOM](15-Manipulacion-DOM.md)
 
