@@ -17,3 +17,15 @@ Esta jerarquía se construye como un Árbol de objetos.
 <p align="center">
     <img src="./img/js/DOM2.png">
 </p>
+
+Podemos ver que la jerarquía se refiere al orden en que las etiquetas se encuentran anidadas en nuestro documento HTML.
+
+Este Árbol de objetos es creado por el navegador cada vez que se carga un sitio web y esto facilita el acceso a los elementos del documento HTML usando Javascript.
+
+Entonces, utilizando Javascript podemos modificar de forma dinámica nuestro documento, esto es:
+
+* Modificar los elementos HTML.
+* Cambiar los atributos de los elementos.
+* Cambiar el estilo (CSS) de la página.
+* Crear o eliminar elementos y atributos.
+* Crear y reaccionar a eventos HTML.
