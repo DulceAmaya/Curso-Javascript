@@ -6,6 +6,14 @@ Uno de los puntos esenciales en la construcción de nuestra página web es el es
 
 ### ¿Qué es el DOM?
 
+DOM, por sus siglas en ingles *Document Object Model*, se refiere a la jerarquía de los objetos que componen una página web.
+
+Esta jerarquía se construye como un Árbol de objetos.
+
 <p align="center">
     <img src="./img/js/DOM.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/DOM2.png">
 </p>
