@@ -157,6 +157,9 @@ Para crear una tabla utilizamos las siguientes etiquetas:
 
 Como podemos ver en el ejemplo, el número de etiquetas `<th>` que definamos en la primer fila, determina la cantidad de columnas que tendrá nuestra tabla.
 
+### Botones
+Para crear un botón, sobre el que podamos "dar click", utilizamos la etiqueta `<button>`.
+
 <br>
 
 Existen muchas más etiquetas que podemos utilizar, aquí, puedes consultarlas todas: [HTML etiquetas](https://www.w3schools.com/TAGS/default.ASP)
