@@ -160,6 +160,16 @@ Como podemos ver en el ejemplo, el número de etiquetas `<th>` que definamos en 
 ### Botones
 Para crear un botón, sobre el que podamos "dar click", utilizamos la etiqueta `<button>`.
 
+<p align="center">
+    <img src="./img/html/botones.png">
+</p>
+
+<p align="center">
+    <img src="./img/html/botones2.png">
+</p>
+
+El texto escrito entre las etiquetas inicial y de cierre se muestra como un mensaje en el botón.
+
 <br>
 
 Existen muchas más etiquetas que podemos utilizar, aquí, puedes consultarlas todas: [HTML etiquetas](https://www.w3schools.com/TAGS/default.ASP)
