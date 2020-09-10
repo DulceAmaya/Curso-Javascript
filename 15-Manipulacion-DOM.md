@@ -75,3 +75,23 @@ Aquí, creamos un botón, y utilizamos el evento `onclick()` para que, cuando el
 </p>
 
 Este ejemplo es únicamente para ilustrar el funcionamiento de los eventos, pero no se recomienda utilizar esta sintaxis, pues se considera una mala práctica de programación.
+
+Otra forma de hacerlo, es llamando a una función definida en nuestro script.
+
+<p align="center">
+    <img src="./img/js/boton4.png">
+</p>
+
+Existe una tercera forma de hacerlo, y la que se considera la mejor práctica de programación, pero la mencionaremos más adelante.
+
+##### Eventos HTML más comunes
+
+Evento | Descripción
+-------|------------
+`onchange`|Cuando un elemento HTML ha cambiado.
+`onclick`|Cuando el usuario da click sobre un elemento.
+`onmouseover`|Cuando el usuario mueve el mouse sobre un elemento.
+`onkeydown`|Cuando el usuario presiona una tecla.
+`onload`|Cuando la página termina de cargarse.
+
+[Aquí](https://www.w3schools.com/jsref/dom_obj_event.asp) puedes consultar una lista completa de los eventos HTML.
