@@ -110,11 +110,43 @@ document.title; //"Mi primer página web"
 
 Aquí, por ejemplo, estamos recuperando el titulo de nuestra página web.
 
-### Interfaz de programación DOM.
+### Interfaz de programación del DOM
 
 Como ya mencionamos arriba, en el DOM todos los elementos HTML se definen como objetos, a los cuales podemos acceder utilizando Javascript.
 
-La *interfaz de programación* se refiere a las propiedades y métodos de cada objeto.
+La *interfaz de programación* del DOM se refiere a las propiedades y métodos de cada objeto.
 
 * **Propiedad** es un valor de objeto que puedes obtener y/o cambiar (por ejemplo cambiar el contenido de un elemento).
 * **Método** es una acción que puedes realizar sobre un objeto (por ejemplo eliminar un elemento).
+
+### Métodos
+
+Los métodos más comunes, son los métodos utilizados para recuperar elementos HTML utilizando su *id*, *clase* o *etiqueta*.
+
+##### `id`
+El método `getElementById()` nos permite obtener un objeto del DOM utilizando el nombre de su id.
+
+<p align="center">
+    <img src="./img/js/domMetodos.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/domMetodos2.png">
+</p>
+
+Como podemos ver al imprimirlo en la consola, obtenemos todo el elemento: la etiqueta de inicio y cierre, los atributos y el contenido.
+
+##### `class`
+
+Utilizamos el método `getElementsByClassName` para obtener **todos** los elementos con una misma clase asignada.
+
+Los objetos los recuperamos como una `HTMLCollection` que representa una colección genérica y podemos acceder a sus elementos utilizando índices, de la misma forma que a los elementos de un arreglo.
+
+
+<p align="center">
+    <img src="./img/js/domMetodos3.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/domMetodos4.png">
+</p>
