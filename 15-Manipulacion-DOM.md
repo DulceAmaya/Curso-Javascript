@@ -95,3 +95,26 @@ Evento | Descripción
 `onload`|Cuando la página termina de cargarse.
 
 [Aquí](https://www.w3schools.com/jsref/dom_obj_event.asp) puedes consultar una lista completa de los eventos HTML.
+
+### El objeto `document`
+
+El objeto `document` del HTML DOM es el padre de todos los otros objetos en el sitio web. Entonces, para poder acceder a cualquier otro elemento del sitio web, comenzamos por acceder a `document`.
+
+```javascript
+document.title; //"Mi primer página web"
+```
+
+<p align="center">
+    <img src="./img/js/document.png">
+</p>
+
+Aquí, por ejemplo, estamos recuperando el titulo de nuestra página web.
+
+### Interfaz de programación DOM.
+
+Como ya mencionamos arriba, en el DOM todos los elementos HTML se definen como objetos, a los cuales podemos acceder utilizando Javascript.
+
+La *interfaz de programación* se refiere a las propiedades y métodos de cada objeto.
+
+* **Propiedad** es un valor de objeto que puedes obtener y/o cambiar (por ejemplo cambiar el contenido de un elemento).
+* **Método** es una acción que puedes realizar sobre un objeto (por ejemplo eliminar un elemento).
