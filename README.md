@@ -41,17 +41,17 @@ Curso de introducción al lenguaje de programación Javascript
     - [Comentarios](07-Conceptos-básicos-de-JS.md#comentarios)
     - [Javascript en nuestra página web](07-Conceptos-básicos-de-JS.md#javascript-en-nuestra-página-web)
 
-8. [Tipos de datos y Variables](08-Tipos-de-datos-Variables-Operadores.md)
-    - [Tipos de datos](08-Tipos-de-datos-Variables-Operadores.md#tipos-de-datos)
-        - [Number](08-Tipos-de-datos-Variables-Operadores.md#number)
-        - [String](08-Tipos-de-datos-Variables-Operadores.md#string)
-        - [Boolean](08-Tipos-de-datos-Variables-Operadores.md#boolean)
-        - [Null](08-Tipos-de-datos-Variables-Operadores.md#null)
-        - [Undefined](08-Tipos-de-datos-Variables-Operadores.md#undefined)
-    - [Variables](08-Tipos-de-datos-Variables-Operadores.md#variables)
-        - [var](08-Tipos-de-datos-Variables-Operadores.md#var)
-        - [let](08-Tipos-de-datos-Variables-Operadores.md#let)
-        - [const](08-Tipos-de-datos-Variables-Operadores.md#const)
+8. [Tipos de datos y Variables](08-Tipos-de-datos-Variables.md)
+    - [Tipos de datos](08-Tipos-de-datos-Variables.md#tipos-de-datos)
+        - [Number](08-Tipos-de-datos-Variables.md#number)
+        - [String](08-Tipos-de-datos-Variables.md#string)
+        - [Boolean](08-Tipos-de-datos-Variables.md#boolean)
+        - [Null](08-Tipos-de-datos-Variables.md#null)
+        - [Undefined](08-Tipos-de-datos-Variables.md#undefined)
+    - [Variables](08-Tipos-de-datos-Variables.md#variables)
+        - [var](08-Tipos-de-datos-Variables.md#var)
+        - [let](08-Tipos-de-datos-Variables.md#let)
+        - [const](08-Tipos-de-datos-Variables.md#const)
 
 9. [Operadores](09-Operadores.md)
     - [Operadores aritméticos](09-Operadores.md#operadores-aritméticos)
@@ -95,6 +95,11 @@ Curso de introducción al lenguaje de programación Javascript
     - [Comparando objetos](14-Objetos.md#comparando-objetos)
 
 15. [Manipulación del DOM](15-Manipulacion-DOM.md)
+    - [¿Qué es el HTML DOM?](15-Manipulacion-DOM.md#qué-es-el-html-dom)
+    - [Eventos](15-Manipulacion-DOM.md#eventos)
+    - [El objeto document](15-Manipulacion-DOM.md#el-objeto-document)
+    - [Interfaz de programación DOM](15-Manipulacion-DOM.md#interfaz-de-programación-del-dom)
+    - [Métodos](15-Manipulacion-DOM.md#métodos)
 
 16. Frameworks comunes  
 
