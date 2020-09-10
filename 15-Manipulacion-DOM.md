@@ -123,7 +123,7 @@ La *interfaz de programación* del DOM se refiere a las propiedades y métodos d
 
 Los métodos más comunes, son los métodos utilizados para recuperar elementos HTML utilizando su *id*, *clase* o *etiqueta*.
 
-##### `id`
+##### Por id
 El método `getElementById()` nos permite obtener un objeto del DOM utilizando el nombre de su id.
 
 <p align="center">
@@ -136,12 +136,11 @@ El método `getElementById()` nos permite obtener un objeto del DOM utilizando e
 
 Como podemos ver al imprimirlo en la consola, obtenemos todo el elemento: la etiqueta de inicio y cierre, los atributos y el contenido.
 
-##### `class`
+##### Por clase
 
 Utilizamos el método `getElementsByClassName` para obtener **todos** los elementos con una misma clase asignada.
 
 Los objetos los recuperamos como una `HTMLCollection` que representa una colección genérica y podemos acceder a sus elementos utilizando índices, de la misma forma que a los elementos de un arreglo.
-
 
 <p align="center">
     <img src="./img/js/domMetodos3.png">
@@ -150,3 +149,35 @@ Los objetos los recuperamos como una `HTMLCollection` que representa una colecci
 <p align="center">
     <img src="./img/js/domMetodos4.png">
 </p>
+
+Cuando utilizamos `document.getElementsByClassName()` estamos buscando los objetos en todo el documento, sin embargo, podemos llamar al método utilizando otro elemento (que no sea document), con lo que buscaríamos solamente dentro de los objetos hijos de dicho elemento.
+
+Veamos un ejemplo:
+
+<p align="center">
+    <img src="./img/js/domMetodos7.png">
+</p>
+
+Aquí primero recuperamos el div con id `raiz`, y después, recuperamos todos los elementos con la clase `mensaje` que se encuentren dentro del div.
+
+<p align="center">
+    <img src="./img/js/domMetodos8.png">
+</p>
+
+Podemos ver que solo recuperamos el elemento con el mensaje "Este elemento esta dentro del div", a pesar de que hay otros 2 elementos con la misma clase, esto es porque solo recuperamos los elementos con la clase `mensaje` dentro del div.
+
+##### Por etiqueta
+
+Utilizamos el método `getElementsByTagName` para obtener **todos** los elementos con una misma etiqueta sin importar el id o clase que tengan asignados.
+
+Al igual que con `getElementsByClassName`, recuperamos los elementos como una `HTMLCollection`.
+
+<p align="center">
+    <img src="./img/js/domMetodos5.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/domMetodos6.png">
+</p>
+
+Al igual que con el caso  anterior, podemos utilizar un elemento en lugar de `document` para buscar por todos los objetos con determinada etiqueta únicamente dentro de dicho elemento.
