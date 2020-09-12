@@ -96,10 +96,10 @@ Curso de introducción al lenguaje de programación Javascript
 
 15. [Manipulación del DOM](15-Manipulacion-DOM.md)
     - [¿Qué es el HTML DOM?](15-Manipulacion-DOM.md#qué-es-el-html-dom)
-    - [Eventos](15-Manipulacion-DOM.md#eventos)
     - [El objeto document](15-Manipulacion-DOM.md#el-objeto-document)
     - [Interfaz de programación DOM](15-Manipulacion-DOM.md#interfaz-de-programación-del-dom)
-    - [Métodos](15-Manipulacion-DOM.md#métodos)
+    - [Obtener elementos](15-Manipulacion-DOM.md#obtener-elementos)
+    - [Modificar elementos](15-Manipulacion-DOM.md#modificar-elementos)
 
 16. Frameworks comunes  
 
