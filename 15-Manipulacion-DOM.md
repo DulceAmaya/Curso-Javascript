@@ -177,9 +177,9 @@ Así podríamos, entonces, sustituir el contenido de nuestro `div` por una image
 </p>
 
 
-##### atributo
+##### attribute
 
-Utilizamos la propiedad `atributo` para recuperar y/o modificar un atributo de un elemento HTML.
+Utilizamos la propiedad de `atributo` para recuperar y/o modificar un atributo de un elemento HTML.
 
 La sintaxis `elemento.atributo` nos permite recuperar el atributo especificado de un determinado elemento HTML.
 
@@ -193,7 +193,7 @@ La sintaxis `elemento.atributo` nos permite recuperar el atributo especificado d
 
 <br>
 
-Al utilizar el operador de asignación, podemos asignarle un nuevo valor al atributo.
+Al utilizar el operador de asignación, podemos asignarle un nuevo valor a un atributo.
 
 <p align="center">
     <img src="./img/js/attribute3.png">
@@ -202,3 +202,17 @@ Al utilizar el operador de asignación, podemos asignarle un nuevo valor al atri
 <p align="center">
     <img src="./img/js/attribute4.png">
 </p>
+
+##### style.property
+
+Utilizamos la propiedad `style.property` para asignar un nuevo estilo a un elemento HTML
+
+<p align="center">
+    <img src="./img/js/styleProperty.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/styleProperty2.png">
+</p>
+
+[Aquí](https://www.w3schools.com/jsref/dom_obj_style.asp) puedes consultar la lista con el nombre de todas las propiedas que puedes utilizar para dar estilo a los elementos HTML utilizando Javascript.
