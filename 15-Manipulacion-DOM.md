@@ -175,3 +175,30 @@ Así podríamos, entonces, sustituir el contenido de nuestro `div` por una image
 <p align="center">
     <img src="./img/js/innerHTML8.png">
 </p>
+
+
+##### atributo
+
+Utilizamos la propiedad `atributo` para recuperar y/o modificar un atributo de un elemento HTML.
+
+La sintaxis `elemento.atributo` nos permite recuperar el atributo especificado de un determinado elemento HTML.
+
+<p align="center">
+    <img src="./img/js/attribute.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/attribute2.png">
+</p>
+
+<br>
+
+Al utilizar el operador de asignación, podemos asignarle un nuevo valor al atributo.
+
+<p align="center">
+    <img src="./img/js/attribute3.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/attribute4.png">
+</p>
