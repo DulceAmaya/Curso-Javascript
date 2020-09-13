@@ -218,3 +218,58 @@ Utilizamos la propiedad `style.property` para asignar un nuevo estilo a un eleme
 Esta propiedad agrega el estilo al elemento de forma `inline`, esto es, como un atributo dentro de la etiqueta.
 
 [Aquí](https://www.w3schools.com/jsref/dom_obj_style.asp) puedes consultar la lista con el nombre de todas las propiedas que puedes utilizar para dar estilo a los elementos HTML utilizando Javascript.
+
+### Agregar y Eliminar elementos
+
+Además de obtener y modificar los elementos existentes en nuestra página web podemos crear nuevos, así como eliminarlos.
+
+##### createElement() y appendChild()
+
+Para crear un nuevo elemento HTML usamos el método `createElement()`, y utilizamos al objeto `document` para invocarlo.
+
+Este método recibe como parámetro una cadena con el nombre del elemento que deseamos crear.
+
+```javascript
+let parrafo = document.createElement("p");
+```
+
+Este método solamente crea un elemento HTML, sin embargo, para asignarle un contenido debemos utilizar la propiedad `innerHTML`.
+
+```javascript
+let parrafo = document.createElement("p");
+parrafo.innerHTML = "Este es un párrafo";
+```
+
+Ahora si, nuestro elemento se vería de la forma:
+
+```HTML
+<p>Este es un párrafo</p>
+```
+
+Una vez que hemos creado el elemento podemos utilizar el método `appendChild()` para agregarlo a nuestra página web.
+
+Para esto debemos invocar el método utilizando otro elemento HTML, este elemento se convertirá en el padre de nuestro nuevo elemento.
+
+Veamos un ejemplo:
+
+Inicialmente, así luce el documento HTML de nuestra página web.
+
+<p align="center">
+    <img src="./img/js/crearElemento.png">
+</p>
+
+Supongamos que deseamos crear un párrafo y una imagen dentro del `div`.
+
+Comencemos por el párrafo.
+
+<p align="center">
+    <img src="./img/js/crearElemento2.png">
+</p>
+
+Como podemos ver en el código, debemos recuperar el `div` (podemos hacerlo utilizando su id), para poder invocar el método `appendChild()` y de este forma el nuevo párrafo se agregará anidado dentro del `div`.
+
+<p align="center">
+    <img src="./img/js/crearElemento3.png">
+</p>
+
+En la pestaña de Elements de las Herramientas del Desarrollador podemos ver que, en efecto, ahora dentro del `div` aparece nuestro párrafo.
