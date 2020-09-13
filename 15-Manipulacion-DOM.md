@@ -215,4 +215,6 @@ Utilizamos la propiedad `style.property` para asignar un nuevo estilo a un eleme
     <img src="./img/js/styleProperty2.png">
 </p>
 
+Esta propiedad agrega el estilo al elemento de forma `inline`, esto es, como un atributo dentro de la etiqueta.
+
 [Aquí](https://www.w3schools.com/jsref/dom_obj_style.asp) puedes consultar la lista con el nombre de todas las propiedas que puedes utilizar para dar estilo a los elementos HTML utilizando Javascript.
