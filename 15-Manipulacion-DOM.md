@@ -272,4 +272,16 @@ Como podemos ver en el código, debemos recuperar el `div` (podemos hacerlo util
     <img src="./img/js/crearElemento3.png">
 </p>
 
-En la pestaña de Elements de las Herramientas del Desarrollador podemos ver que, en efecto, ahora dentro del `div` aparece nuestro párrafo.
+En la pestaña de Elements de las Herramientas del Desarrollador del navegador podemos ver que, en efecto, ahora dentro del `div` aparece nuestro párrafo.
+
+Para agregar una imagen debemos seguir un proceso similar.
+
+<p align="center">
+    <img src="./img/js/crearElemento4.png">
+</p>
+
+Cada vez que llamemos al método `appendChild()` agregará el nuevo elemento al final de los elementos ya existentes; en este caso, la imagen se agrega después de del párrafo.
+
+<p align="center">
+    <img src="./img/js/crearElemento5.png">
+</p>
