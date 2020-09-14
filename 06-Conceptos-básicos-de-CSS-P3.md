@@ -300,7 +300,42 @@ Continuando con el ejemplo anterior:
 Ahora, al definir la propiedad `display = inline-block` ambos elementos se muestran en la misma línea, pero con las dimensiones `100px x 30px`.
 
 ### Flexbox
+El modelo de Flexbox (o de Caja Flexible) es un modelo unidimensional de layout que nos permite distribuir más fácilmente los objetos de nuestra pagina web.
 
+En nuestra hoja de estilos, flexbox se indica como el valor de la propiedad `display` de un elemento.
+
+
+#### Contenedor
+
+Para comenzar, debemos definir un contenedor que será el padre de los elementos que deseamos distribuir en el sitio utilizando flexbox.
+
+<p align="center">
+    <img src="./img/flexbox.png">
+</p>
+
+Entonces, nuestro `div` con la clase `flexbox-container` será el contenedor y los `div` con la clase `items` serán los elementos que deseamos distribuir.
+
+Inicialmente, nuestro sitio web luce así:
+
+<p align="center">
+    <img src="./img/flexbox3.png">
+</p>
+
+<p align="center">
+    <img src="./img/flexbox2.png">
+</p>
+
+Los cuadrados aparecen cada uno en una línea nueva, y sin espacio entre ellos.
+
+Entonces, es al `flexbox-container` al que le asignaremos la propiedad `display : flex`.
+
+<p align="center">
+    <img src="./img/flexbox5.png">
+</p>
+
+<p align="center">
+    <img src="./img/flexbox4.png">
+</p>
 
 <br>
 
