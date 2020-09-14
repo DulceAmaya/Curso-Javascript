@@ -33,6 +33,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [Box Model](06-Conceptos-básicos-de-CSS-P3.md#modelo-de-caja)
     - [Position](06-Conceptos-básicos-de-CSS-P3.md#position)
     - [Display](06-Conceptos-básicos-de-CSS-P3.md#display)
+    - [Flexbox](06-Conceptos-básicos-de-CSS-P3.md#flexbox)
 
 7. [Conceptos básicos de JS](07-Conceptos-básicos-de-JS.md)
     - [Programas y Sentencias](07-Conceptos-básicos-de-JS.md#programas-y-sentencias)
@@ -100,6 +101,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [Interfaz de programación DOM](15-Manipulacion-DOM.md#interfaz-de-programación-del-dom)
     - [Obtener elementos](15-Manipulacion-DOM.md#obtener-elementos)
     - [Modificar elementos](15-Manipulacion-DOM.md#modificar-elementos)
+    - [Agregar y Eliminar elementos](15-Manipulacion-DOM.md#agregar-y-eliminar-elementos)
 
 16. Frameworks comunes  
 
