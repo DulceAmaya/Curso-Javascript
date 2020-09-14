@@ -280,8 +280,12 @@ Para agregar una imagen debemos seguir un proceso similar.
     <img src="./img/js/crearElemento4.png">
 </p>
 
+En este caso, la etiqueta `img` necesita que le asignemos algunos atributos, `src` y `width`; para esto utlizamos la propiedad `attribute` que vimos antes.
+
 Cada vez que llamemos al método `appendChild()` agregará el nuevo elemento al final de los elementos ya existentes; en este caso, la imagen se agrega después de del párrafo.
 
 <p align="center">
     <img src="./img/js/crearElemento5.png">
 </p>
+
+##### removeChild()
