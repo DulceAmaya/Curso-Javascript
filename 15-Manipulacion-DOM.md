@@ -289,3 +289,25 @@ Cada vez que llamemos al método `appendChild()` agregará el nuevo elemento al 
 </p>
 
 ##### removeChild()
+
+Para eliminar un elemento, utilizamos el método `removeChild()`. Para invocarlo debemos utilizar un elemento, que debe ser el padre del elemento que deseamos eliminar, y el método recibe como parámetro el elemento a eliminar.
+
+Veamos algunos ejemplos.
+
+<p align="center">
+    <img src="./img/js/removeChild.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/removeChild2.png">
+</p>
+
+Supongamos que deseamos eliminar el botón número 2. Para esto, debemos recuperar el div, pues es el padre del elemento que deseamos eliminar; por otro lado, podemos recuperar los botones usando su clase, para así, obtener el elemento que deseamos eliminar.
+
+<p align="center">
+    <img src="./img/js/removeChild3.png">
+</p>
+
+<p align="center">
+    <img src="./img/js/removeChild4.png">
+</p>
