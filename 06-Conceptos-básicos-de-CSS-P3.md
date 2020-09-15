@@ -349,6 +349,45 @@ El eje principal lo definimos utilizando la propiedad `flex-direction` y el eje 
     <img src="./img/ejes2.png">
 </p>
 
+El valor por defecto de `flex-direction` es `row`. Es por eso que, al asignarle a nuestro contenedor la propiedad `flex`, los elementos se muestran distribuidos en una sola fila:
+
+<p align="center">
+    <img src="./img/flexbox4.png">
+</p>
+
+#### flex-wrap
+
+Por defecto, los elementos dentro del contenedor intentaran acomodarse todos en una sola fila (o columna dependiendo de la dirección), lo que podría alterar las dimensiones iniciales de estos elementos. Para evitar esto podemos utilizar `flex-wrap`; esta propiedad permite a los elementos acomodarse en una nueva fila o columna si el tamaño de la inicial no es suficiente.
+
+La propiedad `flex-wrap` puede tomar 2 valores distintos:
+
+<p align="center">
+    <img src="./img/wrap.png">
+</p>
+
+`wrap` distribuye los elementos en una nueva línea hacia abajo (o hacia la derecha).
+
+<p align="center">
+    <img src="./img/wrap2.png">
+</p>
+
+`wrap-reverse` distribuye los elementos en una línea hacia arriba (o hacia la izquierda).
+
+Esta propiedad resulta muy útil para conservar el tamaño original de nuestros elementos aún cuando cambie el tamaño de la ventana del navegador o de nuestra pantalla.
+
+Si disminuyeramos, por ejemplo, la dimensión del ancho de nuestro contenedor, los elementos se verían así:
+
+<p align="center">
+    <img src="./img/wrap3.png">
+</p>
+
+Ahora, con la propiedad `flex-wrap : wrap`, los elementos se distribuyen en una línea nueva y conservan su tamaño:
+
+<p align="center">
+    <img src="./img/wrap4.png">
+</p>
+
+
 
 <br>
 
