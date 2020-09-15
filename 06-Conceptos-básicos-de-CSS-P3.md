@@ -337,8 +337,8 @@ Entonces, es al `flexbox-container` al que le asignaremos la propiedad `display 
     <img src="./img/flexbox4.png">
 </p>
 
-#### Ejes
-Para comenzar, debemos pensar en dos ejes, el eje principal y el eje cruzado.
+##### flex-direction
+Para comenzar, debemos pensar en dos ejes, el eje principal y el eje cruzado, estos determinaran la dirección en que se distribuirán los elementos dentro del contenedor.
 
 El eje principal lo definimos utilizando la propiedad `flex-direction` y el eje cruzado es el perpendicular a este. La propiedad `flex-direction` puede tomar cuatro valores distintos:
 
