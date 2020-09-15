@@ -302,7 +302,7 @@ Ahora, al definir la propiedad `display = inline-block` ambos elementos se muest
 ### Flexbox
 El modelo de Flexbox (o de Caja Flexible) es un modelo unidimensional de layout que nos permite distribuir más fácilmente los objetos de nuestra pagina web.
 
-En nuestra hoja de estilos, flexbox se indica como el valor de la propiedad `display` de un elemento.
+El layout Flexbox divide sus propiedades en dos; las propiedades del contenedor (el padre de los elementos que deseamos distribuir en el sitio web) y las propiedades de los hijos (los elementos que deseamos distribuir).
 
 
 #### Contenedor
@@ -336,6 +336,19 @@ Entonces, es al `flexbox-container` al que le asignaremos la propiedad `display 
 <p align="center">
     <img src="./img/flexbox4.png">
 </p>
+
+#### Ejes
+Para comenzar, debemos pensar en dos ejes, el eje principal y el eje cruzado.
+
+El eje principal lo definimos utilizando la propiedad `flex-direction` y el eje cruzado es el perpendicular a este. La propiedad `flex-direction` puede tomar cuatro valores distintos:
+
+<p align="center">
+    <img src="./img/ejes.png">
+</p>
+<p align="center">
+    <img src="./img/ejes2.png">
+</p>
+
 
 <br>
 
