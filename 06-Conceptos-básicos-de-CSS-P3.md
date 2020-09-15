@@ -359,7 +359,7 @@ El valor por defecto de `flex-direction` es `row`. Es por eso que, al asignarle 
 
 Por defecto, los elementos dentro del contenedor intentaran acomodarse todos en una sola fila (o columna dependiendo de la dirección), lo que podría alterar las dimensiones iniciales de estos elementos. Para evitar esto podemos utilizar `flex-wrap`; esta propiedad permite a los elementos acomodarse en una nueva fila o columna si el tamaño de la inicial no es suficiente.
 
-La propiedad `flex-wrap` puede tomar 2 valores distintos:
+La propiedad `flex-wrap` tieene como valor por defecto `nonwrap` que indica que todos los valores se mostraran en una sola línea, pero puede tomar otros 2 valores distintos:
 
 <p align="center">
     <img src="./img/wrap.png">
@@ -387,6 +387,17 @@ Ahora, con la propiedad `flex-wrap : wrap`, los elementos se distribuyen en una 
     <img src="./img/wrap4.png">
 </p>
 
+#### flex-flow
+
+`flex-flow` es una fusión de `flex-direction` y `flex-wrap` Su valor por defecto es `row nonwrap`, pero puede tomar cualquier comb|inación de los valores de ambas propiedades.
+
+<p align="center">
+    <img src="./img/flexFlow.png">
+</p>
+
+#### justify-content
+
+La propiedad `justify-content` sirve para alinear los elementos dentro del contenedor a lo largo del eje principal.
 
 
 <br>
