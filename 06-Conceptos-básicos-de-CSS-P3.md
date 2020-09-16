@@ -357,9 +357,9 @@ El valor por defecto de `flex-direction` es `row`. Es por eso que, al asignarle 
 
 #### flex-wrap
 
-Por defecto, los elementos dentro del contenedor intentaran acomodarse todos en una sola fila (o columna dependiendo de la dirección), lo que podría alterar las dimensiones iniciales de estos elementos. Para evitar esto podemos utilizar `flex-wrap`; esta propiedad permite a los elementos acomodarse en una nueva fila o columna si el tamaño de la inicial no es suficiente.
+Por defecto, los elementos dentro del contenedor intentaran acomodarse todos en una sola fila (o columna dependiendo de la dirección), lo que podría alterar las dimensiones iniciales de estos elementos. Para evitar esto podemos utilizar `flex-wrap`; esta propiedad permite a los elementos acomodarse en una nueva fila o columna si el tamaño de la línea inicial no es suficiente.
 
-La propiedad `flex-wrap` tieene como valor por defecto `nonwrap` que indica que todos los valores se mostraran en una sola línea, pero puede tomar otros 2 valores distintos:
+La propiedad `flex-wrap` tiene como valor por defecto `nonwrap` que indica que todos los elementos se mostraran en una sola línea, pero puede tomar otros 2 valores distintos:
 
 <p align="center">
     <img src="./img/wrap.png">
@@ -373,9 +373,9 @@ La propiedad `flex-wrap` tieene como valor por defecto `nonwrap` que indica que 
 
 `wrap-reverse` distribuye los elementos en una línea hacia arriba (o hacia la izquierda).
 
-Esta propiedad resulta muy útil para conservar el tamaño original de nuestros elementos aún cuando cambie el tamaño de la ventana del navegador o de nuestra pantalla.
+Esta propiedad resulta muy útil para conservar el tamaño original de nuestros elementos aún cuando cambie el tamaño del contenedor, de la ventana del navegador o de nuestra pantalla.
 
-Si disminuyeramos, por ejemplo, la dimensión del ancho de nuestro contenedor, los elementos se verían así:
+Si reducimos, por ejemplo, la dimensión del ancho de nuestro contenedor, los elementos se verían así:
 
 <p align="center">
     <img src="./img/wrap3.png">
@@ -397,8 +397,33 @@ Ahora, con la propiedad `flex-wrap : wrap`, los elementos se distribuyen en una 
 
 #### justify-content
 
-La propiedad `justify-content` sirve para alinear los elementos dentro del contenedor a lo largo del eje principal.
+La propiedad `justify-content` sirve para alinear los elementos dentro del contenedor a lo largo del eje principal. Además, nos permite distribuir el espacio libre dentro del contenedor de manera equitativa.
 
+`justify-content` puede tomar 6 valores distintos:
+
+<p align="center">
+    <img src="./img/justify.png">
+</p>
+
+`flex-start` es el valor por defecto.
+
+<p align="center">
+    <img src="./img/justify2.png">
+</p>
+
+`space-between` alinea el primer elemento al inicio del contenedor y el último al final, y el resto los distribuye equitativamente en el espacio restante.
+
+<p align="center">
+    <img src="./img/justify3.png">
+</p>
+
+`space-around` asigna el mismo espacio alrededor de cada elemento, por lo que el espacio entre dos elementos sería del doble de tamaño (pues es la suma del espacio que le corresponde a cada uno), como se muestra en la imagen.
+
+<p align="center">
+    <img src="./img/justify4.png">
+</p>
+
+`space-evenly` distribuye equitativamente los elementos en todo el espacio disponible.
 
 <br>
 
