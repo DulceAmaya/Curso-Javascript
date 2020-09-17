@@ -220,11 +220,29 @@ Pero supongamos que las dimensiones de nuestro `items` no son todas iguales y te
     <img src="./img/flexbox9.png">
 </p>
 
-Comencemos con `align-items`:
+Comencemos con `align-content`:
 
+<p align="center">
+    <img src="./img/flexbox10.png">
+</p>
 
+Con el valor `center` ambas filas se mueven en conjunto al centro del contenedor, verticalmente. Pero, con respecto a cada fila, los elementos están alineados por la parte de arriba.
 
+Ahora, vayamos a la propiedad `align-items`:
 
+<p align="center">
+    <img src="./img/flexbox11.png">
+</p>
+
+Con el valor `center` cada línea se encuentra en la misma posición, pero ahora los elementos se encuentran centrados con respecto a cada línea.
+
+Los elementos 5 y 9, al ser los mas grandes de cada línea, se mantienen en la misma posición, pero el resto de los elementos se acomodan de modo que todos se encuentren centrados.
+
+Si camibiamos el valor de `align-content` a `space-between`, por ejemplo, podemos ver que los elementos aún se mantienen centrados con respecto a cada línea, pero las líneas han cambiado de lugar y ahora cada una se encuentras al inicio y al final del contenedor, respectivamente.
+
+<p align="center">
+    <img src="./img/flexbox12.png">
+</p>
 
 <br>
 
