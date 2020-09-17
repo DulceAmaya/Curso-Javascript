@@ -244,6 +244,9 @@ Si camibiamos el valor de `align-content` a `space-between`, por ejemplo, podemo
     <img src="./img/flexbox12.png">
 </p>
 
+### Elementos
+Además de indicarle al contenedor como se acomodaran los elementos dentro de él, existen propiedades que nos permiten indicarle a cada elemento individualmente como comportarse dentro del contenedor.
+
 <br>
 
 Hay muchos más temas por abordar respecto a las hojas de estilos (y mucho más que aprender de los temas ya mencionados), sin embargo, salen del alcance de este curso. Aquí, puedes encontrar más información de gran utilidad para continuar con tu aprendizaje sobre el lenguaje CSS.
