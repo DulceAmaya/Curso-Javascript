@@ -36,10 +36,12 @@ Entonces, es al `flexbox-container` al que le asignaremos la propiedad `display 
     <img src="./img/flexbox4.png">
 </p>
 
-##### flex-direction
+#### flex-direction
 Para comenzar, debemos pensar en dos ejes, el eje principal y el eje cruzado, estos determinaran la dirección en que se distribuirán los elementos dentro del contenedor.
 
-El eje principal lo definimos utilizando la propiedad `flex-direction` y el eje cruzado es el perpendicular a este. La propiedad `flex-direction` puede tomar cuatro valores distintos:
+El eje principal lo definimos utilizando la propiedad `flex-direction` y el eje cruzado es el perpendicular a este.
+
+La propiedad `flex-direction` puede tomar cuatro valores distintos:
 
 <p align="center">
     <img src="./img/ejes.png">
@@ -139,7 +141,90 @@ La propiedad `justify-content` sirve para alinear los elementos dentro del conte
     <img src="./img/alignItems2.png">
 </p>
 
-`flex-start` y  `flex-end` alinea los elementos al inicio o final del eje cruzado, respectivamente.
+`flex-start` y  `flex-end` alinean los elementos al inicio o final del eje cruzado, respectivamente.
+
+<p align="center">
+    <img src="./img/alignItems3.png">
+</p>
+
+`center` alinea los elementos al centro del contenedor.
+
+<p align="center">
+    <img src="./img/alignItems4.png">
+</p>
+
+`baseline` los elementos se acomodan de forma que la línea base del texto de cada elemento se encuentre alineada.
+
+#### align-content
+
+Cuando existe más de una línea de elementos y hay espacio extra en el contenedor, utilizamos `align-content` para determinar de que forma se distribuirán las múltiples líneas a lo largo del eje cruzado.
+
+<p align="center">
+    <img src="./img/alignContent.png">
+</p>
+
+`stretch` es el valor por defecto. Cuando los elementos no tienen dimensiones definidas, busca estirar las líneas de elementos equitativamente hasta ocupar todo el espacio disponible.
+
+<p align="center">
+    <img src="./img/alignContent2.png">
+</p>
+
+`flex-start` y `flex-end` alinea el "grupo de lineas de elementos" al inicio o final del contenedor con respecto al eje cruzado.
+
+<p align="center">
+    <img src="./img/alignContent3.png">
+</p>
+
+`center` centra las líneas de elementos.
+
+<p align="center">
+    <img src="./img/alignContent4.png">
+</p>
+
+De la misma forma que en `justify-content`, `space-between` alinea la primer y última línea de elementos al principio y final del contenedor respectivamente, mientras que distribuye las líneas de elementos restantes en el espacio disponible.
+
+<p align="center">
+    <img src="./img/alignContent5.png">
+</p>
+
+`space-around` asigna el mismo espacio arriba y abajo para cada línea (o a la derecha e izquierda según la dirección del eje).
+
+<p align="center">
+    <img src="./img/alignContent6.png">
+</p>
+
+`space-evenly` distribuye equitativamente las líneas de elementos en todo el espacio disponible.
+
+##### align-item vs align-content
+
+En un comienzo puede parecer que `align-items` y `align-content` funcionan exactamente igual, por lo que veremos un ejemplo para entender como es que cada una afecta los elementos en el contenedor de forma diferente.
+
+Tenemos la siguiente página:
+
+<p align="center">
+    <img src="./img/flexbox7.png">
+</p>
+
+<p align="center">
+    <img src="./img/flexbox8.png">
+</p>
+
+<p align="center">
+    <img src="./img/flexbox6.png">
+</p>
+
+
+Pero supongamos que las dimensiones de nuestro `items` no son todas iguales y tenemos algo así:
+
+<p align="center">
+    <img src="./img/flexbox9.png">
+</p>
+
+Comencemos con `align-items`:
+
+
+
+
 
 <br>
 
