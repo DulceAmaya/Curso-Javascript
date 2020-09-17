@@ -23,17 +23,21 @@ Curso de introducción al lenguaje de programación Javascript
     - [Selectores](04-Conceptos-básicos-de-CSS-P1.md#selectores)
     - [Especificidad](04-Conceptos-básicos-de-CSS-P1.md#especificidad)
 
-5. [Conceptos básicos de CSS Parte(2)](05-Conceptos-básicos-de-CSS-P2.md)
+5. [Conceptos básicos de CSS (Parte 2)](05-Conceptos-básicos-de-CSS-P2.md)
     - [Texto](05-Conceptos-básicos-de-CSS-P2.md#texto)
     - [Colores](05-Conceptos-básicos-de-CSS-P2.md#colores)
     - [Fondo](05-Conceptos-básicos-de-CSS-P2.md#fondo)
     - [Unidades](05-Conceptos-básicos-de-CSS-P2.md#unidades)
 
-6. [Conceptos básicos de CSS Parte(3)](06-Conceptos-básicos-de-CSS-P3.md)
+6. [Conceptos básicos de CSS (Parte 3)](06-Conceptos-básicos-de-CSS-P3.md)
     - [Box Model](06-Conceptos-básicos-de-CSS-P3.md#modelo-de-caja)
     - [Position](06-Conceptos-básicos-de-CSS-P3.md#position)
     - [Display](06-Conceptos-básicos-de-CSS-P3.md#display)
     - [Flexbox](06-Conceptos-básicos-de-CSS-P3.md#flexbox)
+
+7. [Conceptos básicos de CSS (Parte 4) Flexbox](07-Conceptos-básicos-de-CSS-P4.md)
+    - [Contenedor](07-Conceptos-básicos-de-CSS-P4.md#contenedor)
+    - [Elementos](07-Conceptos-básicos-de-CSS-P4.md#elementos)
 
 7. [Conceptos básicos de JS](07-Conceptos-básicos-de-JS.md)
     - [Programas y Sentencias](07-Conceptos-básicos-de-JS.md#programas-y-sentencias)
