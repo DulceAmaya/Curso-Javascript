@@ -226,7 +226,7 @@ Comencemos con `align-content`:
     <img src="./img/flexbox10.png">
 </p>
 
-Con el valor `center` ambas filas se mueven en conjunto al centro del contenedor, verticalmente. Pero, con respecto a cada fila, los elementos están alineados por la parte de arriba.
+Con el valor `center` ambas filas se mueven en conjunto al centro del contenedor, verticalmente. Pero, con respecto a cada línea, los elementos están alineados por la parte de arriba.
 
 Ahora, vayamos a la propiedad `align-items`:
 
@@ -246,6 +246,20 @@ Si camibiamos el valor de `align-content` a `space-between`, por ejemplo, podemo
 
 ### Elementos
 Además de indicarle al contenedor como se acomodaran los elementos dentro de él, existen propiedades que nos permiten indicarle a cada elemento individualmente como comportarse dentro del contenedor.
+
+#### order
+
+Por defecto, los elementos se muestran ordenados como lo indica el documento HTML. Sin embargo podemos modificar este orden utilizando la propiedad `order`.
+
+La propiedad `order` recibe como valor un número entero, negativo o positivo y los elementos se ordenan de forma creciente. Su valor por defecto es 0.
+
+<p align="center">
+    <img src="./img/order.png">
+</p>
+
+Veamos un ejemplo:
+
+
 
 <br>
 
