@@ -249,17 +249,37 @@ Además de indicarle al contenedor como se acomodaran los elementos dentro de é
 
 #### order
 
-Por defecto, los elementos se muestran ordenados como lo indica el documento HTML. Sin embargo podemos modificar este orden utilizando la propiedad `order`.
+Por defecto, los elementos se muestran ordenados como lo indica el documento HTML. Sin embargo podemos modificar este orden asignando a uno o más elementos la propiedad `order`.
 
-La propiedad `order` recibe como valor un número entero, negativo o positivo y los elementos se ordenan de forma creciente. Su valor por defecto es 0.
+La propiedad `order` recibe como valor un número entero, negativo o positivo y los elementos se ordenan de forma creciente de acuerdo a este valor. Su valor por defecto es 0.
 
 <p align="center">
     <img src="./img/order.png">
 </p>
 
-Veamos un ejemplo:
+#### flex-grow
 
+Determina la habilidad de un elemento para crecer a lo largo del eje principal si hay espacio restante en el contenedor.
 
+Recibe como valor un número positivo y su valor por defecto es 0.
+
+El espacio restante en el contenedor se distribuye de acuerdo al valor asignado a cada elemento; si todos los elementos tienen el mismo valor asignado el espacio se distribuye equitativamente, si un elemento tiene un valor mayor, el espacio se distribuye en función del valor dado a cada elemento de como que al valor más grande se le asigna una proporción mayor del espacio restante.
+
+<p align="center">
+    <img src="./img/flexGrow.png">
+</p>
+
+#### align-self
+
+Permite alinear un elemento dentro del contenedor con respecto al eje cruzado. Esta propiedad sobreescribe el valor de la propiedad `align-items` del contenedor.
+
+Puede tomar los mismos valores que `align-items`.
+
+<p align="center">
+    <img src="./img/alignSelf.png">
+</p>
+
+En este ejemplo, el contenedor tiene asignado el valor de `center` para la propiedad `align-items`, pero el elemento naranja tiene asignada la propiedad de `align-self` con el valor de `flex-end`.
 
 <br>
 
