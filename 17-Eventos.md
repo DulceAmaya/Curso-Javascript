@@ -66,7 +66,7 @@ Evento | Descripción
 Un `event listener` (manejador de eventos) es un procedimiento en Javascript, que espera a que un evento ocurra para poder reaccionar a él.
 
 #### addEventListener()
-La función `addEventListener()` nos permite agregar un `event listener` a un cualquier objeto del DOM HTML. Recibe como primer parámetro el evento que espera que ocurra y como segundo parámetro la función con la que reaccionará.
+La función `addEventListener()` nos permite agregar un `event listener` a cualquier objeto del DOM HTML. Recibe como primer parámetro el evento que espera que ocurra y como segundo parámetro la función con la que reaccionará.
 
 Podemos agregar un número ilimitado de `event listeners` a un mismo elemento. Y podemos agregar un número ilimitado para un mismo evento.
 
@@ -78,9 +78,44 @@ Veamos un ejemplo:
     <img src="./img/js/evento.png">
 </p>
 
-En este caso obtenemos el botón utilizando su `id`, y con el método `addEventListener()` le indicamos que, *cuando el mouse pase sobre el botón, se ejecutará la función `camibiaColor`*
+En este caso obtenemos el botón utilizando su `id`, y con el método `addEventListener()` le indicamos que, *cuando el mouse pase sobre el botón, se ejecutará la función `cambiaColor`*
 
 ![](/img/js/evento.gif)
 
+#### removeEventListener()
+El métodod `removeEventListener()` no permite eliminar manejadores de eventos que fueron agregados a un elemento Utilizando el método `addEventListener()`.
+
+El método debe recibir los mismos parámetros que recibió el método que creo el `event listener`.
+
+```javascript
+element.removeEventListener("mouseover" cambiaColor);
+```
+
 
 ### Event bubbling y capturing
+
+Existen dos formas en que se *propagan* los eventos en el HTML DOM.
+
+La propagación de eventos se refiere al orden en que los eventos ocurren cuando hay varios elementos anidados en el documento HTML. Esto es:
+
+```html
+<div id="div1">
+    <div id="div2">
+        <h1></h1>
+    </div>
+</div>
+```
+
+Supongamos que tenemos este esqueleto y que tanto `div1` como `div2` tienen manejadores de eventos asignados, así como el encabezado `h1`. La propagación de eventos nos permite determinar en que order se manejaran los eventos de estos elementos.
+
+El método `addEventListener()` puede recibir un tercer parámetro, booleano, si es `true` determina que se utilizara `capturing` para propagar el evento, o `bubbling` caso contrario.
+
+#### Bubbling
+
+Determina que el evento más interno será manejado primero.
+
+En nuestro ejemplo, primero se manejaría el evento de `h1`, después el de `div2` y al final el de `div1`.
+
+#### Capturing
+
+Al contario de `bubbling` determina que el evento del elemento más externo será manejado primero; primero se manejaría el evento de `div1`, después el de `div2` y al final el de `h1`.
