@@ -153,7 +153,7 @@ prompt("Di algo");
     <img src="./img/js/prompt.png">
 </p>
 
-Entonces, utilizando el método `prompt()`, podemos solicitarle al usuario que ingrese un texto e imprimir después un mensaje. Para poder hacerlo, necesitamos recordar cual es el texto que ingrese el usuario utilizando una variable.
+Entonces, utilizando el método `prompt()`, podemos solicitarle al usuario que ingrese un texto e imprimir después un mensaje. Para poder hacerlo, necesitamos recordar cual es el texto que ingreso el usuario utilizando una variable.
 
 ```javascript
 let mensaje = prompt("Di algo"); //Aquí, estamos almacenando en la variable mensaje el texto que recibirá el método prompt.
