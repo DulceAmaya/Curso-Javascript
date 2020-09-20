@@ -40,7 +40,14 @@ Otra forma de hacerlo, es llamando a una función definida en nuestro script.
     <img src="./img/js/boton4.png">
 </p>
 
-Existe una tercera forma de hacerlo, y la que se considera la mejor práctica de programación, pero la mencionaremos más adelante.
+
+La tercera forma de hacerlo es utilizando el HTML DOM. Para esto, utilizamos Javascript.
+
+<p align="center">
+    <img src="./img/js/boton5.png">
+</p>
+
+Recuperamos el elemento utilizando su `id` y le asignamos el evento como un atributo. Después, creamos la función que se encargará de reaccionar al evento.
 
 #### Eventos HTML más comunes
 
@@ -53,3 +60,27 @@ Evento | Descripción
 `onload`|Cuando la página termina de cargarse.
 
 [Aquí](https://www.w3schools.com/jsref/dom_obj_event.asp) puedes consultar una lista completa de los eventos HTML.
+
+### Event Listeners
+
+Un `event listener` (manejador de eventos) es un procedimiento en Javascript, que espera a que un evento ocurra para poder reaccionar a él.
+
+#### addEventListener()
+La función `addEventListener()` nos permite agregar un `event listener` a un cualquier objeto del DOM HTML. Recibe como primer parámetro el evento que espera que ocurra y como segundo parámetro la función con la que reaccionará.
+
+Podemos agregar un número ilimitado de `event listeners` a un mismo elemento. Y podemos agregar un número ilimitado para un mismo evento.
+
+Se considera una mejor práctica de programación utilizar este método, pues así nos permite mantener separado es código Javascript del esqueleto HTML de nuestra página web.
+
+Veamos un ejemplo:
+
+<p align="center">
+    <img src="./img/js/evento.png">
+</p>
+
+En este caso obtenemos el botón utilizando su `id`, y con el método `addEventListener()` le indicamos que, *cuando el mouse pase sobre el botón, se ejecutará la función `camibiaColor`*
+
+![](/img/js/evento.gif)
+
+
+### Event bubbling y capturing
