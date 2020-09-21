@@ -2,13 +2,13 @@
 
 En Javascript, tenemos varias estructuras de control que nos modificar el flujo de ejecución de nuestro código dependiendo de si se cumple o no cierta condición.
 
-### Condicionales
+Podemos dividir estas estructuras de control en dos grandes grupos: condicionales y ciclos.
+
+### If-else
 
 Muchas veces, debemos tomar la decisión de si ejecutaremos o una acción determinada en nuestro programa, es decir, dada cierta condición podemos determinar si se ejecutará un bloque de código y otro.
 
 Para esto existen los `Condicionales`.
-
-#### If-else
 
 La estructura de control `if else`, es posiblemente la más utilizada en cualquier lenguaje de programación pues nos permite ejecutar un determinado bloque de código dependiendo de si una condición es verdadera o falsa.
 
@@ -65,56 +65,62 @@ Vamos a diseñar un script que nos permita saber si un año es bisiesto. Un año
     }
 ```  
 
-En este caso, tenemos anidadas dos estructuras `if else`: si la condición del primer `if` se cumple ejecutamos una segunda estructura de control.
+En este caso, tenemos anidadas dos estructuras `if else`; si la condición del primer `if` se cumple ejecutamos una segunda estructura de control.
 
-## Switch
+En algunas ocaciones, puede ocurrir que necesitemos checar más de una condición y que, con utilizar un  `else` no sea suficiente. Para esto, podemos utilizar la sentencia `else if` que nos permite checar una condición si es que la condición en el `if` inicial no se cumplió:
 
-La estructura switch surge de un concepto conocido como **caza de patrones**, la idea es que dada una "expresión" de algún tipo se evalue y se ejecute el código correspondiente a ese **caso**. Algunos lenguajes como python no implementan ésta estructura pero es facil implementarlo usando la estructura **if-else if-else**.
-
-La estructura del switch es la siguiente:  
-```Javascript
-    switch(expresion){    
-        case x:
-        // bloque de código
-            break;
-        case y:
-        // bloque de código
-            break;
-        default:
-            break;
-    }
+```javascript
+if(i > 5){
+    //Bloque de código
+}
+else if(i % 2 == 0){
+    //Bloque de código
+}
+else{
+    //Bloque de código
+}
 ```
+
+En este caso, si `i` no es mayor a 5, entonces checaremos si `i` es par; si tampoco se cumple esta condición, se ejecutara el último bloque de código.
+
+### Switch
+
+La estructura switch surge de un concepto conocido como **caza de patrones**: la idea es que dada una `expresión` esta se evalúe y se ejecute el código correspondiente a ese **caso**. Si no encontramos un caso que *coincida* con la expresión, se ejecutará el bloque de código definido es `default`, aunque no es obligatorio definir este caso.
+
+<p align="center">
+    <img src="./img/js/switch.png">
+</p>
 
 Los pasos que se ejecutan en una **estructura switch** son:  
     1. La expresión del switch es evaluada.  
-    2. Se compara el valor resultante con cada uno de los casos (case).  
-    3. Si existe coincidencia, se ejecuta el bloque de código correspondiente al case.  
-    4. En otro caso, si no hay coincidencia, se ejecuta el case por defecto **default**.  
+    2. Se compara el valor resultante con cada uno de los casos (`case`).  
+    3. Si existe una coincidencia, se ejecuta el bloque de código correspondiente al `case` y la ejecución de la estructura termina al llegar al `break`.  
+    4. En otro caso, si no hay coincidencias, se ejecuta el caso por defecto (`default`).  
 
-### Continue y brake
+`brake` es una palabra reservada del lenguaje que nos permite terminar de forma instantánea la ejecución de un bloque de código.
 
-**Brake** es una palabra reservada del lenguaje que nos permite terminar de forma instantánea la ejecución de determinado bloque de código, la importancia de tener un brake en el caso de un switch es que en el caso de no ponerlo, la ejecución del código se seguirá hasta terminar todos los case o encontrar el primer brake en la estructura de control.
+En el caso de la estructura `switch` es esencial colocar un `break` al final de cada caso (incluyendo el `default`), pues de lo contrario, se ejecutarían también los casos siguientes.
 
 ```javascript
-    var n = 10
+    let n = 10
     switch(n){
         case 10:
-            console.log("es 10")
+            console.log("Es 10")
         case 20:
-            console.log("es 20")
+            console.log("Es 20")
             break;
         default:
+            console.log("No se cumplió ningún caso");
             break;
     }
 ```
 
 <p align="center">
-    <img src="./img/ciclos-02.png">
+    <img src="./img/js/switch2.png">
 </p>
 
-Como podemos ver en el caso de no tener el break en el case 10, ésto hace que se ejecuten los códigos de los dos case 10 y 20 respectivamente.
 
-**Continue** es usada en los ciclos o estructuras con el fin de terminar la iteración actual  y continuar con la siguiente.
+Como podemos ver, al no tener el `break` en el `case : 10`, se ejecuta el código tanto de ese caso , como del caso siguiente.
 
 ## While
 
