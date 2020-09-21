@@ -83,6 +83,19 @@ else{
 
 En este caso, si `i` no es mayor a 5, entonces checaremos si `i` es par; si tampoco se cumple esta condición, se ejecutara el último bloque de código.
 
+### Operador condicional
+En el capítulo anterior mencionamos al operador ternario o condicional, un operador que utiliza 3 operandos y en algunas ocasiones puede utilizarse como una abreviación de la estructura `if else`.
+
+<p align="center">
+    <img src="./img/js/operadorTernario.png">
+</p>
+
+```javascript
+let i = (15 % 3 == 0) ? "Si es múltiplo" : "No es múltiplo"; //i = "Si es múltiplo"
+```
+
+En este ejemplo tenemos que, si 15 es múltiplo de 3, el valor de i será igual a la primera expresión, de lo contrario sería igual a la segunda expresión.
+
 ### Switch
 
 La estructura switch surge de un concepto conocido como **caza de patrones**: la idea es que dada una `expresión` esta se evalúe y se ejecute el código correspondiente a ese **caso**. Si no encontramos un caso que *coincida* con la expresión, se ejecutará el bloque de código definido es `default`, aunque no es obligatorio definir este caso.
@@ -122,45 +135,48 @@ En el caso de la estructura `switch` es esencial colocar un `break` al final de 
 
 Como podemos ver, al no tener el `break` en el `case : 10`, se ejecuta el código tanto de ese caso , como del caso siguiente.
 
-## While
 
-Nos brinda la opción de crear ciclos y ejecutar el ciclo interno siempre y cuando la condición de permanencia sea evaluada a verdadera. La estructura es la siguiente:  
+### While
+
+Ahora que hemos visto los condicionales pasemos a los ciclos.
+
+Un ciclo es una estructura de control que nos permite ejecutar un mismo bloque de código varias veces hasta que cierta condición no sea cierta (conocida como **condición de permanencia**).
+
+El termino *iteración* es un termino altamente asociado a los ciclos, pues suele referirse a cada ejecución del bloque de código indicada por el ciclo; es decir, a cada repetición.
+
+
+La estructura de control `while` verifica la condición y ejecuta el bloque de código siempre que está condición sea cierta; en cuanto la condición sea falsa el ciclo dejará de ejecutarse.
 
 <p align="center">
-    <img src="./img/ciclos-03.png" width="700px" height="500px">
+    <img src="./img/js/while.png">
 </p>
 
-Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**, es decir el programador se encarga de la actualización del código. Si lo pensamos un while nos es útil para ejecutar un mismo comportamiento un determinado número de veces.
+Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**. Un iterador es un valor que utilizamos para controlar las repeticiones del ciclo (usualmente aparece en la condición de permanencia) y evitar quedarnos estancados es un solo valor; esto ocasionaría que el ciclo se ejecutará infinitamente, pues al no cambiar el valor en la condición no llegaríamos nunca a un punto en donde la condición sería falsa. Para lograr esto, debemos modificar el valor de dicho iterador en cada ejecución del bloque de código.
 
-Hagamos un ejemplo con un ciclo while:  
-**Leamos una cadena de entrada desde una ventana e invertimos la cadena imprimiendo el resultado en pantalla**
+Veamos un ejemplo. Imprimiremos todos los números pares del 1 al 20.
 
 ```javascript
-function reversa(cadena) {
-  var i = cadena.length;
-  var cadenaInversa = "";
-
-  while (i>=0) {
-    cadenaInversa += cadena.charAt(x);
-    i--;
-  }
-  console.log(cadenaInversa);
+let i = 0;
+while(i <= 20){
+    if(i % 2 == 0)
+        console.log(i);
+    i ++;
 }
-var cad = window.prompt("Escribe la cadena a invertir");
-reversa(cad)
 ```  
+Para empezar, definimos la variable `i` con el valor 0. Utilizaremos esta variable como nuestro iterador, y se encargara de recorrer cada número entero entre 0 y 20.
 
-Los pasos a seguir son:  
+En el `while` definimos la clausula de permanencia como: *mientras `i` sea menor o igual que 20*.
 
-    1. Creamos una función llamada reversa que recibe la cadena como parámetro.   
-    2. Definimos nuestro iterador i inicializado en el tamaño de la cadena de entrada.     
-    3. Definimos una cadena auxiliar cadenaInvertida inicializada en la cadena vacía.  
-    4. Creamos un ciclo while donde la condición de permanencia nos garantice que se ejecuta si y solamente si el iterador es mayor o igual a 0.  
-    5. A nuestra cadena auxiliar le iremos copiando el caraceter en la i-ésima posición de la cadena original, recordemos que la cadenas las podemos recorrer o iterar tal y como
-    iteramos nuestros arreglos y listas.  
-    6. Recordemos que en cada iteración debemos decrementar el iterador, ésto nos garantiza que no caiga en lo que se conoce como un loop infinito.  
-    7. Una vez terminado el ciclo while podemos garantizar que en cadenaInvertida tenemos la cadena recibida como parámetro de forma invertida.
-    8. Imprimimos el resultado.  
+Dentro del ciclo solo comprobamos si `i` es par, y de ser así, imprimimos su valor en la consola. Al final, se cumpla o no el `if`, incrementamos en uno el valor de `i`. De esta forma en cada iteración `i` cambiará su valor, con lo que, eventualmente, será mayor que 20, y la condición de permanencia dejará de cumplirse.
+
+<p align="center">
+    <img src="./img/js/while2.png">
+</p>
+
+
+
+
+
 
 Hablemos un poco de los **loops** infinitos o ciclos infinitos.  
 Los **ciclos infinitos** son un error de programación en el que el ciclo nunca llega a la negación de la condición de permanencia, por lo que el ciclo siempre se ejecutará durante la ejecución del programa. Un **loop** infinito se puede ver tan fácil como el siguiente ejemplo:  
