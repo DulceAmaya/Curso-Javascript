@@ -4,7 +4,7 @@ Javascript tiene una amplia gama de operadores que nos permiten manipular valore
 Existen 3 tipos principales de operadores:
 * Los operadores *unarios* son aquellos que requieren un único operando, por ejemplo `x++`.
 * Los operadores *binarios* son aquellos que necesitan de dos operandos, por ejemplo una suma `5 + 10`.
-* El operador *terciario* necesita 3 operandos y es un caso especial que revisaremos mas adelante.
+* El operador *ternario* o condicional necesita 3 operandos y es un caso especial que revisaremos mas adelante.
 
 ### Operadores aritméticos
 Toman valores numéricos en sus operandos y dan como resultado un valor también numérico.
