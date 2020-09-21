@@ -1,48 +1,60 @@
-#  Condicionales y estructuras de control
+#  Estructuras de control
 
+En Javascript, tenemos varias estructuras de control que nos modificar el flujo de ejecución de nuestro código dependiendo de si se cumple o no cierta condición.
+
+### Condicionales
+
+Muchas veces, debemos tomar la decisión de si ejecutaremos o una acción determinada en nuestro programa, es decir, dada cierta condición podemos determinar si se ejecutará un bloque de código y otro.
+
+Para esto existen los `Condicionales`.
+
+#### If-else
+
+La estructura de control `if else`, es posiblemente la más utilizada en cualquier lenguaje de programación pues nos permite ejecutar un determinado bloque de código dependiendo de si una condición es verdadera o falsa.
 
 <p align="center">
-    <img src="./img/estructura-control.png" width="700px" height="500px">
+    <img src="./img/js/ifElse.png">
 </p>
 
 
-Como en cualquier lenguaje, las estructuras de control nos dan control sobre el flujo de ejecución de nuestro programas. Igual que muchos lenguajes, Javascript cuenta con algunas estructuras de control que funcionan casi igual en principio a las de otros lenguajes.  
+La estructura if-else nos permite dividir el código (comportamiento) de cierta parte del programa dependiendo de el cumplimiento de cierta condición.  
 
-## If-else if-else
-
-Quizá sea la estructura de control más elemental y su estructura es la siguiente:  
-
-```Javascript
-    if (condicion-uno) {
-      //  código si evalúa a verdadero
-    } else if (condicion-dos) {
-      //  código si evalúa a verdadero si al condición uno es falsa
-    } else {
-      //  código si las dos primeras condiciones son falsas
-    }
-```  
-Las llaves y paréntesis forman una parte importante de la estructura, mientras que en el paréntesis tenemos la o las condiciones a evaluar, las llaves delimitan el bloque de código correspondiente a la condición.  
-
-
-Una estructura if-else nos permite dividir el código (comportamiento) de cierta parte del programa dependiendo el cumplimiento de ciertas condiciones.  
-
-<p align="center">
-    <img src="./img/if-else.png" width="600px" height="500px">
-</p>
 
 Podemos ver un ejemplo a continuación:  
 
-<p align="center">
-    <img src="./img/ciclos-01.png">
-</p>
+```javascript
+let i = 10;
+if(i > 5){
+    console.log(`El valor se i es mayor a 5`);
+}
+else{
+    console.log(`El valor se i es menor a 5`);
+}
+```
 
-Hagamos un ejercicio pequeño y común con la estructura **If-else** donde podamos aplicar conceptos aprendidos previamente de paso, veamoslo siguiente:  
+Podemos ver que, en efecto, la condición entre paréntesis se evalúa a `true`, por lo que se ejecuta el código dentro del primer bloque de código.
 
-"**Diseñar un script que permita saber si un año es bisiesto. Un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400.**"
+La sentencia `else` le indica al código que, *de no cumplirse la condición, se ejecutará el siguiente bloque de código*. Podemos ver que solamente puede ejecutarse uno de los bloques a la vez pues el valor de la condición solamente puede ser o `true` o `false`, por lo que ambos bloques de código nunca se ejecutaran al mismo tiempo.
+
+No siempre es necesario que se ejecute una acción cuando la condición no se cumple, por lo que también es posible utilizar la sentencia `if` por si sola.
 
 ```javascript
-    var year = window.prompt("Escribe un año");
-    if(year%4 == 0){
+let i = 2;
+if(i % 2 == 0)
+    console.log(`${i} es número par`);
+```
+
+Si la condición del `if` no se cumple simplemente no pasada nada.
+
+Como podrás notar en el ejemplo de arriba no hemos colocado llaves para delimitar el bloque de código que se ejecuta cuando la condición es cierta. Esto no es obligatorio y solamente es posible si el bloque de código esta compuesto por una línea, de lo contrario, el bloque debe estar delimitado por llaves.
+
+Veamos un pequeño ejercicio donde utilizamos la estructura `If-else`.
+
+Vamos a diseñar un script que nos permita saber si un año es bisiesto. Un año bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400.
+
+```javascript
+    let year = prompt("Escribe un año");
+    if(year % 4 == 0){
         if((year%100 != 0) || (year%400 == 0)){
             console.log("Bisiesto");
         }else{
@@ -52,6 +64,9 @@ Hagamos un ejercicio pequeño y común con la estructura **If-else** donde podam
         console.log("No es bisiesto");
     }
 ```  
+
+En este caso, tenemos anidadas dos estructuras `if else`: si la condición del primer `if` se cumple ejecutamos una segunda estructura de control.
+
 ## Switch
 
 La estructura switch surge de un concepto conocido como **caza de patrones**, la idea es que dada una "expresión" de algún tipo se evalue y se ejecute el código correspondiente a ese **caso**. Algunos lenguajes como python no implementan ésta estructura pero es facil implementarlo usando la estructura **if-else if-else**.
