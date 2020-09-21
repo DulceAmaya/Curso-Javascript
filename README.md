@@ -66,7 +66,11 @@ Curso de introducción al lenguaje de programación Javascript
     - [Concatenación de cadenas](10-Operadores.md#concatenación-de-cadenas-)
 
 
-11. Condicionales y estructuras de control  
+11. [Estructuras de control](11-Estructuras-de-control.md)
+    - [If-else](11-Estructuras-de-control.md#if-else)
+    - [Operador condicional](11-Estructuras-de-control.md#operador-condicional)
+    - [Switch](11-Estructuras-de-control.md#switch)
+    - [While](11-Estructuras-de-control.md#while)
 
 12. [Funciones](11-Funciones.md)
     - [Sintaxis](11-Funciones.md#sintaxis)
