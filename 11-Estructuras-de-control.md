@@ -155,7 +155,7 @@ La estructura de control `while` verifica una condición y ejecuta el bloque de 
     <img src="./img/js/while.png">
 </p>
 
-Un ciclo while en general, se caracteriza por el manejo manual de los **iteradores**. Un iterador es un valor que utilizamos para controlar las repeticiones del ciclo (usualmente aparece en la condición de permanencia) y evitar quedarnos estancados es un solo valor; esto ocasionaría que el ciclo se ejecutará infinitamente, pues al no cambiar el valor en la condición no llegaríamos nunca a un punto en donde la condición sería falsa. Para lograr esto, debemos modificar el valor de dicho iterador en cada ejecución del bloque de código.
+Un ciclo `while` en general, se caracteriza por el manejo manual de los iteradores. Un *iterador* es un valor que utilizamos para controlar las repeticiones del ciclo (usualmente aparece en la condición de permanencia) y evitar quedarnos estancados es un solo valor; esto ocasionaría que el ciclo se ejecutará infinitamente, pues al no cambiar el valor en la condición no llegaríamos nunca a un punto en donde la condición sería falsa. Para lograr esto, debemos modificar el valor de dicho iterador en cada ejecución del bloque de código.
 
 Veamos un ejemplo. Imprimiremos todos los números pares del 1 al 20.
 
@@ -198,56 +198,73 @@ Como podemos ver, lo único que ocurre en el cuerpo del `while` es que imprimimo
 
 ## For
 
-For es uan estructura muy interesante, en comportamiendo y funcionamiento es similar al while pero tiene una estructura diferente:  
+De manera similar a `while`, el `for` es otra estructura de control que nos permite ejecutar un bloque código cierto número de veces.
+
+Es posible realizar las mismas actividades utilizando cualquiera de los dos ciclos, sin embargo, es algunas situaciones es más sencillo utilizar uno o el otro.
 
 <p align="center">
-    <img src="./img/ciclos-05.png" width="700px" height="500px">
+    <img src="./img/js/for.png">
 </p>
 
-**Hablemos de las 3 partes que componen al for**.
+La sintaxis del `for` se compone de tres elementos principales:
 
-### Iterador
+##### Iterador
 
-Al igual que el while, el iterador es una variable que nos servirá para ejecutar el ciclo for un determinado número de veces. Un ejemplo de inicialización se puede ver de la siguiente forma:  
+Al igual que en el `while`, la estructura `for` utiliza un iterador para controlar el número de veces que se ejecuta un ciclo.
+
+Comúnmente el iterador se crea como una nueva variable solo para usarse en el ciclo, sin embargo esto no es obligatorio y puede utilizase una variable que haya sido creada antes en alguna otra parte del código. Este sentencia se ejecuta una sola vez, al inicio de la ejecución del ciclo.
 
 ```javascript
-var i;
-for (i =0;permanencia;incremento) {
-    // cuerpo del for
+for (let i = 0; permanencia; incremento) {
+    // Bloque de código.
 }
-```  
-La diferencia entre el for y while es muy notoria en el manejo del iterador.  
 
-### Permanencia del ciclo
-
-La permanencia del ciclo es aquella condición donde se determina si el ciclo se ejecuta o termina. Aquí en general es una evaluación a verdadero o falso, en caso de que no se cumpla la condición de permanencia el ciclo terminará.  
-
-Lo podemos ver en el siguiente ejemplo:  
-```javascript
-var i;
-for (i =0;i < 10;incremento) {
-    // cuerpo del for
+let j;
+for(j = 10; permanencia; incremento){
+    //Bloque de código.
 }
-```  
+```
 
-El cuerpo del for se ejecutará n veces dependiendo el incremento del iterador.  
+##### Permanencia
+Aquí, también necesitamos una condición de permanencia que nos diga si continuar o no la ejecución del ciclo.
 
-### Incremento del iterador
-
-El incremento del iterador es donde indicamos en cuánto actualiza su valor el iterador puede ser ascendente o descendente.  
+Si la condición se evalúa como `true` el cuerpo del ciclo se ejecuta por otra iteración, si la condición se evalúa como `false` la ejecución termina.
 
 ```javascript
-var i;
-for (i =0;i < 10;i+=2) {
-    console.log("hola");
+for (let i = 0; i < 10; incremento) {
+    //Bloque de código  
 }
 ```  
 
-Notemos que el ciclo se ejecutará 5 veces, cuando el valor del iterador sea **0,2,4,6,8**
+##### Incremento
+El tercer elemento es la modificación del valor del iterador.
+Es común que esta sentencia consista en incrementar el valor del iterador, pero también es posible decrementarlo.
+
+```javascript
+for (let i = 0; i < 10; i += 2) {
+    //Bloque de código  
+}
+```  
+En este caso, estamos incrementando el valor del iterador de 2 en 2.
+
+Veamos un ejemplo:
+
+```javascript
+for (let i = 0; i <= 20; i++) {
+    if(i % 2 == 0)
+        console.log(i);
+}
+```
+
+Comenzamos por crear la variable `i` y asignarle el valor de 0. Después, al inicio de cada vuelta del ciclo verificamos si *`i` es menor o igual que 20*, de ser así, ejecutamos el cuerpo del `for` y finalmente incrementamos el valor de `i` en 1, lo contrario la ejecución del ciclo termina.
 
 <p align="center">
-    <img src="./img/ciclos-06.png">
+    <img src="./img/js/for.png">
 </p>
+
+
+Como puedes ver, es el mismo ejemplo que utilizamos para el `while`, pues como mencionábamos arriba, es posible realizar las mismas tareas utilizando ambas estructuras.
+
 
 ## For Each  
 
