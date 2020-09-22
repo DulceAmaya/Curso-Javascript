@@ -132,7 +132,6 @@ En el caso de la estructura `switch` es esencial colocar un `break` al final de 
     <img src="./img/js/switch2.png">
 </p>
 
-
 Como podemos ver, al no tener el `break` en el `case : 10`, se ejecuta el código tanto de ese caso , como del caso siguiente.
 
 
@@ -145,7 +144,12 @@ Un ciclo es una estructura de control que nos permite ejecutar un mismo bloque d
 El termino *iteración* es un termino altamente asociado a los ciclos, pues suele referirse a cada ejecución del bloque de código indicada por el ciclo; es decir, a cada repetición.
 
 
-La estructura de control `while` verifica la condición y ejecuta el bloque de código siempre que está condición sea cierta; en cuanto la condición sea falsa el ciclo dejará de ejecutarse.
+La estructura de control `while` verifica una condición y ejecuta el bloque de código siempre que está condición sea cierta; en cuanto la condición sea falsa el ciclo dejará de ejecutarse.
+
+<p align="center">
+    <img src="./img/js/while4.png">
+</p>
+
 
 <p align="center">
     <img src="./img/js/while.png">
@@ -163,39 +167,34 @@ while(i <= 20){
     i ++;
 }
 ```  
-Para empezar, definimos la variable `i` con el valor 0. Utilizaremos esta variable como nuestro iterador, y se encargara de recorrer cada número entero entre 0 y 20.
+Para empezar, definimos la variable `i` con el valor 0. Utilizaremos esta variable como nuestro iterador; se encargará de recorrer cada número entero entre 0 y 20.
 
 En el `while` definimos la clausula de permanencia como: *mientras `i` sea menor o igual que 20*.
 
-Dentro del ciclo solo comprobamos si `i` es par, y de ser así, imprimimos su valor en la consola. Al final, se cumpla o no el `if`, incrementamos en uno el valor de `i`. De esta forma en cada iteración `i` cambiará su valor, con lo que, eventualmente, será mayor que 20, y la condición de permanencia dejará de cumplirse.
+Dentro del ciclo solo comprobamos si `i` es par, y de ser así, imprimimos su valor en la consola. Al final, se ejecute o no el `if`, incrementamos en uno el valor de `i`. De esta forma en cada iteración `i` cambiará su valor, con lo que, eventualmente, será mayor que 20, y la condición de permanencia dejará de cumplirse por lo que el ciclo terminará de ejecutarse.
 
 <p align="center">
     <img src="./img/js/while2.png">
 </p>
 
 
+Hablemos un poco de los ciclos infinitos.
 
-
-
-
-Hablemos un poco de los **loops** infinitos o ciclos infinitos.  
-Los **ciclos infinitos** son un error de programación en el que el ciclo nunca llega a la negación de la condición de permanencia, por lo que el ciclo siempre se ejecutará durante la ejecución del programa. Un **loop** infinito se puede ver tan fácil como el siguiente ejemplo:  
+Los **ciclos infinitos** son un error de programación en el que el ciclo nunca llega a un caso donde la condición de permanencia sea falsa, por lo que el ciclo siempre se ejecutará durante la ejecución del programa. Un ciclo infinito se puede ver tan fácil como el siguiente ejemplo:  
 
 
 ```javascript
-var i = -5
-while (0 >= i) {
+var i = 1
+while (i >= 0) {
     console.log("Se ejecuta el while");
 }
 ```
 
 <p align="center">
-    <img src="./img/ciclos-04.png">
+    <img src="./img/js/while3.png">
 </p>
 
-Como podemos ver el simple hecho de no incrementar el valor de la variable **i** o no incrementarla de forma adecuada en cada iteración hace que caiga en **loop infinito**
-y nunca terminará o en otro caso dependiendo lo que estemos haciendo terminará dependiendo la memoria virtual llegando a un error conocido como desbordamiendo de memoria.  
-
+Como podemos ver, lo único que ocurre en el cuerpo del `while` es que imprimimos el mensaje "Se ejecuta el while", pero el valor de `i` nunca cambia. Entonces en cada iteración, al verificar la condición de permanencia, siempre tendremos que `i = 1 >= 0`. Esto provoca que el ciclo no se detenga nunca, por lo que continuaría ejecutándose infinitamente, lo que ocasionaría un error conocido como *desbordamiento de memoria*.
 
 ## For
 
