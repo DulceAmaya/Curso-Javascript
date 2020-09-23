@@ -225,8 +225,6 @@ do{
 
 Como podemos ver, el cuerpo del `while` no se ejecuta, pues inmediatamente la condición es falsa; sin embargo, el cuerpo del `do-while` se ejecuta una vez, y es hasta que esa ejecución termina, que se checa la condición de permanencia y el ciclo termina.
 
-
-
 ### For
 
 De manera similar a `while`, el `for` es otra estructura de control que nos permite ejecutar un bloque código cierto número de veces.
@@ -297,25 +295,26 @@ Comenzamos por crear la variable `i` y asignarle el valor de 0. Después, al ini
 Como puedes ver, es el mismo ejemplo que utilizamos para el `while`, pues como mencionábamos arriba, es posible realizar las mismas tareas utilizando ambas estructuras.
 
 
-## For Each  
-
-La estructura de control  **ForEach** es un caso particular del ciclo for, ya que nos permite iterar sobre las propiedades de los objetos iterables. Es una forma breve de hacer in ciclo y su estructura es la siguiente:  
+### Try-catch
+La estructura de control `try-catch` no permite definir un bloque código para intentar ejecutar (`try`), y una respuesta si es que se produce un excepción en dicha ejecución (`catch`).
 
 <p align="center">
-    <img src="./img/ciclos-07.png" width="700px" height="500px">
+    <img src="./img/js/tryCatch.png">
 </p>
 
-Hagamos un pequeño ejercicio con la estructura for-each.
+Si cuando se ejecuta el bloque de código del `try` alguna de las sentencias produce una excepción o error, inmediatamente se pasa a la ejecución del bloque de `catch`. Si no se lanza ninguna excepción, el bloque del `catch` no se ejecuta.
 
-Vamos a quitar los múltiplos de 5 de una lista de enteros positivos sin repeticiones.
+Veamos un ejemplo:
 
 ```javascript
-numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-for (num in numeros) {
-    if(num % 5 == 0){
-      var indice = numeros.indexOf(num);
-      numeros.splice(1, indice);
-    }
+try{
+    ejemplo();
 }
-console.log(numeros)
-```  
+catch(e){
+    console.log("Ha ocurrido el error: " +  e);
+}
+
+//Ha ocurrido el error:ReferenceError: ejemplo is not defined
+```
+
+En este caso, intentamos llamar a una función ejemplo que no hemos creado, por lo que la excepción que atrapamos nos dice que *ejemplo no está definida*.
