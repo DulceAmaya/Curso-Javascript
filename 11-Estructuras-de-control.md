@@ -288,7 +288,7 @@ for (let i = 0; i <= 20; i++) {
 Comenzamos por crear la variable `i` y asignarle el valor de 0. Después, al inicio de cada vuelta del ciclo verificamos si *`i` es menor o igual que 20*, de ser así, ejecutamos el cuerpo del `for` y finalmente incrementamos el valor de `i` en 1, lo contrario la ejecución del ciclo termina.
 
 <p align="center">
-    <img src="./img/js/for.png">
+    <img src="./img/js/for2.png">
 </p>
 
 
