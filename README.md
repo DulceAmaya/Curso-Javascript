@@ -71,6 +71,9 @@ Curso de introducción al lenguaje de programación Javascript
     - [Operador condicional](11-Estructuras-de-control.md#operador-condicional)
     - [Switch](11-Estructuras-de-control.md#switch)
     - [While](11-Estructuras-de-control.md#while)
+    - [Do-whle](11-Estructuras-de-control.md#do-while)
+    - [For](11-Estructuras-de-control.md#for)
+    - [Try-catch](11-Estructuras-de-control.md#try-catch)
 
 12. [Funciones](11-Funciones.md)
     - [Sintaxis](11-Funciones.md#sintaxis)
