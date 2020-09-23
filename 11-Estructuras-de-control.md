@@ -1,12 +1,12 @@
 #  Estructuras de control
 
-En Javascript, tenemos varias estructuras de control que nos modificar el flujo de ejecución de nuestro código dependiendo de si se cumple o no cierta condición.
+En Javascript, tenemos varias estructuras de control que nos permiten modificar el flujo de ejecución de nuestro código dependiendo de si se cumple o no cierta condición.
 
 Podemos dividir estas estructuras de control en dos grandes grupos: condicionales y ciclos.
 
 ### If-else
 
-Muchas veces, debemos tomar la decisión de si ejecutaremos o una acción determinada en nuestro programa, es decir, dada cierta condición podemos determinar si se ejecutará un bloque de código y otro.
+Muchas veces, debemos tomar la decisión de si ejecutaremos o una acción determinada en nuestro programa, es decir, dada cierta condición podemos determinar si se ejecutará un bloque de código u otro.
 
 Para esto existen los `Condicionales`.
 
@@ -67,7 +67,7 @@ Vamos a diseñar un script que nos permita saber si un año es bisiesto. Un año
 
 En este caso, tenemos anidadas dos estructuras `if else`; si la condición del primer `if` se cumple ejecutamos una segunda estructura de control.
 
-En algunas ocaciones, puede ocurrir que necesitemos checar más de una condición y que, con utilizar un  `else` no sea suficiente. Para esto, podemos utilizar la sentencia `else if` que nos permite checar una condición si es que la condición en el `if` inicial no se cumplió:
+En algunas ocasiones, puede ocurrir que necesitemos checar más de una condición y que, con utilizar un  `else` no sea suficiente. Para esto, podemos utilizar la sentencia `else if` que nos permite checar una condición si es que la condición en el `if` inicial no se cumplió:
 
 ```javascript
 if(i > 5){
@@ -184,7 +184,7 @@ Los **ciclos infinitos** son un error de programación en el que el ciclo nunca 
 
 
 ```javascript
-var i = 1
+let i = 1
 while (i >= 0) {
     console.log("Se ejecuta el while");
 }
@@ -196,7 +196,38 @@ while (i >= 0) {
 
 Como podemos ver, lo único que ocurre en el cuerpo del `while` es que imprimimos el mensaje "Se ejecuta el while", pero el valor de `i` nunca cambia. Entonces en cada iteración, al verificar la condición de permanencia, siempre tendremos que `i = 1 >= 0`. Esto provoca que el ciclo no se detenga nunca, por lo que continuaría ejecutándose infinitamente, lo que ocasionaría un error conocido como *desbordamiento de memoria*.
 
-## For
+### Do-while
+El ciclo `do-while` funciona de forma muy similar al `while`, excepto por una pequeña diferencia.
+
+<p align="center">
+    <img src="./img/js/doWhile.png">
+</p>
+
+Como podemos ver, en primer lugar definimos el bloque de código a ejecutar dentro del cuerpo del `do` y después verificamos la condición de permanencia; esto significa que el bloque de código se ejecutara por lo menos una vez, a diferencia del `while` que primero verifica la condición, por lo que puede haber casos en que el cuerpo del while no se ejecuta nunca.
+
+Veamos un ejemplo:
+
+```javascript
+let i = 15;
+while(i < 10){
+    console.log("Se ejecuto el while");
+}
+
+do{
+    console.log("Se ejecuto el do-while");
+}while(i < 10);
+
+```
+
+<p align="center">
+    <img src="./img/js/doWhile2.png">
+</p>
+
+Como podemos ver, el cuerpo del `while` no se ejecuta, pues inmediatamente la condición es falsa; sin embargo, el cuerpo del `do-while` se ejecuta una vez, y es hasta que esa ejecución termina, que se checa la condición de permanencia y el ciclo termina.
+
+
+
+### For
 
 De manera similar a `while`, el `for` es otra estructura de control que nos permite ejecutar un bloque código cierto número de veces.
 
