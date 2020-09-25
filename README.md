@@ -120,4 +120,5 @@ Curso de introducción al lenguaje de programación Javascript
     - [Event Listeners](17-Eventos.md#event-listeners)
     - [Event bubbling y capturing](17-Eventos.md#event-bubbling-y-capturing)
 
-17. Aplicación de JS en Framework leaflet    
+18. [Aplicación de JS en Framework leaflet (parte 1)](18-Aplicación-de-JS-en-Framework-leaflet.md)
+19. [Aplicación de JS en Framework leaflet (parte 2)](19-Aplicación-de-JS-en-Framework-leaflet-parte-02.md)
