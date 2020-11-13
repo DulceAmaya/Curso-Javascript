@@ -33,8 +33,41 @@ h1{
     align-items: center;
 }
 
+#entrada-letra{
+    border: none;
+    border-bottom: 1px solid #2b99ff;
+    outline: none;
+    width: 50px;
+    text-align: center;
+    font-size: 1.6vw;
+    background-color: inherit;
+    font-weight: bold;
+}
+
 .contenedor-puntaje{
     font-size: 1.7vw;
     font-weight: bold;
     margin: 30px 60px;
+}
+
+.contenedor-palabra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.letra, .espacio{
+    width: 40px;
+    height: 30px;
+    margin: 5px;
+}
+
+.letra{
+    border-bottom: 2px solid #2b99ff;
+    padding-bottom: 3px;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
