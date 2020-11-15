@@ -36,11 +36,13 @@ function nuevaPalabra(cadena){
         let casilla = document.createElement("div");
         //Si hay un espacio creamos un div con la clase "espacio".
         if(letra === " ")
-            casilla.setAttribute("class", "espacio");
+            //Le asignamos dos clases al elemento.
+            casilla.setAttribute("class", "palabra espacio");
 
         //En otro caso creamos el div con la clase "letra".
         else
-            casilla.setAttribute("class", "letra");
+            //Le asignamos dos clases al elemento.
+            casilla.setAttribute("class", "palabra letra");
         contenedor[0].appendChild(casilla);
     });
 }
@@ -79,8 +81,8 @@ function letraIngresada(letra){
         alert("Esa letra ya la has usado");
     //En otro caso verifica si la letra ingresada es correcta.
     else{
-        if(incluyeLetra(l))
-            letraCorrecta(l);
+        if(incluyeLetra(letra))
+            letraCorrecta(letra);
         else
             letraIncorrecta();
         //Agregamos la letra utilizada al arreglo.
@@ -102,6 +104,41 @@ function incluyeLetra(letra){
     }
     //Si no encontró ninguna, devuelve false.
     return false;
+}
+
+/*
+ * Función auxiliar que devuleve un arreglo con los índices del arreglo letras donde aparece l.
+ */
+function getIndices(letra){
+    let indices = [];
+
+    for(let i = 0; i < letras.length; i++){
+        //Para la letra en la posición i, si es igual a la letra ingresada por el usuario, agregamos el índice a i al arreglo.
+        if(letras[i] === letra || letras[i] === letra.toUpperCase())
+            indices.push(i);
+    }
+
+    return indices;
+}
+
+/*
+ * Función para cuando la letra seleccionada es correcta.
+ */
+function letraCorrecta(letra){
+    //Obtenemos los índices donde aparece letra.
+    let indices = getIndices(letra)
+    //Si la letra es correcta disminuimos el contador de letras faltantes.
+    letrasFaltantes -= indices.length;
+    let casillas = document.getElementsByClassName("palabra");
+    //Por cada índice en donde aparece la letra la mostramos en la casilla correspondiente.
+    for(let i = 0; i < indices.length; i++){
+        let casilla = casillas[indices[i]];
+        let texto = document.createTextNode(letras[indices[i]]);
+        casilla.appendChild(texto);
+    }
+
+    if(letrasFaltantes == 0)
+        ganar();
 }
 
 comenzarJuego();
