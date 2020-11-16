@@ -33,7 +33,6 @@ Curso de introducción al lenguaje de programación Javascript
     - [Box Model](06-Conceptos-básicos-de-CSS-P3.md#modelo-de-caja)
     - [Position](06-Conceptos-básicos-de-CSS-P3.md#position)
     - [Display](06-Conceptos-básicos-de-CSS-P3.md#display)
-    - [Flexbox](06-Conceptos-básicos-de-CSS-P3.md#flexbox)
 
 7. [Conceptos básicos de CSS (Parte 4) Flexbox](07-Conceptos-básicos-de-CSS-P4.md)
     - [Contenedor](07-Conceptos-básicos-de-CSS-P4.md#contenedor)
@@ -120,5 +119,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [Event Listeners](17-Eventos.md#event-listeners)
     - [Event bubbling y capturing](17-Eventos.md#event-bubbling-y-capturing)
 
-18. [Aplicación de JS en Framework leaflet (parte 1)](18-Aplicación-de-JS-en-Framework-leaflet.md)
-19. [Aplicación de JS en Framework leaflet (parte 2)](19-Aplicación-de-JS-en-Framework-leaflet-parte-02.md)
+18. [Ejemplo](18-Ejemplo.md)
+
+19. [Aplicación de JS en Framework leaflet (parte 1)](18-Aplicación-de-JS-en-Framework-leaflet.md)
+20. [Aplicación de JS en Framework leaflet (parte 2)](19-Aplicación-de-JS-en-Framework-leaflet-parte-02.md)
