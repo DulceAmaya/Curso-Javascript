@@ -11,6 +11,12 @@ let puntaje = 0;
  */
 function comenzarJuego(){
     const indice = Math.floor(Math.random() * peliculas.length);
+
+    //Limpiamos la entrada
+    let input = document.getElementById("entrada-letra");
+    input.value = "";
+    console.log("done");
+
     nuevaPalabra(peliculas[indice]);
     letraSeleccionada();
 }
@@ -139,6 +145,137 @@ function letraCorrecta(letra){
 
     if(letrasFaltantes == 0)
         ganar();
+}
+
+/*
+ * Función para cuando la letra seleccionada es incorrecta.
+ */
+function letraIncorrecta(){
+    intentos++;
+    //Escribimos como una cadena la dirección de la nueva imagen.
+    let imagenString = "img/" + intentos + ".png";
+    //Recuperamos el elemento de la imagen actual y le asignamos la nueva dirección.
+    document.getElementById("imagen").src = imagenString;
+
+    //Después del sexto intento termina el juego.
+    if(intentos === 7)
+        perder();
+}
+
+/*
+ * Función para cuando ganamos el juego.
+ */
+function ganar(){
+    // Incrementamos el puntaje en 1.
+    //Recuperamos el contenedor por su nombre de clase, lo que nos devuelve una colección. Entonces, debemos obtener el primer elemento de la colección.
+    let score = document.getElementsByClassName("contenedor-puntaje")[0];
+    puntaje++;
+    score.innerHTML = "Puntaje: " + puntaje;
+
+    //Creamos un nuevo elemento <h1>
+    let fin = document.createElement("h1")
+    fin.id = "titulo";
+    fin.innerHTML = "¡Ganaste! :)"
+
+    //Sustituimos el elemento existente.
+    let body = document.getElementsByTagName("body");
+    let titulo = document.getElementById("titulo");
+    body[0].replaceChild(fin, titulo);
+
+    crearBoton();
+}
+
+/*
+ * Función para cuando perdemos el juego.
+ */
+function perder(){
+    //Creamos un nuevo elemento <h1>
+    let fin = document.createElement("h1");
+    fin.id = "titulo";
+    fin.innerHTML = "Perdiste :("
+
+    //Sustituimos el elemento existente.
+    let body = document.getElementsByTagName("body");
+    let titulo = document.getElementById("titulo");
+    body[0].replaceChild(fin, titulo);
+
+    //Obtenemos la colección de casillas.
+    let casillas = document.getElementsByClassName("palabra");
+    for(let i = 0; i < letras.length; i++){
+        //Si la posición i en casillas está vacía buscamos su valor correspondiente el arreglo letras.
+        if(casillas[i].innerHTML == ""){
+            let casilla = casillas[i];
+            let clase = casilla.className;
+            casilla.className = clase + " faltante";
+            //Mostramos la letra correcta en la casilla.
+            let texto = document.createTextNode(letras[i]);
+            casilla.appendChild(texto);
+        }
+    }
+
+    crearBoton();
+}
+
+/*
+ * Función que crea un botón para volver a jugar.
+ */
+function crearBoton(){
+    let contenedor = document.getElementsByClassName("contenedor-letras")[0];
+    //Eliminamos el mensaje
+    let mensaje = contenedor.getElementsByTagName("h3")[0];
+    contenedor.removeChild(mensaje);
+    //Creamos un botón
+    let boton = document.createElement("button");
+    boton.innerHTML = "Volver a jugar";
+    //Agregamos un event listener, que ejecutara la función reiniciar() cuando se presione el botón
+    boton.addEventListener("click", reiniciar);
+    //Obtenemos el elementos input
+    let input = document.getElementById("entrada-letra");
+    //Lo reemplazamos por el boton
+    contenedor.replaceChild(boton, input);
+}
+
+/*
+ * Función que reinicia el juego.
+ */
+function reiniciar(){
+    letras = [];
+    intentos = 1;
+    letrasUsadas = [];
+    letrasFaltantes = 0;
+
+    //Eliminamos las casillas.
+    let contenedorPalabra = document.getElementsByClassName("contenedor-palabra")[0];
+    contenedorPalabra.innerHTML = "";
+
+    //Volvemos a colocar la imagen inicial
+    let imagenString = "img/1.png";
+    document.getElementById("imagen").src = imagenString;
+
+    //Reemplazamos el botón por el header y el input.
+    let contenedorLetras = document.getElementsByClassName("contenedor-letras")[0];
+    //Creamos el elemento h3
+    let h3 = document.createElement("h3");
+    h3.innerHTML = "Ingresa una letra";
+    //Creamos el elemento input
+    let input = document.createElement("input");
+    input.id = "entrada-letra";
+    //Limpiamos el contenedor
+    contenedorLetras.innerHTML = "";
+    //Agregamos los nuevos elementos.
+    contenedorLetras.appendChild(h3);
+    contenedorLetras.appendChild(input);
+
+    //Reemplazamos el título del sitio.
+    let mensaje = document.createElement("h1");
+    mensaje.id = "titulo";
+    mensaje.innerHTML = "Juego de Ahorcado";
+    let body = document.getElementsByTagName("body")[0];
+    let titulo = document.getElementById("titulo");
+    body.replaceChild(mensaje, titulo);
+
+    //Empezamos un nuevo juego.
+    comenzarJuego();
 }
 
 comenzarJuego();
