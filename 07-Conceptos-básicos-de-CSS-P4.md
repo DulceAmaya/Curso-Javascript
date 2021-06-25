@@ -288,3 +288,8 @@ Hay muchos más temas por abordar respecto a las hojas de estilos (y mucho más 
 * [CSS Almanac](https://css-tricks.com/almanac/): Listado de todas las propiedades de CSS y como utilizarlas.
 * [CSS Tutorial](https://www.w3schools.com/css/): Tutorial del lenguaje CSS.
 * [CSS CheatSheet](https://htmlcheatsheet.com/css/): Página web interactiva de todas las propiedades de CSS.
+
+
+[<- Volver](README.md)
+
+[Conceptos básicos de JS ->](08-Conceptos-básicos-de-JS.md)
