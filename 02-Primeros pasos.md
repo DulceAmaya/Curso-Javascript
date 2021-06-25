@@ -55,3 +55,7 @@ Por último podemos encontrar opciones prácticas de consola como la siguiente: 
 <p align="center">
 <img src="./img/jsconsole.png" >
 </p>
+
+[<- Volver](Readme.md)
+
+[Conceptos básicos de HTML ->](03-Conceptos-básicos-de-HTML.md)
