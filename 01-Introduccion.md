@@ -26,4 +26,4 @@ Hoy en día múltiples empresas y programas usan éste lenguaje que cuenta con m
 
 [<- Volver](README.md)
 
-[Primeros pasos ->](02-Primeros%20pasos.md)
+[Primeros pasos ->](02-Primeros-pasos.md)
