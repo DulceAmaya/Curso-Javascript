@@ -23,3 +23,6 @@ Javascript ha evolucionado como cualquier otro lenguaje para cubrir las necesida
 </p>  
 
 Hoy en día múltiples empresas y programas usan éste lenguaje que cuenta con múltiples extensiones para tareas determinadas, siendo uno de los más completos de nuestros tiempos.  
+
+<p><a href="https://github.com/DulceAmaya/Curso-Javascript"><- Volver</a></p>
+<p><a href="https://github.com/DulceAmaya/Curso-Javascript/blob/master/02-Primeros%20pasos.md">Primeros pasos -></a></p>
