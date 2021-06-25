@@ -132,3 +132,7 @@ En este caso, el selector del id tiene mayor prioridad, por lo que nuestra pági
 <p align="center">
     <img src="./img/especificidad3.png">
 </p>
+
+[<- Volver](README.md)
+
+[Conceptos básicos de CSS (Parte 2) ->](05-Conceptos-básicos-de-CSS-P2.md)
