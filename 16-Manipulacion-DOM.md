@@ -311,3 +311,7 @@ Supongamos que deseamos eliminar el botón número 2. Para esto, debemos recuper
 <p align="center">
     <img src="./img/js/removeChild4.png">
 </p>
+
+[<- Volver](README.md)
+
+[Eventos ->](17-Eventos.md)
