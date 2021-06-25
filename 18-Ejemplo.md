@@ -944,3 +944,7 @@ Y con esto, terminamos nuestro sito web.
 </p>
 
 [Aquí](Ahorcado) puedes encontar los archivos e imagenes que usamos para este ejemplo.
+
+Aquí puedes jugar: <a href="https://dulceamaya.github.io/JuegoAhorcado/">Juego de ahorcado</a>
+
+[<- Volver](README.md)
