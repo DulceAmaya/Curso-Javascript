@@ -183,3 +183,7 @@ const ejemplo = pares.reverse(); //animales = ["jirafa", "pato", "pez", "gato", 
 ```
 
 [Aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) puedes consultar todos lo métodos que puedes utilizar con arreglos.
+
+[<- Volver](README.md)
+
+[Objetos ->](15-Objetos.md)
