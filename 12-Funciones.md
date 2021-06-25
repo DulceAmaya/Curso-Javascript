@@ -223,3 +223,7 @@ Y podemos invocar la función utilizando `promedio()`.
 <p align="center">
     <img src="./img/js/arrowFunction2.png">
 </p>
+
+[<- Volver](README.md)
+
+[Alcance ->](13-Alcance.md)
