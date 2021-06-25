@@ -318,3 +318,7 @@ catch(e){
 ```
 
 En este caso, intentamos llamar a una función ejemplo que no hemos creado, por lo que la excepción que atrapamos nos dice que *ejemplo no está definida*.
+
+[<- Volver](README.md)
+
+[Funciones ->](12-Funciones.md)
