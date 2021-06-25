@@ -102,3 +102,7 @@ Y, al abrir nuestra página web, veríamos lo siguiente:
 <p align="center">
     <img src="./img/js/jsEnHtml2.png">
 </p>
+
+[<- Volver](README.md)
+
+[Tipos de datos y Variables ->](09-Tipos-de-datos-Variables.md)
