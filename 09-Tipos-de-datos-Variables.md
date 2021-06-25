@@ -171,3 +171,8 @@ alert(mensaje); //Y ahora, solo nos resta mostrar el texto que hayamos almacenad
 <p align="center">
     <img src="./img/js/ejemploVariables3.png">
 </p>
+
+
+[<- Volver](README.md)
+
+[Operadores ->](10-Operadores.md)
