@@ -285,3 +285,8 @@ alert("¡Hola, " + nombre + "!"));
 <p align="center">
     <img src="./img/js/ejemploOperandos2.png">
 </p>
+
+
+[<- Volver](README.md)
+
+[Estructuras de control ->](11-Estructuras-de-control.md)
