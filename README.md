@@ -8,7 +8,7 @@ Curso de introducción al lenguaje de programación Javascript
     - [¿Quién lo usa?](01-Introduccion.md#dónde-podemos-encontrar-el-lenguaje-javascript)
 
 
-2. [Primeros pasos](02-Primeros%20pasos.md)
+2. [Primeros pasos](02-Primeros-pasos.md)
     - [Editores de texto](02-Primeros%20pasos.md#editores-de-texto)
     - [Consola web](02-Primeros%20pasos.md#la-consola-web)
 
