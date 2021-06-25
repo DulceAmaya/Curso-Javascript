@@ -119,3 +119,7 @@ En nuestro ejemplo, primero se manejaría el evento de `h1`, después el de `div
 #### Capturing
 
 Al contario de `bubbling` determina que el evento del elemento más externo será manejado primero; primero se manejaría el evento de `div1`, después el de `div2` y al final el de `h1`.
+
+[<- Volver](README.md)
+
+[Ejemplo - Juego de Ahorcado ->](18-Ejemplo.md)
