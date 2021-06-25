@@ -308,3 +308,7 @@ Aquí, estamos asignando a la variable `superheroe3` la referencia al objeto `su
 <p align="center">
     <img src="./img/js/compararObjetos3.png">
 </p>
+
+[<- Volver](README.md)
+
+[Manipulación del DOM ->](16-Manipulacion-DOM.md)
