@@ -298,3 +298,7 @@ Continuando con el ejemplo anterior:
 </p>
 
 Ahora, al definir la propiedad `display = inline-block` ambos elementos se muestran en la misma línea, pero con las dimensiones `100px x 30px`.
+
+[<- Volver](README.md)
+
+[Conceptos básicos de CSS (Parte 4) Flexbox ->](07-Conceptos-básicos-de-CSS-P4.md)
